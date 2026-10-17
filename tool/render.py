@@ -153,9 +153,9 @@ def render(hook, text, mockups, out, track="aura", preview_audio=None, seed=None
     for i, dur in enumerate(durs):
         n = int(round(dur * FPS))
         idx = i + 2
-        f.append(f"[{idx}:v]scale={W}:{H},setsar=1,"
-                 f"zoompan=z='1+0.035*on/{n}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
-                 f"d=1:s={W}x{H}:fps={FPS},trim=duration={dur:.4f},setpts=PTS-STARTPTS[m{i}]")
+        # mockups stay static (no zoom), exactly as designed
+        f.append(f"[{idx}:v]scale={W}:{H},setsar=1,fps={FPS},"
+                 f"trim=duration={dur:.4f},setpts=PTS-STARTPTS[m{i}]")
         seg.append(f"[m{i}]")
     f.append("".join(seg) + f"concat=n={len(seg)}:v=1:a=0,format=yuv420p[v]")
     total = drop + sum(durs)
