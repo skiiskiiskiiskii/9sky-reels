@@ -1,0 +1,78 @@
+{
+ "seed": 10,
+ "segments": [
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/only zip hoodie/frame2_back_1.png",
+   "fit": "full",
+   "until": "drop"
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/only zip hoodie/frame3_collage_1.png",
+   "crop": [
+    377,
+    968,
+    702,
+    1612
+   ],
+   "fit": "panel",
+   "beats": 4
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/only zip hoodie/frame3_collage_1.png",
+   "crop": [
+    705,
+    968,
+    1029,
+    1612
+   ],
+   "fit": "panel",
+   "beats": 4
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/both/9sky_ix_02_back.png",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "the pattern on the back",
+   "from": 0.15,
+   "to": 1.55,
+   "y": 0.2,
+   "size": 86
+  },
+  {
+   "text": "is 2,000 years old.",
+   "from": 1.55,
+   "to": "drop",
+   "y": 0.2,
+   "size": 86
+  },
+  {
+   "text": "ara pacis, rome. 9 BC.",
+   "from": "drop",
+   "to": "b:4",
+   "y": 0.11,
+   "size": 78
+  },
+  {
+   "text": "augustus' altar of peace.",
+   "from": "b:4",
+   "to": "b:8",
+   "y": 0.11,
+   "size": 78
+  },
+  {
+   "text": "now it's on a hoodie.",
+   "from": "b:8",
+   "to": "end",
+   "y": 0.2,
+   "size": 86
+  }
+ ]
+}

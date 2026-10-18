@@ -1,0 +1,68 @@
+{
+ "seed": 15,
+ "segments": [
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/only quarter zip/9sky_qz_03_set_v2.png",
+   "crop": [
+    50,
+    968,
+    374,
+    1612
+   ],
+   "fit": "panel",
+   "until": "drop"
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/only quarter zip/9sky_qz_01_front.png",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/only quarter zip/9sky_qz_03_set_v3.png",
+   "crop": [
+    50,
+    968,
+    374,
+    1612
+   ],
+   "fit": "panel",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/only zip hoodie/frame1_front.png",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/only zip hoodie/frame3_collage_1.png",
+   "crop": [
+    377,
+    968,
+    702,
+    1612
+   ],
+   "fit": "panel",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/only quarter zip/9sky_qz_03_set_v3.png",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "send this to the one who'd wear it to a gallery.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.11,
+   "size": 74
+  }
+ ]
+}

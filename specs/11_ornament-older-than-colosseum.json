@@ -1,0 +1,97 @@
+{
+ "seed": 11,
+ "segments": [
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/only quarter zip/9sky_qz_02_back.png",
+   "fit": "full",
+   "until": "drop"
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/only quarter zip/9sky_qz_03_set_v2.png",
+   "crop": [
+    377,
+    968,
+    702,
+    1612
+   ],
+   "fit": "panel",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/only quarter zip/9sky_qz_03_set_v2.png",
+   "crop": [
+    705,
+    968,
+    1029,
+    1612
+   ],
+   "fit": "panel",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/only quarter zip/9sky_qz_03_set_v3.png",
+   "crop": [
+    705,
+    968,
+    1029,
+    1612
+   ],
+   "fit": "panel",
+   "beats": 4
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/only quarter zip/9sky_qz_01_front.png",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "this ornament",
+   "from": 0.15,
+   "to": 1.4,
+   "y": 0.2,
+   "size": 86
+  },
+  {
+   "text": "is older than the colosseum.",
+   "from": 1.4,
+   "to": "drop",
+   "y": 0.2,
+   "size": 86
+  },
+  {
+   "text": "rome.",
+   "from": "drop",
+   "to": "b:2",
+   "y": 0.11,
+   "size": 78
+  },
+  {
+   "text": "9 BC.",
+   "from": "b:2",
+   "to": "b:4",
+   "y": 0.11,
+   "size": 78
+  },
+  {
+   "text": "carved for augustus' altar of peace.",
+   "from": "b:4",
+   "to": "b:8",
+   "y": 0.11,
+   "size": 74
+  },
+  {
+   "text": "now you can wear it.",
+   "from": "b:8",
+   "to": "end",
+   "y": 0.2,
+   "size": 86
+  }
+ ]
+}
