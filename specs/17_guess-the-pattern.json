@@ -1,0 +1,90 @@
+{
+ "seed": 17,
+ "segments": [
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/mockups-qz-v2/qz2_white_back.png",
+   "fit": "full",
+   "until": "drop"
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/only zip hoodie/frame3_collage_1.png",
+   "crop": [
+    377,
+    968,
+    702,
+    1612
+   ],
+   "fit": "panel",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/only zip hoodie/frame3_collage_1.png",
+   "crop": [
+    705,
+    968,
+    1029,
+    1612
+   ],
+   "fit": "panel",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/only quarter zip/9sky_qz_03_set_v3.png",
+   "crop": [
+    705,
+    968,
+    1029,
+    1612
+   ],
+   "fit": "panel",
+   "beats": 4
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/mockups-qz-v2/qz2_black_back.png",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "guess where this pattern is from.",
+   "from": 0.15,
+   "to": "drop",
+   "y": 0.2,
+   "size": 80
+  },
+  {
+   "text": "rome.",
+   "from": "drop",
+   "to": "b:2",
+   "y": 0.11,
+   "size": 78
+  },
+  {
+   "text": "9 BC.",
+   "from": "b:2",
+   "to": "b:4",
+   "y": 0.11,
+   "size": 78
+  },
+  {
+   "text": "the ara pacis, augustus' altar of peace.",
+   "from": "b:4",
+   "to": "b:8",
+   "y": 0.11,
+   "size": 72
+  },
+  {
+   "text": "now it's on a quarter zip.",
+   "from": "b:8",
+   "to": "end",
+   "y": 0.2,
+   "size": 86
+  }
+ ]
+}
