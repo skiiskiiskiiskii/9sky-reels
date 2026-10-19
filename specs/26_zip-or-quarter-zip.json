@@ -1,0 +1,64 @@
+{
+ "seed": 26,
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/IMG_54607 (1).mp4",
+   "until": "drop"
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/only zip hoodie/frame1_front.png",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/only quarter zip/9sky_qz_01_front.png",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "split",
+   "srcs": [
+    "/mnt/user-data/uploads/9sky-reels/mockups/only zip hoodie/frame1_front.png",
+    "/mnt/user-data/uploads/9sky-reels/mockups/only quarter zip/9sky_qz_01_front.png"
+   ],
+   "labels": [
+    "I",
+    "II"
+   ],
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "zip or quarter zip?",
+   "from": 0,
+   "to": "drop",
+   "y": 0.42,
+   "size": 86
+  },
+  {
+   "text": "I.",
+   "from": "drop",
+   "to": "b:2",
+   "y": 0.2,
+   "size": 86
+  },
+  {
+   "text": "II.",
+   "from": "b:2",
+   "to": "b:4",
+   "y": 0.2,
+   "size": 86
+  },
+  {
+   "text": "I or II?",
+   "from": "b:4",
+   "to": "end",
+   "y": 0.2,
+   "size": 86
+  }
+ ]
+}

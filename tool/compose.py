@@ -143,6 +143,24 @@ def image_canvas(seg):
     return np.asarray(c)
 
 
+def diptych_canvas(seg):
+    """Two collage panels side by side at ~1.6x - sharper than one panel blown up."""
+    c = Image.new("RGB", (W, H), "black")
+    gap, margin = 24, 18
+    cell_w = (W - 2 * margin - gap) // 2
+    ims = []
+    for src, crop in seg["panels"]:
+        im = Image.open(src).convert("RGB").crop(tuple(crop))
+        s = cell_w / im.width
+        im = im.resize((cell_w, int(im.height * s)), Image.LANCZOS)
+        ims.append(im.filter(ImageFilter.UnsharpMask(radius=1.5, percent=50, threshold=2)))
+    h = max(i.height for i in ims)
+    y = int(H * seg.get("panel_y", 0.53) - h / 2)
+    for k, im in enumerate(ims):
+        c.paste(im, (margin + k * (cell_w + gap), y + (h - im.height) // 2))
+    return np.asarray(c)
+
+
 def split_canvas(seg):
     c = Image.new("RGB", (W, H), "black")
     half = W // 2
@@ -225,7 +243,8 @@ def compose(spec, out, preview_audio=None):
         if seg["type"] == "clip":
             gen = clip_frames(seg, n, rnd, drop)
         else:
-            canvas = image_canvas(seg) if seg["type"] == "image" else split_canvas(seg)
+            canvas = {"image": image_canvas, "split": split_canvas,
+                      "diptych": diptych_canvas}[seg["type"]](seg)
             gen = (canvas for _ in range(n))
         for fr in gen:
             f = fr.astype(np.float32)

@@ -1,0 +1,56 @@
+{
+ "seed": 32,
+ "segments": [
+  {
+   "type": "diptych",
+   "panels": [
+    [
+     "/mnt/user-data/uploads/9sky-reels/mockups/only quarter zip/9sky_qz_03_set_v2.png",
+     [
+      50,
+      968,
+      374,
+      1612
+     ]
+    ],
+    [
+     "/mnt/user-data/uploads/9sky-reels/mockups/only zip hoodie/frame3_collage_1.png",
+     [
+      50,
+      968,
+      374,
+      1612
+     ]
+    ]
+   ],
+   "until": "drop"
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/black quarter + white quarter/xla2.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/black quarter + white quarter/xla.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/black quarter + white quarter/xla3.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "send this to the one who'd wear it to a gallery.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.14,
+   "size": 76
+  }
+ ]
+}

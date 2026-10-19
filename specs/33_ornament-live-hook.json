@@ -1,0 +1,76 @@
+{
+ "seed": 33,
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/AQOOuClIReBlbPWtQ_QL_GR2fPVzcJdDzJfHDD5IyR9mL3ozw0_AeGk5fnLGo_54RTXH8bunoFBKqm (1).mp4",
+   "until": "drop"
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/mockups-qz-v2/qz2_white_back.png",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "diptych",
+   "panels": [
+    [
+     "/mnt/user-data/uploads/9sky-reels/mockups/only zip hoodie/frame3_collage_1.png",
+     [
+      377,
+      968,
+      702,
+      1612
+     ]
+    ],
+    [
+     "/mnt/user-data/uploads/9sky-reels/mockups/only zip hoodie/frame3_collage_1.png",
+     [
+      705,
+      968,
+      1029,
+      1612
+     ]
+    ]
+   ],
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/black quarter + white quarter/xla.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "the pattern on the back is 2,000 years old.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.3,
+   "size": 80
+  },
+  {
+   "text": "rome.",
+   "from": "drop",
+   "to": "b:2",
+   "y": 0.2,
+   "size": 78
+  },
+  {
+   "text": "ara pacis. 9 BC.",
+   "from": "b:2",
+   "to": "b:4",
+   "y": 0.14,
+   "size": 78
+  },
+  {
+   "text": "now it's on a quarter zip.",
+   "from": "b:4",
+   "to": "end",
+   "y": 0.2,
+   "size": 86
+  }
+ ]
+}
