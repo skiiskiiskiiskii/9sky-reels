@@ -245,6 +245,8 @@ def compose(spec, out, preview_audio=None):
         else:
             canvas = {"image": image_canvas, "split": split_canvas,
                       "diptych": diptych_canvas}[seg["type"]](seg)
+            if seg.get("dim"):                     # darken bright stills so white text stays legible
+                canvas = (canvas.astype(np.float32) * seg["dim"]).astype(np.uint8)
             gen = (canvas for _ in range(n))
         for fr in gen:
             f = fr.astype(np.float32)

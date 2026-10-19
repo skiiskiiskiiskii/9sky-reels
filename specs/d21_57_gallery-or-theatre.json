@@ -1,0 +1,59 @@
+{
+ "seed": 57,
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/Attractive couple...#louboutin #christianlouboutin #louboutinworld #louboutinshoes #shoes #luxur.mp4",
+   "until": "drop"
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/aesthetics/gallery_red/9skyaes_gallery_red_18.jpg",
+   "fit": "cover",
+   "beats": 2,
+   "dim": 0.75
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/aesthetics/theatre_red/9skyaes_theatre_red_05.jpg",
+   "fit": "cover",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/black quarter + white quarter/xla2.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "gallery or theatre?",
+   "from": 0,
+   "to": "drop",
+   "y": 0.42,
+   "size": 86
+  },
+  {
+   "text": "gallery.",
+   "from": "drop",
+   "to": "b:2",
+   "y": 0.2,
+   "size": 86
+  },
+  {
+   "text": "theatre.",
+   "from": "b:2",
+   "to": "b:4",
+   "y": 0.2,
+   "size": 86
+  },
+  {
+   "text": "where are you wearing it?",
+   "from": "b:4",
+   "to": "end",
+   "y": 0.13,
+   "size": 80
+  }
+ ]
+}

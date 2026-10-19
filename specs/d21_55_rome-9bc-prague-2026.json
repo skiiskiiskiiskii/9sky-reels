@@ -1,0 +1,45 @@
+{
+ "seed": 55,
+ "segments": [
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/aesthetics/rome_night/9skyaes_rome_night_18.jpg",
+   "fit": "cover",
+   "until": "drop"
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/mockups-qz-v2/qz2_black_back.png",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/black quarter + white quarter/xla.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/collages-new/black_rome.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "the pattern: rome, 9 BC.",
+   "from": 0.1,
+   "to": "drop",
+   "y": 0.2,
+   "size": 86
+  },
+  {
+   "text": "the fit: prague, 2026.",
+   "from": "drop",
+   "to": "b:4",
+   "y": 0.2,
+   "size": 86
+  }
+ ]
+}

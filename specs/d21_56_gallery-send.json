@@ -1,0 +1,39 @@
+{
+ "seed": 56,
+ "segments": [
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/aesthetics/people_museum/9skyaes_people_museum_30.jpg",
+   "fit": "cover",
+   "until": "drop",
+   "dim": 0.65
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/black quarter + white quarter/xla2.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/black quarter + white quarter/xla.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/collages-new/pair_people.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "send this to the one who'd wear it to a gallery.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.14,
+   "size": 76
+  }
+ ]
+}

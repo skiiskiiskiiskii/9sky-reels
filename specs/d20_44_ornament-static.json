@@ -1,0 +1,92 @@
+{
+ "seed": 44,
+ "segments": [
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/mockups-qz-v2/qz2_white_back.png",
+   "fit": "full",
+   "until": "drop"
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/aesthetics/ornament/9skyaes_ornament_05.jpg",
+   "fit": "cover",
+   "beats": 2,
+   "dim": 0.5
+  },
+  {
+   "type": "diptych",
+   "panels": [
+    [
+     "/mnt/user-data/uploads/9sky-reels/aesthetics/ornament/9skyaes_ornament_06.jpg",
+     [
+      0,
+      0,
+      736,
+      1129
+     ]
+    ],
+    [
+     "/mnt/user-data/uploads/9sky-reels/aesthetics/ornament/9skyaes_ornament_07.jpg",
+     [
+      0,
+      0,
+      736,
+      981
+     ]
+    ]
+   ],
+   "beats": 2,
+   "dim": 0.6
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/black quarter + white quarter/xla.jpg",
+   "fit": "full",
+   "beats": 4
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/collages-new/pair_ornament.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "the pattern on the back",
+   "from": 0.15,
+   "to": 1.55,
+   "y": 0.2,
+   "size": 86
+  },
+  {
+   "text": "is 2,000 years old.",
+   "from": 1.55,
+   "to": "drop",
+   "y": 0.2,
+   "size": 86
+  },
+  {
+   "text": "ara pacis, rome.",
+   "from": "drop",
+   "to": "b:2",
+   "y": 0.2,
+   "size": 80
+  },
+  {
+   "text": "9 BC.",
+   "from": "b:2",
+   "to": "b:4",
+   "y": 0.14,
+   "size": 80
+  },
+  {
+   "text": "now it's on a quarter zip.",
+   "from": "b:4",
+   "to": "b:8",
+   "y": 0.2,
+   "size": 86
+  }
+ ]
+}

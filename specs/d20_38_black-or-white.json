@@ -1,0 +1,58 @@
+{
+ "seed": 38,
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/AQOb8XpwzWkIg6LOrQ1AoaOQ0sW64tcFk_QYiPoY7tS4ObSs3Xy4AmHGkmMnf9ilHn.mp4",
+   "until": "drop"
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/mockups-qz-v2/qz2_black_front.png",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/mockups-qz-v2/qz2_white_front.png",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/collages-new/pair_theatre.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "black or white?",
+   "from": 0,
+   "to": "drop",
+   "y": 0.42,
+   "size": 86
+  },
+  {
+   "text": "black.",
+   "from": "drop",
+   "to": "b:2",
+   "y": 0.2,
+   "size": 86
+  },
+  {
+   "text": "white.",
+   "from": "b:2",
+   "to": "b:4",
+   "y": 0.2,
+   "size": 86
+  },
+  {
+   "text": "one only. which?",
+   "from": "b:4",
+   "to": "end",
+   "y": 0.1,
+   "size": 86
+  }
+ ]
+}
