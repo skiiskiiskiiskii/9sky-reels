@@ -1,0 +1,64 @@
+{
+ "seed": 622,
+ "segments": [
+  {
+   "type": "clip",
+   "start": 0.0,
+   "dur": 1.18,
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/AQOOuClIReBlbPWtQ_QL_GR2fPVzcJdDzJfHDD5IyR9mL3ozw0_AeGk5fnLGo_54RTXH8bunoFBKqm (1).mp4",
+   "zoom": 1.118,
+   "crop_x": 0.5,
+   "flip": true,
+   "grade": {
+    "c": 1.031,
+    "s": 0.851,
+    "b": 0.002
+   },
+   "align_red": false,
+   "speed": 1.0
+  },
+  {
+   "type": "clip",
+   "start": 4.0,
+   "until": "drop",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/AQOOuClIReBlbPWtQ_QL_GR2fPVzcJdDzJfHDD5IyR9mL3ozw0_AeGk5fnLGo_54RTXH8bunoFBKqm (1).mp4",
+   "zoom": 1.118,
+   "crop_x": 0.5,
+   "flip": true,
+   "grade": {
+    "c": 1.031,
+    "s": 0.851,
+    "b": 0.002
+   },
+   "align_red": false,
+   "speed": 1.0
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/only white zip hoodie/9sky_ixW_01_front.png",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/only white zip hoodie/9sky_ixW_02_back.png",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/only white zip hoodie/9sky_ixW_03_set.png",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "white outside. red inside.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.4,
+   "size": 86
+  }
+ ]
+}

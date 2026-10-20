@@ -1,38 +1,38 @@
 {
- "seed": 601,
+ "seed": 602,
  "segments": [
   {
    "type": "clip",
-   "src": "/mnt/user-data/uploads/9sky-reels/hooks/Attractive couple...#louboutin #christianlouboutin #louboutinworld #louboutinshoes #shoes #luxur.mp4",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/AQOOuClIReBlbPWtQ_QL_GR2fPVzcJdDzJfHDD5IyR9mL3ozw0_AeGk5fnLGo_54RTXH8bunoFBKqm (1).mp4",
    "until": "drop",
-   "speed": 0.887,
-   "zoom": 1.102,
-   "crop_x": 0.64,
+   "speed": 0.928,
+   "zoom": 1.04,
+   "crop_x": 0.59,
    "flip": true,
-   "lead": 0.86,
+   "lead": 0.78,
    "grade": {
-    "c": 1.04,
-    "s": 1.036,
-    "b": 0.006
+    "c": 1.026,
+    "s": 1.007,
+    "b": -0.008
    }
   },
   {
    "type": "image",
-   "src": "/mnt/user-data/uploads/9sky-reels/mockups/only zip hoodie/frame1_front.png",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/only white zip hoodie/9sky_ixW_01_front.png",
    "fit": "full",
    "beats": 2
   },
   {
    "type": "image",
-   "src": "/mnt/user-data/outputs/mockups-qz-v2/qz2_black_front.png",
+   "src": "/mnt/user-data/outputs/mockups-qz-v2/qz2_white_front.png",
    "fit": "full",
    "beats": 2
   },
   {
    "type": "split",
    "srcs": [
-    "/mnt/user-data/uploads/9sky-reels/mockups/only zip hoodie/frame1_front.png",
-    "/mnt/user-data/outputs/mockups-qz-v2/qz2_black_front.png"
+    "/mnt/user-data/uploads/9sky-reels/mockups/only white zip hoodie/9sky_ixW_01_front.png",
+    "/mnt/user-data/outputs/mockups-qz-v2/qz2_white_front.png"
    ],
    "labels": [
     "I",
@@ -46,7 +46,7 @@
    "text": "zip or quarter zip?",
    "from": 0,
    "to": "drop",
-   "y": 0.42,
+   "y": 0.4,
    "size": 86
   },
   {

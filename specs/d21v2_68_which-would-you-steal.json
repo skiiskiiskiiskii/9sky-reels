@@ -1,19 +1,19 @@
 {
- "seed": 681,
+ "seed": 682,
  "segments": [
   {
    "type": "clip",
-   "src": "/mnt/user-data/uploads/9sky-reels/hooks/Attractive couple...#louboutin #christianlouboutin #louboutinworld #louboutinshoes #shoes #luxur.mp4",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/AQOb8XpwzWkIg6LOrQ1AoaOQ0sW64tcFk_QYiPoY7tS4ObSs3Xy4AmHGkmMnf9ilHn.mp4",
    "until": "drop",
-   "speed": 0.918,
-   "zoom": 1.057,
-   "crop_x": 0.75,
+   "speed": 0.943,
+   "zoom": 1.024,
+   "crop_x": 0.32,
    "flip": false,
-   "lead": 0.52,
+   "lead": 0.83,
    "grade": {
-    "c": 1.036,
-    "s": 1.075,
-    "b": 0.013
+    "c": 1.082,
+    "s": 0.941,
+    "b": -0.018
    }
   },
   {
