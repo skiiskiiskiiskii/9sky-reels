@@ -1,0 +1,47 @@
+{
+ "seed": 581,
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/Attractive couple...#louboutin #christianlouboutin #louboutinworld #louboutinshoes #shoes #luxur.mp4",
+   "until": "drop",
+   "speed": 0.96,
+   "zoom": 1.033,
+   "crop_x": 0.38,
+   "flip": true,
+   "lead": 0.5,
+   "grade": {
+    "c": 1.026,
+    "s": 0.901,
+    "b": -0.011
+   }
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/black quarter + white quarter/xla2.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/black quarter + white quarter/xla.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/collages-new/pair_theatre.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "the collar says it all.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.4,
+   "size": 86
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "seed": 671,
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/IMG_54607 (1).mp4",
+   "until": "drop",
+   "speed": 0.972,
+   "zoom": 1.025,
+   "crop_x": 0.43,
+   "flip": true,
+   "lead": 0.67,
+   "grade": {
+    "c": 1.034,
+    "s": 0.788,
+    "b": -0.026
+   }
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/mockups-qz-v2/qz2_black_front.png",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/mockups-qz-v2/qz2_white_front.png",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/collages-new/pair_theatre.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "black or white?",
+   "from": 0,
+   "to": "drop",
+   "y": 0.32,
+   "size": 86
+  },
+  {
+   "text": "black.",
+   "from": "drop",
+   "to": "b:2",
+   "y": 0.2,
+   "size": 86
+  },
+  {
+   "text": "white.",
+   "from": "b:2",
+   "to": "b:4",
+   "y": 0.2,
+   "size": 86
+  },
+  {
+   "text": "one only. which?",
+   "from": "b:4",
+   "to": "end",
+   "y": 0.1,
+   "size": 86
+  }
+ ]
+}

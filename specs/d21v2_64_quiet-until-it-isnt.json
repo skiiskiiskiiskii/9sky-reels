@@ -1,0 +1,47 @@
+{
+ "seed": 641,
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/Attractive couple...#louboutin #christianlouboutin #louboutinworld #louboutinshoes #shoes #luxur.mp4",
+   "until": "drop",
+   "speed": 0.914,
+   "zoom": 1.002,
+   "crop_x": 0.24,
+   "flip": false,
+   "lead": 0.88,
+   "grade": {
+    "c": 1.045,
+    "s": 0.977,
+    "b": 0.005
+   }
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/mockups-qz-v2/qz2_black_front.png",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/mockups-qz-v2/qz2_black_back.png",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/collages-new/black_statues.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "quiet until it isn't.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.4,
+   "size": 86
+  }
+ ]
+}

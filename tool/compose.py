@@ -58,6 +58,13 @@ def font(size):
 
 
 def wrap(d, text, size, max_w):
+    if "\n" in text:                       # explicit line breaks win
+        lines = text.split("\n")
+        for s in range(size, 59, -2):
+            f = font(s)
+            if max(d.textlength(l, font=f) for l in lines) <= max_w:
+                break
+        return lines, f
     for s in range(size, 69, -2):
         f = font(s)
         if d.textlength(text, font=f) <= max_w:
@@ -96,17 +103,27 @@ def clip_frames(seg, n, rnd, drop):
     src = seg["src"]
     dur = n / FPS
     total = probe_duration(src)
+    # speed < 1 = slow motion; the clip then covers less source time
+    speed = seg.get("speed", 1.0)
+    src_span = dur * speed
     start = seg.get("start")
     if start is None:
         onset = red_onset(src) if seg.get("align_red", True) else None
-        end = min(total, (onset + 0.7) if onset is not None else dur)
-        start = max(0.0, end - dur)
-    speed = min(1.0, (total - start) / dur) if total - start < dur else 1.0
+        lead = seg.get("lead", 0.7) * speed            # red appears this long before the drop
+        end = min(total, (onset + lead) if onset is not None else src_span)
+        start = max(0.0, end - src_span)
+    if total - start < src_span:                       # not enough footage: slow down to fit
+        speed = (total - start) / dur
     flip = seg.get("flip", rnd.random() < 0.5)
     zoom = seg.get("zoom", rnd.uniform(1.0, 1.06))
+    cx = seg.get("crop_x", 0.5)                        # horizontal framing when zoomed in
+    cy = seg.get("crop_y", 0.5)
+    g = seg.get("grade", {})
+    eq = (f"eq=brightness={g.get('b', 0):.3f}:contrast={g.get('c', 1):.3f}:"
+          f"saturation={g.get('s', 1):.3f}:gamma={g.get('g', 1):.3f}")
     zw, zh = int(W * zoom) // 2 * 2, int(H * zoom) // 2 * 2
     vf = (f"setpts=PTS/{speed:.4f},fps={FPS},scale={zw}:{zh}:force_original_aspect_ratio=increase,"
-          f"crop={W}:{H}{',hflip' if flip else ''},setsar=1")
+          f"crop={W}:{H}:(iw-{W})*{cx:.3f}:(ih-{H})*{cy:.3f}{',hflip' if flip else ''},{eq},setsar=1")
     p = subprocess.Popen(["ffmpeg", "-v", "error", "-ss", f"{start:.3f}", "-i", src, "-vf", vf,
                           "-frames:v", str(n), "-f", "rawvideo", "-pix_fmt", "rgb24", "-"],
                          stdout=subprocess.PIPE)

@@ -1,0 +1,68 @@
+{
+ "seed": 451,
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/Attractive couple...#louboutin #christianlouboutin #louboutinworld #louboutinshoes #shoes #luxur.mp4",
+   "until": "drop",
+   "speed": 0.866,
+   "zoom": 1.023,
+   "crop_x": 0.64,
+   "flip": true,
+   "lead": 0.55,
+   "grade": {
+    "c": 1.084,
+    "s": 0.986,
+    "b": -0.024
+   }
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/mockups-qz-v2/qz2_black_front.png",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/mockups-qz-v2/qz2_black_back.png",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/black quarter + white quarter/xla.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "the collar or the back?",
+   "from": 0,
+   "to": "drop",
+   "y": 0.4,
+   "size": 86
+  },
+  {
+   "text": "the collar.",
+   "from": "drop",
+   "to": "b:2",
+   "y": 0.2,
+   "size": 86
+  },
+  {
+   "text": "or the back.",
+   "from": "b:2",
+   "to": "b:4",
+   "y": 0.2,
+   "size": 86
+  },
+  {
+   "text": "which one sells it?",
+   "from": "b:4",
+   "to": "end",
+   "y": 0.14,
+   "size": 86
+  }
+ ]
+}

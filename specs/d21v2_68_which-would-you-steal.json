@@ -1,0 +1,47 @@
+{
+ "seed": 681,
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/Attractive couple...#louboutin #christianlouboutin #louboutinworld #louboutinshoes #shoes #luxur.mp4",
+   "until": "drop",
+   "speed": 0.918,
+   "zoom": 1.057,
+   "crop_x": 0.75,
+   "flip": false,
+   "lead": 0.52,
+   "grade": {
+    "c": 1.036,
+    "s": 1.075,
+    "b": 0.013
+   }
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/black quarter + white quarter/xla2.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/black quarter + white quarter/xla.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/collages-new/pair_redmuseum.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "which one\nwould you steal?",
+   "from": 0,
+   "to": "drop",
+   "y": 0.4,
+   "size": 86
+  }
+ ]
+}
