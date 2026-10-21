@@ -1,0 +1,111 @@
+{
+ "seed": 5001,
+ "track": "mrpopular",
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/outputs/hooks-locations/09_orange-gallery.mp4",
+   "start": 0.4,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.0,
+   "flip": false,
+   "crop_x": 0.5,
+   "grade": {
+    "c": 1.04,
+    "s": 1.0,
+    "b": -0.03
+   },
+   "dur": 1.3118181818181816
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/outputs/hooks-locations/13_palace-ceiling-walk.mp4",
+   "start": 1.2,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.0,
+   "flip": false,
+   "crop_x": 0.5,
+   "grade": {
+    "c": 1.04,
+    "s": 1.0,
+    "b": -0.03
+   },
+   "dur": 0.6060606060606061
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/outputs/hooks-locations/06_red-gown.mp4",
+   "start": 1.0,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.0,
+   "flip": false,
+   "crop_x": 0.5,
+   "grade": {
+    "c": 1.04,
+    "s": 1.0,
+    "b": -0.03
+   },
+   "dur": 0.6060606060606061
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/outputs/hooks-locations/01_red-room-chandelier.mp4",
+   "start": 2.4,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.0,
+   "flip": false,
+   "crop_x": 0.5,
+   "grade": {
+    "c": 1.04,
+    "s": 1.0,
+    "b": -0.03
+   },
+   "until": "drop"
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/evening-stills/d10.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/evening-stills/d11.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/evening-stills/d12.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/evening-stills/d13.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/evening-stills/d1c.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "the museum after dark.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.47,
+   "size": 96,
+   "scrim": 0.5,
+   "font": "cg-italic"
+  }
+ ]
+}

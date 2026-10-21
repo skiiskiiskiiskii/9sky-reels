@@ -22,7 +22,8 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter
 HERE = os.path.dirname(os.path.abspath(__file__))
 FONT = os.path.join(HERE, "fonts", "noto-serif-display-latin-300-italic.woff")
 W, H, FPS = 1080, 1920, 30
-TRACKS = {"aura": {"drop": 3.13, "bpm": 123.05}}
+TRACKS = {"aura": {"drop": 3.13, "bpm": 123.05},
+          "mrpopular": {"drop": 3.13, "bpm": 99.0}}   # predayed - mr popular (sped up); drop aligned to 3.1 s in IG
 
 
 # ---------- helpers ----------
