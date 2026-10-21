@@ -80,12 +80,18 @@ def wrap(d, text, size, max_w):
     return (best[1] if best else [text]), f
 
 
-def text_layer(text, y_center=0.45, size=86, max_w=980):
+def text_layer(text, y_center=0.45, size=86, max_w=980, scrim=0.0):
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
     lines, f = wrap(d, text, size, max_w)
     lh = int(f.size * 1.2)
     y0 = int(H * y_center - lh * len(lines) / 2)
+    if scrim:                               # soft dark band for busy backgrounds
+        band = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+        pad = int(lh * 0.9)
+        ImageDraw.Draw(band).rectangle((-100, y0 - pad, W + 100, y0 + lh * len(lines) + pad),
+                                       fill=(0, 0, 0, int(255 * scrim)))
+        img = Image.alpha_composite(img, band.filter(ImageFilter.GaussianBlur(pad * 0.8)))
     shadow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     sd = ImageDraw.Draw(shadow)
     for i, ln in enumerate(lines):
@@ -236,7 +242,7 @@ def compose(spec, out, preview_audio=None):
 
     texts = []
     for tx in spec.get("texts", []):
-        rgb, a = text_layer(tx["text"], tx.get("y", 0.45), tx.get("size", 86))
+        rgb, a = text_layer(tx["text"], tx.get("y", 0.45), tx.get("size", 86), scrim=tx.get("scrim", 0.0))
         f0 = round(resolve_time(tx.get("from", 0), drop, beat, end_t) * FPS)
         f1 = round(resolve_time(tx.get("to", "end"), drop, beat, end_t) * FPS)
         texts.append((f0, f1, rgb, a, tx.get("fade", 4)))

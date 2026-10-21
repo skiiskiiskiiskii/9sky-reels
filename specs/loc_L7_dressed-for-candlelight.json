@@ -1,0 +1,49 @@
+{
+ "seed": 907,
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/outputs/hooks-locations/12_candles-montage.mp4",
+   "start": 0.0,
+   "until": "drop",
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.0,
+   "flip": false,
+   "crop_x": 0.5,
+   "grade": {
+    "c": 1.04,
+    "s": 1.0,
+    "b": 0.0
+   }
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/black n white zip hoodie/9sky_ixBW_02_fronts.png",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/black n white zip hoodie/9sky_ixBW_01_backs.png",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/mockups/black n white zip hoodie/9sky_ixBW_03_set.png",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "dressed for candlelight.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.47,
+   "size": 90,
+   "scrim": 0.5
+  }
+ ]
+}
