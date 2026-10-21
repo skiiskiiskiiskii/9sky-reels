@@ -322,3 +322,18 @@ def index(mockups, out, no, title, sub, bg=None):
     c = _footer(c, title, sub)
     c.save(out, quality=96)
     return out
+
+
+def stacked(front, back, out, no, title, sub, bg=None, footer_y=1580):
+    """Pair fronts on top (white overlapping black), pair backs below - big and centred."""
+    c = _frame(no, bg=bg)
+    top, bottom, gap = 236, footer_y - 22, 18
+    row_h = (bottom - top - gap) // 2
+    for i, mk in enumerate([front, back]):
+        g, _ = _fit(_garment(mk, bg is not None), W - 120, row_h)
+        cy = top + row_h // 2 + i * (row_h + gap)
+        _paste(c, g, ((W - g.width) // 2, cy - g.height // 2))
+    c = _header(c, no)
+    c = _footer(c, title, sub, y=footer_y)
+    c.save(out, quality=96)
+    return out
