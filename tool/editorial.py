@@ -117,14 +117,35 @@ def put_logo(c, cx, cy, height):
 
 
 def _cut(mockup):
-    """Garment cut-out (RGBA, cropped) from a pure-black mockup."""
+    """Garment cut-out (RGBA, cropped) from a pure-black mockup.
+
+    - holes inside the garment are filled only if they are fabric (dark lining), never
+      if they are enclosed background (pure 0,0,0 gaps between sleeve and body);
+    - edge pixels are un-premultiplied from the black background, so no dark fringe.
+    """
     from scipy import ndimage
     im = Image.open(mockup).convert("RGB")
-    m = np.asarray(im).max(2) > 4
-    m = ndimage.binary_fill_holes(ndimage.binary_closing(m, iterations=3))
-    al = Image.fromarray((m * 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(1.0))
-    im.putalpha(al)
-    return im.crop(im.getbbox())
+    a = np.asarray(im).astype(np.float32)
+    mx = a.max(2)
+    m = ndimage.binary_closing(mx > 4, iterations=2)
+    holes = ndimage.binary_fill_holes(m) & ~m
+    lab, n = ndimage.label(holes)
+    zero = (mx == 0)
+    for i in range(1, n + 1):
+        comp = lab == i
+        if zero[comp].mean() < 0.6:          # fabric shadow (e.g. inside the hood) -> keep opaque
+            m |= comp
+    core = ndimage.binary_erosion(m, iterations=2)
+    lum = mx
+    fg = ndimage.maximum_filter(np.where(core, lum, 0), size=9)
+    fg = np.where(fg > 0, fg, 255)
+    alpha = np.where(core, 1.0, np.clip(lum / np.maximum(fg, 1), 0, 1))
+    alpha = np.where(ndimage.binary_dilation(m, iterations=1), alpha, 0.0)
+    rgb = np.where(alpha[..., None] > 0.02, a / np.maximum(alpha[..., None], 0.02), 0)
+    rgb = np.where(core[..., None], a, np.clip(rgb, 0, 255))
+    out = np.dstack([rgb, alpha * 255]).astype(np.uint8)
+    o = Image.fromarray(out, "RGBA")
+    return o.crop(o.getbbox())
 
 
 def _garment(mockup, bg=False):
@@ -144,7 +165,7 @@ def _paste(c, g, xy):
         pad = 90
         halo = Image.new("L", (g.width + 2 * pad, g.height + 2 * pad), 0)
         halo.paste(Image.fromarray(al.astype(np.uint8)), (pad, pad))
-        halo = halo.filter(ImageFilter.GaussianBlur(38)).point(lambda v: int(v * 0.85))
+        halo = halo.filter(ImageFilter.GaussianBlur(75)).point(lambda v: int(v * 0.4))
         c.paste(Image.new("RGB", halo.size, (0, 0, 0)), (xy[0] - pad, xy[1] - pad), halo)
         c.paste(g, xy, g)
     else:
