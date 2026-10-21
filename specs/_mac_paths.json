@@ -1,0 +1,23 @@
+{
+ "root": "~/Downloads/9sky-reels (Mac)",
+ "note": "stage these into the container before rendering",
+ "paths": {
+  "KF": "mockups/black quarter zip/9sky_qz_01_front.png",
+  "KB": "mockups/black quarter zip/9sky_qz_02_back.png",
+  "WF": "mockups/quarter zip white/qz2_white_front.png",
+  "WB": "mockups/quarter zip white/qz2_white_back.png",
+  "PF": "mockups/black quarter + white quarter/xla2.jpg",
+  "PB": "mockups/black quarter + white quarter/xla.jpg",
+  "ZF": "mockups/only blackzip hoodie/frame1_front.png",
+  "ZB": "mockups/only blackzip hoodie/frame2_back_1.png",
+  "XWF": "mockups/only white zip hoodie/9sky_ixW_01_front.png",
+  "XWB": "mockups/only white zip hoodie/9sky_ixW_02_back.png",
+  "ZPF": "mockups/black n white zip hoodie/9sky_ixBW_02_fronts.png",
+  "ZPB": "mockups/black n white zip hoodie/9sky_ixBW_01_backs.png",
+  "LOGO": "brand/9sky_logo_white.png",
+  "LOGO_SRC": "brand/9sky_logo_original.jpg",
+  "HOOKS": "hooks/locations/",
+  "HOOK_SOURCES": "hooks/sources/",
+  "AESTHETICS": "aesthetics/"
+ }
+}
