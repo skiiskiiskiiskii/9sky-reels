@@ -206,6 +206,23 @@ def split_canvas(seg):
     return np.asarray(c)
 
 
+def sweep_frames(canvas, n, opt):
+    """A soft band of light (sheen) travels across the garment; the still never moves or scales."""
+    opt = opt if isinstance(opt, dict) else {}
+    width, ang, gain = opt.get("width", 0.2), np.deg2rad(opt.get("angle", 62)), opt.get("gain", 60)
+    c = canvas.astype(np.float32)
+    mask = Image.fromarray(((c.max(2) > 6) * 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(3))
+    mask = np.asarray(mask).astype(np.float32)[..., None] / 255
+    y, x = np.mgrid[0:H, 0:W].astype(np.float32)
+    u = (x / W) * np.cos(ang) + (y / H) * np.sin(ang)
+    u = (u - u.min()) / (u.max() - u.min())
+    room = np.clip(1 - c / 300, 0, 1)                         # dark fabric catches more light, whites don't clip
+    for i in range(n):
+        pos = -0.2 + 1.4 * (i / max(1, n - 1))
+        band = np.exp(-((u - pos) / width) ** 2)[..., None]
+        yield np.clip(c * (0.92 + 0.08 * band) + band * gain * room * mask, 0, 255)
+
+
 # ---------- main ----------
 def resolve_time(v, drop, beat, end):
     if isinstance(v, (int, float)):
@@ -259,6 +276,8 @@ def compose(spec, out, preview_audio=None):
     p = subprocess.Popen(enc, stdin=subprocess.PIPE)
 
     loop_n = int(spec.get("loop_frames", 0))
+    grain = float(spec.get("grain", 0))           # film grain sigma (0 = off)
+    grng = np.random.default_rng(spec.get("seed", 0))
     first = None
     fi = 0
     for seg, (b0, b1) in zip(spec["segments"], bounds):
@@ -270,7 +289,10 @@ def compose(spec, out, preview_audio=None):
                       "diptych": diptych_canvas}[seg["type"]](seg)
             if seg.get("dim"):                     # darken bright stills so white text stays legible
                 canvas = (canvas.astype(np.float32) * seg["dim"]).astype(np.uint8)
-            gen = (canvas for _ in range(n))
+            if seg.get("sweep"):
+                gen = sweep_frames(canvas, n, seg["sweep"])
+            else:
+                gen = (canvas for _ in range(n))
         for fr in gen:
             f = fr.astype(np.float32)
             for f0, f1, rgb, a, fade in texts:
@@ -279,6 +301,9 @@ def compose(spec, out, preview_audio=None):
                     if fade:
                         k = min(1.0, (fi - f0 + 1) / fade, (f1 - fi) / fade) if f0 > 0 else min(1.0, (f1 - fi) / fade)
                     f = f * (1 - a * k) + rgb * (a * k)
+            if grain:
+                g = grng.normal(0, grain, (H // 2, W // 2, 1)).astype(np.float32)
+                f = f + np.repeat(np.repeat(g, 2, 0), 2, 1)
             if first is None:
                 first = f.copy()
             if loop_n and fi >= total_frames - loop_n:

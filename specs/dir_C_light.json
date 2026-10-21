@@ -1,0 +1,54 @@
+{
+ "seed": 2003,
+ "grain": 5,
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/outputs/hooks-locations/01_red-room-chandelier.mp4",
+   "start": 0.35,
+   "until": "drop",
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.0,
+   "flip": false,
+   "crop_x": 0.5,
+   "grade": {
+    "c": 1.04,
+    "s": 1.0,
+    "b": -0.03
+   }
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/mockups-qz-v2/qz2_black_front.png",
+   "fit": "full",
+   "beats": 4,
+   "sweep": {
+    "angle": 62,
+    "width": 0.09,
+    "gain": 34
+   }
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/editorial-stills/mc_pf.jpg",
+   "fit": "full",
+   "beats": 4,
+   "sweep": {
+    "angle": 118,
+    "width": 0.09,
+    "gain": 34
+   }
+  }
+ ],
+ "texts": [
+  {
+   "text": "the collar says it all.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.6,
+   "size": 90,
+   "scrim": 0.5
+  }
+ ]
+}
