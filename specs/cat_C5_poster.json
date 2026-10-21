@@ -1,0 +1,51 @@
+{
+ "seed": 3005,
+ "grain": 4,
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/outputs/hooks-locations/08_white-dress-red-room.mp4",
+   "start": 0.2,
+   "until": "drop",
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.0,
+   "flip": false,
+   "crop_x": 0.5,
+   "grade": {
+    "c": 1.04,
+    "s": 1.0,
+    "b": -0.03
+   }
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/catalogue-stills/c5a.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/catalogue-stills/c5b.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/catalogue-stills/c5c.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "white outside. red inside.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.45,
+   "size": 96,
+   "scrim": 0.5,
+   "font": "cg-italic"
+  }
+ ]
+}

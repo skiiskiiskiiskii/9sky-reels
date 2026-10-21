@@ -1,0 +1,51 @@
+{
+ "seed": 3003,
+ "grain": 4,
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/outputs/hooks-locations/14_gothic-vaults.mp4",
+   "start": 0.3,
+   "until": "drop",
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.0,
+   "flip": false,
+   "crop_x": 0.5,
+   "grade": {
+    "c": 1.04,
+    "s": 1.0,
+    "b": -0.03
+   }
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/catalogue-stills/c3a.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/catalogue-stills/c3b.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/catalogue-stills/c3c.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "some things are built to last.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.56,
+   "size": 96,
+   "scrim": 0.5,
+   "font": "cg-italic"
+  }
+ ]
+}

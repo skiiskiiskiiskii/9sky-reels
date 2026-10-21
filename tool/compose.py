@@ -53,8 +53,14 @@ def content_bbox(img, thr=14):
     return xs[0], ys[0], xs[-1] + 1, ys[-1] + 1
 
 
+FONTS = {"noto": FONT,
+         "cg-italic": os.path.join(HERE, "fonts", "cormorant-garamond-latin-400-italic.woff"),
+         "cg-light-italic": os.path.join(HERE, "fonts", "cormorant-garamond-latin-300-italic.woff")}
+_FONT_PATH = [FONT]
+
+
 def font(size):
-    return ImageFont.truetype(FONT, size)
+    return ImageFont.truetype(_FONT_PATH[0], size)
 
 
 def wrap(d, text, size, max_w):
@@ -80,7 +86,8 @@ def wrap(d, text, size, max_w):
     return (best[1] if best else [text]), f
 
 
-def text_layer(text, y_center=0.45, size=86, max_w=980, scrim=0.0):
+def text_layer(text, y_center=0.45, size=86, max_w=980, scrim=0.0, face="noto"):
+    _FONT_PATH[0] = FONTS.get(face, FONT)
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
     lines, f = wrap(d, text, size, max_w)
@@ -259,11 +266,13 @@ def compose(spec, out, preview_audio=None):
 
     texts = []
     for tx in spec.get("texts", []):
-        rgb, a = text_layer(tx["text"], tx.get("y", 0.45), tx.get("size", 86), scrim=tx.get("scrim", 0.0))
+        rgb, a = text_layer(tx["text"], tx.get("y", 0.45), tx.get("size", 86), scrim=tx.get("scrim", 0.0),
+                            face=tx.get("font", "noto"))
         f0 = round(resolve_time(tx.get("from", 0), drop, beat, end_t) * FPS)
         f1 = round(resolve_time(tx.get("to", "end"), drop, beat, end_t) * FPS)
         texts.append((f0, f1, rgb, a, tx.get("fade", 4)))
 
+    _FONT_PATH[0] = FONT                          # split labels keep the default face
     enc = ["ffmpeg", "-y", "-v", "error", "-f", "rawvideo", "-pix_fmt", "rgb24",
            "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-"]
     if preview_audio:
