@@ -2,13 +2,14 @@
 """Catalogue-style test reels C1..C6 (variant A family)."""
 import json, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from editorial import page, annotated, record, spread, plates, poster, index, dark_bg
+from editorial import page, record, spread, plates, poster, index, dark_bg
 
 SP = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "specs")
 P = json.load(open(os.path.join(SP, "_paths.json")))["paths"]
 A = "/mnt/user-data/uploads/9sky-reels/aesthetics/"
 L = "/mnt/user-data/outputs/hooks-locations/"
-O = "/mnt/user-data/outputs/catalogue-stills/"
+O = "/mnt/user-data/outputs/catalogue-stills-v2/"
+COLL = "museum collection"
 os.makedirs(O, exist_ok=True)
 
 ORN = dark_bg(A + "ornament/9skyaes_ornament_11.jpg", "ornament", 0.10, centre=0.15)
@@ -38,37 +39,37 @@ def ht(text, y=0.47):
 
 
 S = {}
-S["C1_annotated"] = dict(seed=3001, grain=4, segments=[hook("06_red-gown", 0.2),
-    img(annotated(P["KF"], O + "c1a.jpg", "N° I", "IX quarter zip", "BLACK  ·  PLATE I", QZ_KF_NOTES, bg=ORN), 2),
-    img(annotated(P["KB"], O + "c1b.jpg", "N° II", "the back", "BLACK  ·  PLATE II", QZ_KB_NOTES, bg=ORN), 2),
-    img(plates([P["KF"], P["WF"]], ["I", "II"], ["NERO", "BIANCO"], O + "c1c.jpg", "N° III", "one only. which?", "THE SAME RED COLLAR", bg=ORN), 4)],
+S["C1_pages"] = dict(seed=3001, segments=[hook("06_red-gown", 0.2),
+    img(page(P["KF"], O + "c1a.jpg", "N° I", "IX quarter zip", "BLACK  ·  RED RIBBED COLLAR", bg=ORN), 2),
+    img(page(P["KB"], O + "c1b.jpg", "N° II", "the back", "AFTER THE ARA PACIS  ·  ROME, 9 BC", bg=ORN), 2),
+    img(plates([P["KF"], P["WF"]], ["NERO", "BIANCO"], O + "c1c.jpg", "N° III", "one only. which?", "THE SAME RED COLLAR", bg=ORN), 4)],
     texts=[ht("the collar says it all.", 0.36)])
-S["C2_record"] = dict(seed=3002, grain=4, segments=[hook("11_museum-flash-cuts", 0.0),
-    img(record(P["KF"], O + "c2a.jpg", "INV. IX-001", REC("black"), "9SKY  ·  DROP II"), 2),
-    img(record(P["WF"], O + "c2b.jpg", "INV. IX-002", REC("white"), "9SKY  ·  DROP II"), 2),
-    img(index(FOUR, FOUR_N, O + "c2c.jpg", "INDEX", "the collection", "PICK ONE  ·  I, II, III OR IV"), 4)],
+S["C2_record"] = dict(seed=3002, segments=[hook("11_museum-flash-cuts", 0.0),
+    img(record(P["KF"], O + "c2a.jpg", "INV. IX-001", REC("black"), "DROP II  ·  FIRST LOOK"), 2),
+    img(record(P["WF"], O + "c2b.jpg", "INV. IX-002", REC("white"), "DROP II  ·  FIRST LOOK"), 2),
+    img(index(FOUR, O + "c2c.jpg", "INDEX", COLL, "PICK ONE"), 4)],
     texts=[ht("if museums had a dress code.")])
-S["C3_spread"] = dict(seed=3003, grain=4, segments=[hook("14_gothic-vaults", 0.3),
+S["C3_spread"] = dict(seed=3003, segments=[hook("14_gothic-vaults", 0.3),
     img(page(P["KF"], O + "c3a.jpg", "N° I", "IX quarter zip", "BLACK  ·  RED RIBBED COLLAR", bg=VEIL), 2),
     img(spread(A + "ornament/9skyaes_ornament_05.jpg", None, "Ara Pacis", "ROME  ·  9 BC", P["KB"], "IX quarter zip", "PRAGUE  ·  2026", O + "c3b.jpg", "N° II", bg=VEIL), 2),
-    img(page(P["PF"], O + "c3c.jpg", "N° III", "black or white", "THE COLLECTION  ·  PRAGUE", bg=VEIL), 4)],
+    img(page(P["PF"], O + "c3c.jpg", "N° III", "black or white", COLL.upper() + "  ·  PRAGUE", bg=VEIL), 4)],
     texts=[ht("some things are built to last.", 0.56)])
-S["C4_plates"] = dict(seed=3004, grain=4, segments=[hook("18_red-beat-montage", 0.0, b=-0.05),
+S["C4_plates"] = dict(seed=3004, segments=[hook("18_red-beat-montage", 0.0, b=-0.05),
     img(page(P["KF"], O + "c4a.jpg", "PLATE I", "nero", "BLACK  ·  RED RIBBED COLLAR", bg=BACK), 2),
     img(page(P["WF"], O + "c4b.jpg", "PLATE II", "bianco", "WHITE  ·  RED RIBBED COLLAR", bg=BACK), 2),
-    img(plates([P["KF"], P["WF"]], ["I", "II"], ["NERO", "BIANCO"], O + "c4c.jpg", "PLATE III", "one only. which?", "THE SAME RED COLLAR", bg=BACK), 4)],
+    img(plates([P["KF"], P["WF"]], ["NERO", "BIANCO"], O + "c4c.jpg", "PLATE III", "one only. which?", "THE SAME RED COLLAR", bg=BACK), 4)],
     texts=[ht("black or white?", 0.45)])
-S["C5_poster"] = dict(seed=3005, grain=4, segments=[hook("08_white-dress-red-room", 0.2),
+S["C5_poster"] = dict(seed=3005, segments=[hook("08_white-dress-red-room", 0.2),
     img(page(P["XWF"], O + "c5a.jpg", "N° I", "IX zip hoodie", "WHITE  ·  RED-LINED HOOD", bg=VEIL), 2),
     img(page(P["XWB"], O + "c5b.jpg", "N° II", "the back", "AFTER THE ARA PACIS  ·  ROME, 9 BC", bg=VEIL), 2),
-    img(poster(P["ZPF"], O + "c5c.jpg", "Drop II", "an exhibition in black, white and red", "PRAGUE  ·  MMXXVI", bg=VEIL), 4)],
+    img(poster(P["ZPF"], O + "c5c.jpg", "Drop II", "FIRST LOOK", "an exhibition in black, white and red", "PRAGUE  ·  MMXXVI", bg=VEIL), 4)],
     texts=[ht("white outside. red inside.", 0.45)])
-S["C6_index"] = dict(seed=3006, grain=4, segments=[hook("03_red-velvet-salon", 0.3),
+S["C6_index"] = dict(seed=3006, segments=[hook("03_red-velvet-salon", 0.3),
     img(page(P["KF"], O + "c6a.jpg", "N° I", "IX quarter zip", "BLACK  ·  RED RIBBED COLLAR", bg=ORN2), 2),
     img(page(P["ZF"], O + "c6b.jpg", "N° III", "IX zip hoodie", "BLACK  ·  RED-LINED HOOD", bg=ORN2), 2),
-    img(index(FOUR, FOUR_N, O + "c6c.jpg", "INDEX", "the collection", "PICK ONE  ·  I, II, III OR IV", bg=ORN2), 4)],
+    img(index(FOUR, O + "c6c.jpg", "INDEX", COLL, "PICK ONE", bg=ORN2), 4)],
     texts=[ht("dress code:\nblack. one red detail.", 0.62)])
 
 for k, v in S.items():
-    json.dump(v, open(os.path.join(SP, f"cat_{k}.json"), "w"), indent=1)
+    json.dump(v, open(os.path.join(SP, f"cat2_{k}.json"), "w"), indent=1)
 print("\n".join(S))

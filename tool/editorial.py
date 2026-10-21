@@ -98,6 +98,24 @@ def dark_bg(src, kind="statue", level=0.2, crop=None, centre=0.35):
     return Image.fromarray(np.clip(a, 0, 255).astype(np.uint8))
 
 
+LOGO = "/mnt/user-data/outputs/9sky_logo_white.png"
+
+
+def logo(height, color=INK):
+    lg = Image.open(LOGO).convert("RGBA")
+    lg = lg.resize((int(lg.width * height / lg.height), height), Image.LANCZOS)
+    a = lg.split()[-1]
+    out = Image.new("RGBA", lg.size, color + (0,))
+    out.putalpha(a)
+    return out
+
+
+def put_logo(c, cx, cy, height):
+    lg = logo(height)
+    c.paste(lg, (int(cx - lg.width / 2), int(cy - lg.height / 2)), lg)
+    return c
+
+
 def _cut(mockup):
     """Garment cut-out (RGBA, cropped) from a pure-black mockup."""
     from scipy import ndimage
@@ -224,8 +242,9 @@ def record(mockup, out, no, rows, foot, bg=None):
         d.text((430, y + 2), v, font=CG("400-italic", 44), fill=INK, anchor="ls")
         y += 84
     c = hairline(c, y - 30)
+    put_logo(c, W / 2, y + 48, 66)
     d = ImageDraw.Draw(c)
-    tracked(d, (W / 2, y + 50), foot, CG("500-normal", 26), (200, 194, 184), track=0.22, anchor="m")
+    tracked(d, (W / 2, y + 140), foot, CG("500-normal", 24), (200, 194, 184), track=0.24, anchor="m")
     c.save(out, quality=96)
     return out
 
@@ -256,7 +275,7 @@ def spread(art, art_crop, art_cap, art_sub, mockup, cap, sub, out, no, bg=None):
     return out
 
 
-def plates(mockups, numerals, words, out, no, title, sub, bg=None):
+def plates(mockups, words, out, no, title, sub, bg=None):
     c = _frame(no, bg=bg)
     n = len(mockups)
     cw = (W - 180 - 40 * (n - 1)) // n
@@ -264,47 +283,42 @@ def plates(mockups, numerals, words, out, no, title, sub, bg=None):
     for i, mk in enumerate(mockups):
         g, _ = _fit(_garment(mk, bg is not None), cw, 700)
         cx = 90 + i * (cw + 40) + cw // 2
-        _paste(c, g, (cx - g.width // 2, int(H * 0.45 - g.height / 2)))
-        pos.append(cx)
+        y0 = int(H * 0.45 - g.height / 2)
+        _paste(c, g, (cx - g.width // 2, y0))
+        pos.append((cx, y0 + g.height))
     c = _header(c, no)
     d = ImageDraw.Draw(c)
-    for cx, num, word in zip(pos, numerals, words):
-        d.text((cx, 1230), num, font=CG("300-italic", 64), fill=INK, anchor="ms")
-        tracked(d, (cx, 1290), word, CG("500-normal", 26), GREY, track=0.24, anchor="m")
+    for (cx, bottom), word in zip(pos, words):
+        tracked(d, (cx, bottom + 70), word, CG("500-normal", 28), GREY, track=0.26, anchor="m")
     c = _footer(c, title, sub)
     c.save(out, quality=96)
     return out
 
 
-def poster(mockup, out, big, line1, line2, top="9SKY", bg=None):
+def poster(mockup, out, big, under, line1, line2, bg=None):
     c = _frame("", bg=bg)
-    g, _ = _fit(_garment(mockup, bg is not None), 900, 640)
-    _paste(c, g, ((W - g.width) // 2, int(1010 - g.height / 2)))
+    g, _ = _fit(_garment(mockup, bg is not None), 900, 620)
+    _paste(c, g, ((W - g.width) // 2, int(1040 - g.height / 2)))
+    put_logo(c, W / 2, 205, 92)
     d = ImageDraw.Draw(c)
-    tracked(d, (W / 2, 200), top, CG("600-normal", 34), INK, track=0.5, anchor="m")
-    d.text((W / 2, 520), big, font=CG("300-italic", 230), fill=INK, anchor="ms")
-    c = hairline(c, 1440, 300, W - 300)
+    d.text((W / 2, 545), big, font=CG("300-italic", 230), fill=INK, anchor="ms")
+    tracked(d, (W / 2, 630), under, CG("500-normal", 30), (210, 204, 194), track=0.34, anchor="m")
+    c = hairline(c, 1450, 300, W - 300)
     d = ImageDraw.Draw(c)
-    d.text((W / 2, 1560), line1, font=CG("400-italic", 52), fill=INK, anchor="ms")
-    tracked(d, (W / 2, 1650), line2, CG("500-normal", 28), GREY, track=0.3, anchor="m")
+    d.text((W / 2, 1570), line1, font=CG("400-italic", 52), fill=INK, anchor="ms")
+    tracked(d, (W / 2, 1660), line2, CG("500-normal", 28), GREY, track=0.3, anchor="m")
     c.save(out, quality=96)
     return out
 
 
-def index(mockups, names, out, no, title, sub, bg=None):
+def index(mockups, out, no, title, sub, bg=None):
     c = _frame(no, bg=bg)
-    nums = ["I", "II", "III", "IV"]
-    cells = []
     for i, mk in enumerate(mockups):
         col, row = i % 2, i // 2
-        cx, cy = 90 + 225 + col * 450, 520 + row * 520
-        g, _ = _fit(_garment(mk, bg is not None), 400, 330)
+        cx, cy = 90 + 225 + col * 450, 600 + row * 520
+        g, _ = _fit(_garment(mk, bg is not None), 430, 410)
         _paste(c, g, (cx - g.width // 2, cy - g.height // 2))
-        cells.append((cx, cy))
     c = _header(c, no)
-    d = ImageDraw.Draw(c)
-    for i, ((cx, cy), nm) in enumerate(zip(cells, names)):
-        d.text((cx, cy + 225), f"{nums[i]}.  {nm}", font=CG("400-italic", 38), fill=INK, anchor="ms")
     c = _footer(c, title, sub)
     c.save(out, quality=96)
     return out
