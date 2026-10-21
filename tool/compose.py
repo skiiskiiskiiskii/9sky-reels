@@ -65,7 +65,7 @@ def wrap(d, text, size, max_w):
             if max(d.textlength(l, font=f) for l in lines) <= max_w:
                 break
         return lines, f
-    for s in range(size, 69, -2):
+    for s in range(size, min(size, 70) - 1, -2):
         f = font(s)
         if d.textlength(text, font=f) <= max_w:
             return [text], f
