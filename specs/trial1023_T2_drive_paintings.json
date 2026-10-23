@@ -1,0 +1,111 @@
+{
+ "seed": 7002,
+ "track": "mrpopular",
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/outputs/hooks-locations/11_museum-flash-cuts.mp4",
+   "start": 2.3,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.0,
+   "flip": false,
+   "crop_x": 0.5,
+   "grade": {
+    "c": 1.04,
+    "s": 1.0,
+    "b": -0.03
+   },
+   "dur": 1.3118181818181816
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/outputs/hooks-locations/07_red-mirror-clock.mp4",
+   "start": 0.2,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.0,
+   "flip": false,
+   "crop_x": 0.5,
+   "grade": {
+    "c": 1.04,
+    "s": 1.0,
+    "b": -0.03
+   },
+   "dur": 0.6060606060606061
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/outputs/hooks-locations/02_red-wall-white-doors.mp4",
+   "start": 1.4,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.0,
+   "flip": false,
+   "crop_x": 0.5,
+   "grade": {
+    "c": 1.04,
+    "s": 1.0,
+    "b": -0.03
+   },
+   "dur": 0.6060606060606061
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/outputs/hooks-locations/01_red-room-chandelier.mp4",
+   "start": 2.4,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.0,
+   "flip": false,
+   "crop_x": 0.5,
+   "grade": {
+    "c": 1.04,
+    "s": 1.0,
+    "b": -0.03
+   },
+   "until": "drop"
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-trial-1023/t20.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-trial-1023/t21.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-trial-1023/t22.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-trial-1023/t23.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-trial-1023/t2c.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "nobody looked\nat the paintings.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.47,
+   "size": 96,
+   "scrim": 0.5,
+   "font": "cg-italic"
+  }
+ ]
+}

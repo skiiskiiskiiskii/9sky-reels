@@ -197,7 +197,8 @@ def _footer(c, title, sub, y=1548):
     if title:
         d.text((W / 2, y + 107), title, font=CG("300-italic", 92), fill=INK, anchor="ms")
     if sub:
-        tracked(d, (W / 2, y + 187), sub, CG("500-normal", 26), (200, 194, 184), track=0.22, anchor="m")
+        sy = y + 187 if title else y + 80          # no title: the grey catalogue line sits under the rule
+        tracked(d, (W / 2, sy), sub, CG("500-normal", 26), (200, 194, 184), track=0.22, anchor="m")
     return c
 
 
