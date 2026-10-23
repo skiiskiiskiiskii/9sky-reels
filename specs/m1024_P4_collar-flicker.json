@@ -1,0 +1,94 @@
+{
+ "seed": 9104,
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/outputs/hooks-locations/32_dark-sculpture-walls.mp4",
+   "start": 0.2,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.0,
+   "flip": false,
+   "crop_x": 0.5,
+   "grade": {
+    "c": 1.04,
+    "s": 1.0,
+    "b": -0.03
+   },
+   "dur": 1.2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/p4x.jpg",
+   "fit": "full",
+   "dur": 0.06666666666666667
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/outputs/hooks-locations/32_dark-sculpture-walls.mp4",
+   "start": 1.4666666666666666,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.0,
+   "flip": false,
+   "crop_x": 0.5,
+   "grade": {
+    "c": 1.04,
+    "s": 1.0,
+    "b": -0.03
+   },
+   "dur": 1.1333333333333333
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/p4x.jpg",
+   "fit": "full",
+   "dur": 0.06666666666666667
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/outputs/hooks-locations/32_dark-sculpture-walls.mp4",
+   "start": 2.6666666666666665,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.0,
+   "flip": false,
+   "crop_x": 0.5,
+   "grade": {
+    "c": 1.04,
+    "s": 1.0,
+    "b": -0.03
+   },
+   "until": "drop"
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/p40.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/p41.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/p4c.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "you blinked.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.42,
+   "size": 96,
+   "scrim": 0.5,
+   "font": "cg-italic"
+  }
+ ]
+}
