@@ -1,0 +1,50 @@
+{
+ "seed": 9202,
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/outputs/hooks-gen/G2_flashlight-black.mp4",
+   "start": 0,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.0,
+   "flip": false,
+   "crop_x": 0.5,
+   "grade": {
+    "c": 1.0,
+    "s": 1.0,
+    "b": 0.0
+   },
+   "until": "drop"
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/g20.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/g21.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/g2c.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "someone left a light on.",
+   "from": 0,
+   "to": 2.35,
+   "y": 0.8,
+   "size": 96,
+   "scrim": 0.5,
+   "font": "cg-italic"
+  }
+ ]
+}
