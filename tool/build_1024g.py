@@ -20,10 +20,10 @@ def ht(text, y=0.47, to="drop"):
 S = {}
 S["G1_flashlight-white"] = dict(seed=9201, track="mrpopular", segments=[hook("G1_flashlight-white")] +
     pages([("WF", cat(1, COLLAR)), ("WB", cat(2, ARA, ROME)), ("XWF", cat(3, HOOD)), ("XWB", cat(4, FLEECE))], None, "g1", 1) +
-    [img(fin_path("PF", "PB", "g1", "N° V"), 4)], texts=[ht("the museum is closed.", 0.80, 2.35)])
+    [img(fin_path("PF", "PB", "g1", "N° V"), 4)], texts=[ht("the museum is closed.", 0.80)])
 S["G2_flashlight-black"] = dict(seed=9202, segments=[hook("G2_flashlight-black")] +
     pages([("KF", cat(1, COLLAR)), ("KB", cat(2, ARA, ROME))], None, "g2", 2) +
-    [img(fin_path("KKF", "KKB", "g2", "N° III"), 4)], texts=[ht("someone left a light on.", 0.80, 2.35)])
+    [img(fin_path("KKF", "KKB", "g2", "N° III"), 4)], texts=[ht("someone left a light on.", 0.80)])
 S["G3_accelerate"] = dict(seed=9203, track="mrpopular", segments=[hook("G3_accelerate")] +
     pages([("KF", cat(1, FLEECE)), ("WF", cat(2, COLLAR)), ("ZF", cat(3, HOOD)), ("KB", cat(4, ARA, ROME))], BACK, "g3", 1) +
     [img(fin_path("ZPF", "ZPB", "g3", "N° V", BACK), 4)], texts=[ht("keep up.")])

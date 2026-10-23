@@ -40,7 +40,7 @@
   {
    "text": "someone left a light on.",
    "from": 0,
-   "to": 2.35,
+   "to": "drop",
    "y": 0.8,
    "size": 96,
    "scrim": 0.5,
