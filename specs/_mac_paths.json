@@ -18,6 +18,8 @@
   "LOGO_SRC": "brand/9sky_logo_original.jpg",
   "HOOKS": "hooks/locations/",
   "HOOK_SOURCES": "hooks/sources/",
-  "AESTHETICS": "aesthetics/"
+  "AESTHETICS": "aesthetics/",
+  "KKF": "mockups/black quarter + black zip hoodie/9sky_ix_01_front_1.png",
+  "KKB": "mockups/black quarter + black zip hoodie/9sky_ix_02_back.png"
  }
 }
