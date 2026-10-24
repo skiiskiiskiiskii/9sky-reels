@@ -36,23 +36,24 @@ if "--hooks" in sys.argv:
         flashlight(st, dummy, G + f"{k}_flash.mp4", land=3.5, seed=20 + i)
 
 S = {}
+# black + white pairs everywhere: PF/PB = quarter zip pair, ZPF/ZPB = zip hoodie pair
 S["F1_light-on"] = dict(seed=9301, track="mrpopular", segments=[hook("F1_flash")] +
-    pages([("KF", cat(1, COLLAR)), ("KB", cat(2, ARA, ROME)), ("ZF", cat(3, HOOD)), ("ZB", cat(4, FLEECE))], None, "f1", 1) +
-    [img(fin_path("KKF", "KKB", "f1", "N° V"), 4)], texts=[ht("someone left a light on.")])
+    pages([("PF", cat(1, COLLAR)), ("PB", cat(2, ARA, ROME)), ("ZPF", cat(3, HOOD)), ("ZPB", cat(4, FLEECE))], None, "f1", 1) +
+    [img(fin_path("ZPF", "ZPB", "f1", "N° V"), 4)], texts=[ht("someone left a light on.")])
 S["F2_guard-went-home"] = dict(seed=9302, segments=[hook("F2_flash")] +
-    pages([("KF", cat(1, COLLAR)), ("WF", cat(2, "THE SAME RED COLLAR"))], None, "f2", 2) +
+    pages([("PF", cat(1, "HIS / HERS")), ("ZPF", cat(2, HOOD))], None, "f2", 2) +
     [img(fin_path("PF", "PB", "f2", "N° III"), 4)], texts=[ht("the guard went home.")])
 S["F3_not-supposed-to-see"] = dict(seed=9303, track="mrpopular", segments=[hook("F3_flash")] +
-    pages([("KF", cat(1, FLEECE)), ("WF", cat(2, COLLAR)), ("ZF", cat(3, HOOD)), ("XWF", cat(4, IX))], None, "f3", 1) +
+    pages([("ZPF", cat(1, HOOD)), ("ZPB", cat(2, ARA, ROME)), ("PF", cat(3, COLLAR)), ("PB", cat(4, FLEECE))], None, "f3", 1) +
     [img(fin_path("PF", "PB", "f3", "N° V"), 4)], texts=[ht("you weren't supposed to see this.")])
 S["F4_after-closing"] = dict(seed=9304, segments=[hook("F4_flash")] +
-    pages([("KF", cat(1, COLLAR)), ("ZF", cat(2, HOOD))], None, "f4", 2) +
-    [img(fin_path("KKF", "KKB", "f4", "N° III"), 4)], texts=[ht("after closing.")])
+    pages([("PF", cat(1, "THE SAME RED COLLAR")), ("PB", cat(2, ARA, ROME))], None, "f4", 2) +
+    [img(fin_path("ZPF", "ZPB", "f4", "N° III"), 4)], texts=[ht("after closing.")])
 S["F5_last-one-out"] = dict(seed=9305, track="mrpopular", segments=[hook("F5_flash")] +
-    pages([("ZF", cat(1, HOOD)), ("KF", cat(2, COLLAR)), ("ZB", cat(3, ARA, ROME)), ("KB", cat(4, FLEECE))], None, "f5", 1) +
-    [img(fin_path("KKF", "KKB", "f5", "N° V"), 4)], texts=[ht("last one out.")])
+    pages([("PF", cat(1, COLLAR)), ("ZPF", cat(2, HOOD)), ("PB", cat(3, ARA, ROME)), ("ZPB", cat(4, FLEECE))], None, "f5", 1) +
+    [img(fin_path("PF", "PB", "f5", "N° V"), 4)], texts=[ht("last one out.")])
 S["F6_no-flash"] = dict(seed=9306, segments=[hook("F6_flash")] +
-    pages([("KF", cat(1, IX)), ("KB", cat(2, ARA, ROME))], None, "f6", 2) +
+    pages([("ZPF", cat(1, "HIS / HERS")), ("ZPB", cat(2, ARA, ROME))], None, "f6", 2) +
     [img(fin_path("PF", "PB", "f6", "N° III"), 4)], texts=[ht("no flash photography.")])
 
 for k, v in S.items():
