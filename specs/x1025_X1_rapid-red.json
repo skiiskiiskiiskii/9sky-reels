@@ -1,0 +1,72 @@
+{
+ "seed": 9601,
+ "track": "mrpopular",
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/outputs/hooks-gen/X1_sharp.mp4",
+   "start": 0,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.0,
+   "flip": false,
+   "crop_x": 0.5,
+   "grade": {
+    "c": 1.0,
+    "s": 1.0,
+    "b": 0.0
+   },
+   "until": "drop"
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/x10.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/x11.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/x12.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/x13.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/x1c.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "THE COLLAR",
+   "from": 0,
+   "to": 1.2121212121212122,
+   "y": 0.5,
+   "size": 104,
+   "scrim": 0.45,
+   "font": "cg-600"
+  },
+  {
+   "text": "THE COLLAR\nSAYS IT ALL.",
+   "from": 1.2121212121212122,
+   "to": "drop",
+   "y": 0.5,
+   "size": 104,
+   "scrim": 0.45,
+   "font": "cg-600"
+  }
+ ]
+}

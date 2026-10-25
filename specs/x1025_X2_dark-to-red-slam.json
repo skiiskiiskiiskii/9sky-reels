@@ -1,0 +1,72 @@
+{
+ "seed": 9602,
+ "track": "mrpopular",
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/outputs/hooks-gen/X2_sharp.mp4",
+   "start": 0,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.0,
+   "flip": false,
+   "crop_x": 0.5,
+   "grade": {
+    "c": 1.0,
+    "s": 1.0,
+    "b": 0.0
+   },
+   "until": "drop"
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/x20.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/x21.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/x22.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/x23.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/x2c.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "NOT LOUD.",
+   "from": 0,
+   "to": 2.25,
+   "y": 0.5,
+   "size": 104,
+   "scrim": 0.45,
+   "font": "cg-600"
+  },
+  {
+   "text": "JUST RED.",
+   "from": 2.25,
+   "to": "drop",
+   "y": 0.5,
+   "size": 104,
+   "scrim": 0.45,
+   "font": "cg-600"
+  }
+ ]
+}
