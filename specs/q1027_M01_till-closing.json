@@ -1,0 +1,82 @@
+{
+ "seed": 10105,
+ "segments": [
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/art-met/9sky_art_m1_01.jpg",
+   "fit": "cover",
+   "dur": 1.0433333333333332
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/art-met/9sky_art_m1_07.jpg",
+   "fit": "cover",
+   "dur": 1.0433333333333332
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/art-met/9sky_art_m1_03.jpg",
+   "fit": "cover",
+   "until": "drop"
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/art-met/9sky_art_m1_02.jpg",
+   "fit": "cover",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/art-met/9sky_art_m1_08.jpg",
+   "fit": "cover",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/art-met/9sky_art_m1_04.jpg",
+   "fit": "cover",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/art-met/9sky_art_m1_06.jpg",
+   "fit": "cover",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/art-met/9sky_art_m1_05.jpg",
+   "fit": "cover",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/art-met/9sky_art_m1_09.jpg",
+   "fit": "cover",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/m010.jpg",
+   "fit": "full",
+   "beats": 3
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/m01c.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "for the ones who stay\nin museums till closing.",
+   "from": 0,
+   "to": "b:12",
+   "y": 0.6,
+   "size": 96,
+   "scrim": 0.5,
+   "font": "cg-italic"
+  }
+ ]
+}

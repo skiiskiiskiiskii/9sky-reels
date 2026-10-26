@@ -191,13 +191,19 @@ def _header(c, no, year="MMXXVI"):
     return c
 
 
-def _footer(c, title, sub, y=1548):
+def _footer(c, title, sub, y=1548, kicker=None):
     c = hairline(c, y)
     d = ImageDraw.Draw(c)
-    if title:
-        d.text((W / 2, y + 107), title, font=CG("300-italic", 92), fill=INK, anchor="ms")
+    k = 0
+    if kicker:                                    # small inscription in caps above the title (e.g. EX MUSEO)
+        tracked(d, (W / 2, y + 72), kicker, CG("500-normal", 34), INK, track=0.42, anchor="m")
+        k = 62
+    if title and title.isupper():                 # a name in caps (EX MUSEO) is set like an inscription
+        tracked(d, (W / 2, y + 105 + k), title, CG("400-normal", 80), INK, track=0.24, anchor="m")
+    elif title:
+        d.text((W / 2, y + 107 + k), title, font=CG("300-italic", 92), fill=INK, anchor="ms")
     if sub:
-        sy = y + 187 if title else y + 80          # no title: the grey catalogue line sits under the rule
+        sy = (y + 187 + k) if title else y + 80   # no title: the grey catalogue line sits under the rule
         tracked(d, (W / 2, sy), sub, CG("500-normal", 26), (200, 194, 184), track=0.22, anchor="m")
     return c
 
@@ -346,8 +352,10 @@ def index(mockups, out, no, title, sub, bg=None):
     return out
 
 
-def stacked(front, back, out, no, title, sub, bg=None, footer_y=1580):
+def stacked(front, back, out, no, title, sub, bg=None, footer_y=1580, kicker=None):
     """Pair fronts on top (white overlapping black), pair backs below - big and centred."""
+    if kicker:
+        footer_y -= 50                            # make room for the extra line
     c = _frame(no, bg=bg)
     top, bottom, gap = 290, footer_y - 70, 40
     row_h = (bottom - top - gap) // 2
@@ -356,6 +364,6 @@ def stacked(front, back, out, no, title, sub, bg=None, footer_y=1580):
         cy = top + row_h // 2 + i * (row_h + gap)
         _paste(c, g, ((W - g.width) // 2, cy - g.height // 2))
     c = _header(c, no)
-    c = _footer(c, title, sub, y=footer_y)
+    c = _footer(c, title, sub, y=footer_y, kicker=kicker)
     c.save(out, quality=96)
     return out

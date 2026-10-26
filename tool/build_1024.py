@@ -17,7 +17,7 @@ A = "/mnt/user-data/uploads/9sky-reels/aesthetics/"
 L = "/mnt/user-data/outputs/hooks-locations/"
 O = "/mnt/user-data/outputs/stills-1024/"
 os.makedirs(O, exist_ok=True)
-COLL, FL = "museum collection", "FIRST LOOK"
+COLL, FL = "EX MUSEO", "FIRST LOOK"   # collection name since 2026-10-26 (was "museum collection")
 VEIL = dark_bg(A + "statues_dark/9skyaes_statues_dark_28.jpg", "statue", 0.30)
 BACK = dark_bg(A + "statues_dark/9skyaes_statues_dark_13.jpg", "statue", 0.30)
 DROP = 3.13
@@ -49,8 +49,11 @@ def pages(items, bg, tag, beats):
     return [img(page(P[k], O + f"{tag}{i}.jpg", "N° " + nums[i], "", line, bg=bg), beats) for i, (k, line) in enumerate(items)]
 
 
+KICKER = None   # set to "EX MUSEO" by batches from 2026-10-27 on
+
+
 def fin_path(front, back, tag, no, bg=None):
-    return stacked(P[front], P[back], O + f"{tag}c.jpg", no, COLL, FL, bg=bg)
+    return stacked(P[front], P[back], O + f"{tag}c.jpg", no, COLL, FL, bg=bg, kicker=KICKER)
 
 
 def rush(shots, step):

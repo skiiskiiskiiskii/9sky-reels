@@ -1,0 +1,82 @@
+{
+ "seed": 10106,
+ "segments": [
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/art-met/9sky_art_m2_07.jpg",
+   "fit": "cover",
+   "dur": 1.0433333333333332
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/art-met/9sky_art_m2_01.jpg",
+   "fit": "cover",
+   "dur": 1.0433333333333332
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/art-met/9sky_art_m2_03.jpg",
+   "fit": "cover",
+   "until": "drop"
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/art-met/9sky_art_m2_02.jpg",
+   "fit": "cover",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/art-met/9sky_art_m2_08.jpg",
+   "fit": "cover",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/art-met/9sky_art_m2_04.jpg",
+   "fit": "cover",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/art-met/9sky_art_m2_06.jpg",
+   "fit": "cover",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/art-met/9sky_art_m2_09.jpg",
+   "fit": "cover",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/art-met/9sky_art_m2_05.jpg",
+   "fit": "cover",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/m020.jpg",
+   "fit": "full",
+   "beats": 3
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/m02c.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "art history major\nstarter pack.",
+   "from": 0,
+   "to": "b:12",
+   "y": 0.6,
+   "size": 96,
+   "scrim": 0.5,
+   "font": "cg-italic"
+  }
+ ]
+}
