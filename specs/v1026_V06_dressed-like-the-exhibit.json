@@ -1,10 +1,10 @@
 {
- "seed": 9955,
+ "seed": 9965,
  "segments": [
   {
    "type": "clip",
-   "src": "/mnt/user-data/uploads/hooks ids/snaptik_7629052842933849364_hd.mp4",
-   "start": 3.8,
+   "src": "/mnt/user-data/outputs/hooks-locations/37_marble-relief.mp4",
+   "start": 0.2,
    "align_red": false,
    "speed": 1.0,
    "zoom": 1.0,
@@ -19,32 +19,32 @@
   },
   {
    "type": "image",
-   "src": "/mnt/user-data/outputs/stills-1024/v60.jpg",
+   "src": "/mnt/user-data/outputs/stills-1024/v060.jpg",
    "fit": "full",
    "beats": 2
   },
   {
    "type": "image",
-   "src": "/mnt/user-data/outputs/stills-1024/v61.jpg",
+   "src": "/mnt/user-data/outputs/stills-1024/v061.jpg",
    "fit": "full",
    "beats": 2
   },
   {
    "type": "image",
-   "src": "/mnt/user-data/outputs/stills-1024/v6c.jpg",
+   "src": "/mnt/user-data/outputs/stills-1024/v06c.jpg",
    "fit": "full",
    "beats": 4
   }
  ],
  "texts": [
   {
-   "text": "dressed like the exhibit",
+   "text": "dressed like\nthe exhibit.",
    "from": 0,
    "to": "drop",
-   "y": 0.5,
-   "size": 50,
-   "scrim": 0.25,
-   "font": "inter"
+   "y": 0.58,
+   "size": 96,
+   "scrim": 0.5,
+   "font": "cg-italic"
   }
  ]
 }

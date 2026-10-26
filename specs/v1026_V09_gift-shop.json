@@ -1,10 +1,10 @@
 {
- "seed": 9954,
+ "seed": 9968,
  "segments": [
   {
    "type": "clip",
-   "src": "/mnt/user-data/uploads/hooks ids/snaptik_7629052842933849364_hd.mp4",
-   "start": 3.8,
+   "src": "/mnt/user-data/outputs/hooks-locations/23_temple-clouds.mp4",
+   "start": 0.2,
    "align_red": false,
    "speed": 1.0,
    "zoom": 1.0,
@@ -19,32 +19,32 @@
   },
   {
    "type": "image",
-   "src": "/mnt/user-data/outputs/stills-1024/v50.jpg",
+   "src": "/mnt/user-data/outputs/stills-1024/v090.jpg",
    "fit": "full",
    "beats": 2
   },
   {
    "type": "image",
-   "src": "/mnt/user-data/outputs/stills-1024/v51.jpg",
+   "src": "/mnt/user-data/outputs/stills-1024/v091.jpg",
    "fit": "full",
    "beats": 2
   },
   {
    "type": "image",
-   "src": "/mnt/user-data/outputs/stills-1024/v5c.jpg",
+   "src": "/mnt/user-data/outputs/stills-1024/v09c.jpg",
    "fit": "full",
    "beats": 4
   }
  ],
  "texts": [
   {
-   "text": "what to wear to the museum",
+   "text": "the gift shop\nshould sell this.",
    "from": 0,
    "to": "drop",
-   "y": 0.5,
-   "size": 50,
-   "scrim": 0.25,
-   "font": "inter"
+   "y": 0.62,
+   "size": 96,
+   "scrim": 0.5,
+   "font": "cg-italic"
   }
  ]
 }
