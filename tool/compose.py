@@ -58,7 +58,8 @@ FONTS = {"noto": FONT,
          "cg-italic": os.path.join(HERE, "fonts", "cormorant-garamond-latin-400-italic.woff"),
          "cg-light-italic": os.path.join(HERE, "fonts", "cormorant-garamond-latin-300-italic.woff"),
          "cg-600": os.path.join(HERE, "fonts", "cormorant-garamond-latin-600-normal.woff"),
-         "cg-500": os.path.join(HERE, "fonts", "cormorant-garamond-latin-500-normal.woff")}
+         "cg-500": os.path.join(HERE, "fonts", "cormorant-garamond-latin-500-normal.woff"),
+         "inter": os.path.join(HERE, "fonts", "Inter-Regular.otf")}
 _FONT_PATH = [FONT]
 
 

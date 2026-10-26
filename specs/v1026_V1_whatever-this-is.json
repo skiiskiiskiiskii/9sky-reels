@@ -1,0 +1,50 @@
+{
+ "seed": 9950,
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/hooks ids/snaptik_7629052842933849364_hd.mp4",
+   "start": 3.8,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.0,
+   "flip": false,
+   "crop_x": 0.5,
+   "grade": {
+    "c": 1.04,
+    "s": 1.0,
+    "b": -0.03
+   },
+   "until": "drop"
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/v10.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/v11.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/v1c.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "i love this vibe whatever this is",
+   "from": 0,
+   "to": "drop",
+   "y": 0.5,
+   "size": 50,
+   "scrim": 0.25,
+   "font": "inter"
+  }
+ ]
+}
