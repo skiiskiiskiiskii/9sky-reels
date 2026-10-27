@@ -1,0 +1,50 @@
+{
+ "seed": 10600,
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/hooks ids/snaptik_7382217770819177761_hd.mp4",
+   "start": 5.4,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.0,
+   "flip": true,
+   "crop_x": 0.5,
+   "grade": {
+    "c": 1.04,
+    "s": 1.0,
+    "b": -0.03
+   },
+   "until": "drop"
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/k010.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/k011.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/k01c.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "the second look\nis the point.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.56,
+   "size": 96,
+   "scrim": 0.5,
+   "font": "cg-italic"
+  }
+ ]
+}
