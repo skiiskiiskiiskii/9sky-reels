@@ -1,0 +1,51 @@
+{
+ "seed": 10903,
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/AQOOuClIReBlbPWtQ_QL_GR2fPVzcJdDzJfHDD5IyR9mL3ozw0_AeGk5fnLGo_54RTXH8bunoFBKqm (1).mp4",
+   "until": "drop",
+   "align_red": false,
+   "speed": 0.95,
+   "zoom": 1.035,
+   "crop_x": 0.5,
+   "flip": true,
+   "lead": 0.6,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   },
+   "start": 3.5
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/w040.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/w041.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/w04c.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "not loud.\njust red.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.4,
+   "size": 96,
+   "scrim": 0.5,
+   "font": "cg-italic"
+  }
+ ]
+}
