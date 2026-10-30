@@ -1,0 +1,56 @@
+{
+ "seed": 11005,
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/Attractive couple...#louboutin #christianlouboutin #louboutinworld #louboutinshoes #shoes #luxur.mp4",
+   "until": "drop",
+   "align_red": true,
+   "speed": 0.9,
+   "zoom": 1.035,
+   "crop_x": 0.62,
+   "flip": false,
+   "lead": 0.4,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   }
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/o060.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/o061.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/o062.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/o06c.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "black or white?",
+   "from": 0,
+   "to": "drop",
+   "y": 0.4,
+   "size": 96,
+   "scrim": 0.5,
+   "font": "cg-italic"
+  }
+ ]
+}
