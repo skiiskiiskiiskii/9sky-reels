@@ -1,0 +1,57 @@
+{
+ "seed": 15006,
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/Downloads/\u0438\u0441\u0445\u043e\u0434\u043d\u0438\u043a\u0438/_\u0440\u0430\u0437\u0431\u043e\u0440/hooks_src/s1_0.mp4",
+   "start": 0.3,
+   "until": "drop",
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.0,
+   "crop_x": 0.5,
+   "crop_y": 0.5,
+   "flip": false,
+   "grade": {
+    "c": 1.03,
+    "s": 0.95,
+    "b": -0.01
+   }
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/s070.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/s071.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/s072.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/s07c.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "dress code:\nblack, with red.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.62,
+   "size": 96,
+   "scrim": 0.4,
+   "font": "cg-italic"
+  }
+ ]
+}

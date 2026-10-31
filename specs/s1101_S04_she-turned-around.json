@@ -1,0 +1,51 @@
+{
+ "seed": 15003,
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/Downloads/\u0438\u0441\u0445\u043e\u0434\u043d\u0438\u043a\u0438/_\u0440\u0430\u0437\u0431\u043e\u0440/hooks_src/s21_0.mp4",
+   "start": 0.0,
+   "until": "drop",
+   "align_red": false,
+   "speed": 0.75,
+   "zoom": 1.0,
+   "crop_x": 0.5,
+   "crop_y": 0.5,
+   "flip": false,
+   "grade": {
+    "c": 1.03,
+    "s": 0.95,
+    "b": -0.01
+   }
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/s040.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/s041.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/s04c.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "she turned around\nfor the collar.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.78,
+   "size": 96,
+   "scrim": 0.4,
+   "font": "cg-italic"
+  }
+ ]
+}
