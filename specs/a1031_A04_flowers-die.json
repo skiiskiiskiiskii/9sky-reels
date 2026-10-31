@@ -1,0 +1,57 @@
+{
+ "seed": 14003,
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/flowers hooks/g1.mp4",
+   "start": 0.0,
+   "until": "drop",
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.0,
+   "crop_x": 0.5,
+   "flip": true,
+   "grade": {}
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/a040.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/a041.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/a04c.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "flowers die.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.77,
+   "x": 0.5,
+   "size": 96,
+   "scrim": 0.4,
+   "font": "cg-italic"
+  },
+  {
+   "text": "the collar stays.",
+   "from": 1.5,
+   "to": "drop",
+   "y": 0.8250000000000001,
+   "x": 0.5,
+   "size": 96,
+   "scrim": 0,
+   "font": "cg-italic"
+  }
+ ]
+}

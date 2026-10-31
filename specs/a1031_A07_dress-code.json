@@ -1,0 +1,57 @@
+{
+ "seed": 14006,
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/flowers hooks/g2.mp4",
+   "start": 0.0,
+   "until": "drop",
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.0,
+   "crop_x": 0.5,
+   "flip": false,
+   "grade": {}
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/a070.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/a071.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/a07c.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "date night dress code:",
+   "from": 0,
+   "to": "drop",
+   "y": 0.75,
+   "x": 0.5,
+   "size": 96,
+   "scrim": 0.4,
+   "font": "cg-italic"
+  },
+  {
+   "text": "black, one red detail.",
+   "from": 1.5,
+   "to": "drop",
+   "y": 0.805,
+   "x": 0.5,
+   "size": 96,
+   "scrim": 0,
+   "font": "cg-italic"
+  }
+ ]
+}

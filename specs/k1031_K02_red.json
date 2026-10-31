@@ -1,0 +1,47 @@
+{
+ "seed": 14101,
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/flowers hooks/g2.mp4",
+   "start": 0.0,
+   "until": "drop",
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.0,
+   "crop_x": 0.5,
+   "flip": false,
+   "grade": {}
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/k020.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/k021.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/k02c.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "red",
+   "from": 0,
+   "to": "drop",
+   "y": 0.235,
+   "x": 0.585,
+   "size": 60,
+   "scrim": 0,
+   "font": "cg-italic"
+  }
+ ]
+}

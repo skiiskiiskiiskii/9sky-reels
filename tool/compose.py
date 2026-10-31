@@ -90,7 +90,7 @@ def wrap(d, text, size, max_w):
     return (best[1] if best else [text]), f
 
 
-def text_layer(text, y_center=0.45, size=86, max_w=980, scrim=0.0, face="noto"):
+def text_layer(text, y_center=0.45, size=86, max_w=980, scrim=0.0, face="noto", x_center=0.5):
     _FONT_PATH[0] = FONTS.get(face, FONT)
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
@@ -106,11 +106,11 @@ def text_layer(text, y_center=0.45, size=86, max_w=980, scrim=0.0, face="noto"):
     shadow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     sd = ImageDraw.Draw(shadow)
     for i, ln in enumerate(lines):
-        sd.text((W / 2, y0 + i * lh + lh / 2), ln, font=f, fill=(0, 0, 0, 160), anchor="mm")
+        sd.text((W * x_center, y0 + i * lh + lh / 2), ln, font=f, fill=(0, 0, 0, 160), anchor="mm")
     img = Image.alpha_composite(img, shadow.filter(ImageFilter.GaussianBlur(7)))
     d = ImageDraw.Draw(img)
     for i, ln in enumerate(lines):
-        d.text((W / 2, y0 + i * lh + lh / 2), ln, font=f, fill=(255, 255, 255, 245), anchor="mm")
+        d.text((W * x_center, y0 + i * lh + lh / 2), ln, font=f, fill=(255, 255, 255, 245), anchor="mm")
     a = np.asarray(img).astype(np.float32)
     return a[..., :3], a[..., 3:4] / 255.0
 
@@ -271,7 +271,7 @@ def compose(spec, out, preview_audio=None):
     texts = []
     for tx in spec.get("texts", []):
         rgb, a = text_layer(tx["text"], tx.get("y", 0.45), tx.get("size", 86), scrim=tx.get("scrim", 0.0),
-                            face=tx.get("font", "noto"))
+                            face=tx.get("font", "noto"), x_center=tx.get("x", 0.5))
         f0 = round(resolve_time(tx.get("from", 0), drop, beat, end_t) * FPS)
         f1 = round(resolve_time(tx.get("to", "end"), drop, beat, end_t) * FPS)
         texts.append((f0, f1, rgb, a, tx.get("fade", 4)))
