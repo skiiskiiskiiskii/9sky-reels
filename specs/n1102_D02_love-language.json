@@ -1,0 +1,77 @@
+{
+ "seed": 16001,
+ "track": "mrpopular",
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/flowers hooks/g3.mp4",
+   "start": 0.0,
+   "align_red": false,
+   "speed": 1.25,
+   "zoom": 1.0,
+   "crop_x": 0.5,
+   "flip": false,
+   "grade": {},
+   "dur": 0.7057575757575756
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/flowers hooks/g1.mp4",
+   "start": 0.5,
+   "align_red": false,
+   "speed": 1.25,
+   "zoom": 1.0,
+   "crop_x": 0.5,
+   "flip": true,
+   "grade": {},
+   "dur": 1.2121212121212122
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/flowers hooks/g2.mp4",
+   "start": 0.3,
+   "until": "drop",
+   "align_red": false,
+   "speed": 1.25,
+   "zoom": 1.0,
+   "crop_x": 0.5,
+   "flip": false,
+   "grade": {}
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/n020.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/n021.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/n022.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/n02c.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "love language: red.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.79,
+   "size": 96,
+   "scrim": 0.4,
+   "font": "cg-italic"
+  }
+ ]
+}
