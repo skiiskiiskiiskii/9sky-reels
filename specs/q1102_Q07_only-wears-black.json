@@ -1,0 +1,52 @@
+{
+ "seed": 17006,
+ "track": "aura",
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/IMG_54607 (1).mp4",
+   "until": "drop",
+   "align_red": false,
+   "speed": 0.95,
+   "zoom": 1.035,
+   "crop_x": 0.5,
+   "flip": false,
+   "lead": 0.4,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   },
+   "start": 1.7
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/q070.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/q071.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/q07c.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "for the one who\nonly wears black.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.4,
+   "size": 96,
+   "scrim": 0.5,
+   "font": "cg-italic"
+  }
+ ]
+}
