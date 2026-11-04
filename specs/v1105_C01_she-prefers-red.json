@@ -1,0 +1,64 @@
+{
+ "seed": 19010,
+ "track": "mrpopular",
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/flowers hooks/g3.mp4",
+   "start": 0.0,
+   "dur": 1.3118181818181816,
+   "align_red": false,
+   "speed": 1.1,
+   "zoom": 1.0,
+   "crop_x": 0.5,
+   "flip": false,
+   "grade": {}
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/AQOOuClIReBlbPWtQ_QL_GR2fPVzcJdDzJfHDD5IyR9mL3ozw0_AeGk5fnLGo_54RTXH8bunoFBKqm (1).mp4",
+   "until": "drop",
+   "align_red": false,
+   "speed": 1.15,
+   "zoom": 1.035,
+   "crop_x": 0.5,
+   "flip": false,
+   "lead": 0.42,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   },
+   "start": 3.8890909090909096
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/v110.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/v111.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/v11c.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "she prefers red.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.56,
+   "size": 96,
+   "scrim": 0.45,
+   "font": "cg-italic"
+  }
+ ]
+}

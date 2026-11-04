@@ -1,0 +1,69 @@
+{
+ "seed": 19012,
+ "track": "mrpopular",
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/flowers hooks/g2.mp4",
+   "start": 0.2,
+   "dur": 1.9178787878787877,
+   "align_red": false,
+   "speed": 1.1,
+   "zoom": 1.0,
+   "crop_x": 0.5,
+   "flip": false,
+   "grade": {}
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/Attractive couple...#louboutin #christianlouboutin #louboutinworld #louboutinshoes #shoes #luxur.mp4",
+   "until": "drop",
+   "align_red": true,
+   "speed": 1.05,
+   "zoom": 1.035,
+   "crop_x": 0.5,
+   "flip": false,
+   "lead": 0.42,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   }
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/v130.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/v131.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/v132.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/v13c.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "pov: your color is red.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.56,
+   "size": 96,
+   "scrim": 0.45,
+   "font": "cg-italic"
+  }
+ ]
+}

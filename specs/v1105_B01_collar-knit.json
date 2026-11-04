@@ -1,0 +1,57 @@
+{
+ "seed": 19007,
+ "track": "mrpopular",
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/Attractive couple...#louboutin #christianlouboutin #louboutinworld #louboutinshoes #shoes #luxur.mp4",
+   "until": "drop",
+   "align_red": true,
+   "speed": 1.15,
+   "zoom": 1.035,
+   "crop_x": 0.55,
+   "flip": true,
+   "lead": 0.42,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   }
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/v080.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/v081.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/v082.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/v08c.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "the collar says it all.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.4,
+   "size": 96,
+   "scrim": 0.5,
+   "font": "cg-italic"
+  }
+ ]
+}
