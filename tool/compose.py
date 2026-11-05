@@ -151,8 +151,21 @@ def clip_frames(seg, n, rnd, drop):
             yield last
             continue
         last = np.frombuffer(buf, np.uint8).reshape(H, W, 3)
+        if seg.get("keep_red"):                      # grey world, only the red keeps its colour
+            last = keep_red(last)
         yield last
     p.stdout.close(); p.wait()
+
+
+def keep_red(frame):
+    f = frame.astype(np.float32)
+    r, g, b = f[..., 0], f[..., 1], f[..., 2]
+    gray = 0.299 * r + 0.587 * g + 0.114 * b
+    red = (r - np.maximum(g, b)) / np.maximum(r, 1.0)            # 0 for greys/skin, ~0.6-0.9 for the rose/sole
+    m = (np.clip((red - 0.38) / 0.22, 0, 1) * np.clip((r - 22) / 25.0, 0, 1))[..., None]
+    rich = gray[..., None] + (f - gray[..., None]) * 1.15            # kept red slightly richer
+    out = gray[..., None] * (1 - m) + rich * m
+    return np.clip(out, 0, 255).astype(np.uint8)
 
 
 def image_canvas(seg):
