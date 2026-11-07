@@ -1,0 +1,76 @@
+{
+ "seed": 22000,
+ "track": "aura",
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/Attractive couple...#louboutin #christianlouboutin #louboutinworld #louboutinshoes #shoes #luxur.mp4",
+   "speed": 1.0,
+   "zoom": 1.035,
+   "crop_x": 0.55,
+   "crop_y": 0.5,
+   "flip": false,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   },
+   "start": 1.9749999999999996,
+   "align_red": false,
+   "dur": 2.58
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/Attractive couple...#louboutin #christianlouboutin #louboutinworld #louboutinshoes #shoes #luxur.mp4",
+   "speed": 0.5,
+   "zoom": 1.035,
+   "crop_x": 0.55,
+   "crop_y": 0.5,
+   "flip": false,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   },
+   "start": 4.555,
+   "align_red": false,
+   "until": "drop",
+   "smooth": true
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/e010.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/e011.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/e012.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/e01c.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "they look at the shoes first.\nthen up.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.4,
+   "size": 96,
+   "scrim": 0.5,
+   "font": "cg-italic"
+  }
+ ]
+}

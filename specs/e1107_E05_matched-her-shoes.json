@@ -1,0 +1,70 @@
+{
+ "seed": 22004,
+ "track": "aura",
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/flowers hooks/g1.mp4",
+   "start": 0.3,
+   "dur": 1.6671800081267776,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.0,
+   "crop_x": 0.5,
+   "flip": false,
+   "grade": {}
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/IMG_54607 (1).mp4",
+   "speed": 0.9,
+   "zoom": 1.035,
+   "crop_x": 0.5,
+   "crop_y": 0.5,
+   "flip": false,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   },
+   "start": 3.3614620073140995,
+   "align_red": false,
+   "until": "drop"
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/e050.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/e051.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/e052.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/e05c.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "she matched her shoes\nto his collar.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.56,
+   "size": 96,
+   "scrim": 0.45,
+   "font": "cg-italic"
+  }
+ ]
+}

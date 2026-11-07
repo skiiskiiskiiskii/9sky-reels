@@ -139,7 +139,8 @@ def clip_frames(seg, n, rnd, drop):
     eq = (f"eq=brightness={g.get('b', 0):.3f}:contrast={g.get('c', 1):.3f}:"
           f"saturation={g.get('s', 1):.3f}:gamma={g.get('g', 1):.3f}")
     zw, zh = int(W * zoom) // 2 * 2, int(H * zoom) // 2 * 2
-    vf = (f"setpts=PTS/{speed:.4f},fps={FPS},scale={zw}:{zh}:force_original_aspect_ratio=increase,"
+    smooth = "minterpolate=fps=120:mi_mode=mci:mc_mode=aobmc:me_mode=bidir," if seg.get("smooth") else ""
+    vf = (f"{smooth}setpts=PTS/{speed:.4f},fps={FPS},scale={zw}:{zh}:force_original_aspect_ratio=increase,"
           f"crop={W}:{H}:(iw-{W})*{cx:.3f}:(ih-{H})*{cy:.3f}{',hflip' if flip else ''},{eq},setsar=1")
     p = subprocess.Popen(["ffmpeg", "-v", "error", "-ss", f"{start:.3f}", "-i", src, "-vf", vf,
                           "-frames:v", str(n), "-f", "rawvideo", "-pix_fmt", "rgb24", "-"],
