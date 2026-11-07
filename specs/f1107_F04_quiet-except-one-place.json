@@ -1,0 +1,105 @@
+{
+ "seed": 23003,
+ "track": "aura",
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/flowers hooks/g1.mp4",
+   "start": 0.3,
+   "dur": 1.1795733441690368,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.0,
+   "crop_x": 0.5,
+   "flip": false,
+   "grade": {}
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/AQOOuClIReBlbPWtQ_QL_GR2fPVzcJdDzJfHDD5IyR9mL3ozw0_AeGk5fnLGo_54RTXH8bunoFBKqm (1).mp4",
+   "speed": 1.1,
+   "zoom": 1.035,
+   "crop_x": 0.5,
+   "crop_y": 0.5,
+   "flip": false,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   },
+   "start": 2.0,
+   "align_red": false,
+   "dur": 0.9752133279154815
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/Attractive couple...#louboutin #christianlouboutin #louboutinworld #louboutinshoes #shoes #luxur.mp4",
+   "speed": 1.0,
+   "zoom": 1.035,
+   "crop_x": 0.5,
+   "crop_y": 0.5,
+   "flip": false,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   },
+   "start": 4.129786672084518,
+   "align_red": false,
+   "dur": 0.4252133279154815
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/Attractive couple...#louboutin #christianlouboutin #louboutinworld #louboutinshoes #shoes #luxur.mp4",
+   "speed": 0.5,
+   "zoom": 1.035,
+   "crop_x": 0.5,
+   "crop_y": 0.5,
+   "flip": false,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   },
+   "start": 4.555,
+   "align_red": false,
+   "until": "drop",
+   "smooth": true
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/f040.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/f041.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/f042.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/f04c.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "quiet everywhere\nexcept one place.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.56,
+   "size": 96,
+   "scrim": 0.45,
+   "font": "cg-italic"
+  }
+ ]
+}

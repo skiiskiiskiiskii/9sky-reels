@@ -1,0 +1,58 @@
+{
+ "seed": 23001,
+ "track": "mrpopular",
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/IMG_54607 (1).mp4",
+   "speed": 1.12,
+   "zoom": 1.12,
+   "crop_x": 0.5,
+   "crop_y": 0.6,
+   "flip": true,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   },
+   "start": 1.1415999999999995,
+   "align_red": false,
+   "until": "drop"
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/f020.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/f021.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/f022.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/f02c.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "rule IX:\none red detail per outfit.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.22,
+   "size": 96,
+   "scrim": 0.5,
+   "font": "cg-italic"
+  }
+ ]
+}
