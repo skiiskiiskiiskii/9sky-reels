@@ -1,0 +1,66 @@
+[
+ [
+  "1109b",
+  "G01_look-down-first",
+  "mrpopular",
+  "vitrine",
+  "look down first.",
+  "F05 formula: new line"
+ ],
+ [
+  "1109b",
+  "G02_always-the-shoes",
+  "mrpopular",
+  "vitrine",
+  "it's always the shoes.",
+  "F05 formula: SOLES hook"
+ ],
+ [
+  "1109b",
+  "G03_follow-the-shoes",
+  "mrpopular",
+  "vitrine",
+  "follow the shoes.",
+  "F05 formula: white quarter zip"
+ ],
+ [
+  "1109b",
+  "G04_behind-the-curtain",
+  "mrpopular",
+  "oxblood",
+  "what's behind the red curtain?",
+  "own shoot: red booth"
+ ],
+ [
+  "1109b",
+  "H05_starts-with-a-rose",
+  "mrpopular",
+  "vitrine",
+  "it starts with a rose.",
+  "F05 sibling: rose -> red sole"
+ ],
+ [
+  "1109b",
+  "H06_museum-to-street",
+  "mrpopular",
+  "oxblood",
+  "from the museum to the street.",
+  "red statue -> red sole"
+ ],
+ [
+  "1109b",
+  "H07_reds-in-a-museum",
+  "aura",
+  "oxblood",
+  "some reds belong in a museum.",
+  "rose -> red statue, zip hoodie"
+ ],
+ [
+  "1109b",
+  "H08_red-goes-underneath",
+  "mrpopular",
+  "slate",
+  "red goes underneath.",
+  "nails -> sole slow-down, knit"
+ ]
+]

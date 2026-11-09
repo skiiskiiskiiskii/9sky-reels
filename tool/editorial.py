@@ -128,12 +128,22 @@ def _cut(mockup):
     a = np.asarray(im).astype(np.float32)
     mx = a.max(2)
     m = ndimage.binary_closing(mx > 4, iterations=2)
+    # deep fabric shadows (hood/collar seams, deep embossing) can be pure black like the background:
+    # close narrow inlets (< ~30 px wide) so they stay part of the garment instead of turning transparent
+    r = 15
+    yy, xx = np.mgrid[-r:r + 1, -r:r + 1]
+    disk = (xx * xx + yy * yy) <= r * r
+    pad = r + 2
+    mp = np.pad(m, pad)
+    m = ndimage.binary_closing(mp, structure=disk)[pad:-pad, pad:-pad] | m
     holes = ndimage.binary_fill_holes(m) & ~m
     lab, n = ndimage.label(holes)
     zero = (mx == 0)
+    sizes = ndimage.sum(holes, lab, range(1, n + 1))
     for i in range(1, n + 1):
         comp = lab == i
-        if zero[comp].mean() < 0.6:          # fabric shadow (e.g. inside the hood) -> keep opaque
+        # small enclosed holes are always fabric; large ones are fabric unless they are pure background
+        if sizes[i - 1] < 6000 or zero[comp].mean() < 0.6:
             m |= comp
     core = ndimage.binary_erosion(m, iterations=2)
     lum = mx
