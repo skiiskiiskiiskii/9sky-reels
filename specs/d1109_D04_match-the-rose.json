@@ -1,0 +1,82 @@
+{
+ "seed": 27003,
+ "track": "aura",
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/flowers hooks/g1.mp4",
+   "start": 0.3,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.3,
+   "crop_x": 0.5,
+   "crop_y": 0.12,
+   "flip": false,
+   "grade": {},
+   "dur": 1.6671800081267776
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/Attractive couple...#louboutin #christianlouboutin #louboutinworld #louboutinshoes #shoes #luxur.mp4",
+   "speed": 1.0,
+   "zoom": 1.2,
+   "crop_x": 0.5,
+   "crop_y": 0.74,
+   "flip": false,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   },
+   "start": 3.837180008126778,
+   "align_red": false,
+   "dur": 1.1128199918732222
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/Attractive couple...#louboutin #christianlouboutin #louboutinworld #louboutinshoes #shoes #luxur.mp4",
+   "speed": 0.03,
+   "zoom": 1.2,
+   "crop_x": 0.5,
+   "crop_y": 0.74,
+   "flip": false,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   },
+   "start": 4.95,
+   "align_red": false,
+   "until": "drop"
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/d04x0.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/d04x1.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/d04xc.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "dressed to match\nthe rose.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.62,
+   "size": 96,
+   "scrim": 0.45,
+   "font": "cg-italic"
+  }
+ ]
+}

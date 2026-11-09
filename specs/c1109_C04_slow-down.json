@@ -1,0 +1,53 @@
+{
+ "seed": 26003,
+ "track": "aura",
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/Attractive couple...#louboutin #christianlouboutin #louboutinworld #louboutinshoes #shoes #luxur.mp4",
+   "speed": 0.75,
+   "zoom": 1.2,
+   "crop_x": 0.5,
+   "crop_y": 0.72,
+   "flip": false,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   },
+   "start": 2.6900000000000004,
+   "align_red": false,
+   "until": "drop",
+   "smooth": true
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/c04x0.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/c04x1.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/c04xc.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "slow down.\nlook at the shoes.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.22,
+   "size": 96,
+   "scrim": 0.5,
+   "font": "cg-italic"
+  }
+ ]
+}
