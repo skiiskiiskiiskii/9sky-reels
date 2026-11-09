@@ -1,0 +1,52 @@
+{
+ "seed": 24001,
+ "track": "mrpopular",
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/IMG_54607 (1).mp4",
+   "until": "drop",
+   "speed": 1.12,
+   "zoom": 1.15,
+   "crop_x": 0.5,
+   "crop_y": 0.62,
+   "flip": false,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   },
+   "start": 1.1639999999999997,
+   "align_red": false
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/g020.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/g021.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/g02c.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "it's always\nthe shoes.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.22,
+   "size": 96,
+   "scrim": 0.5,
+   "font": "cg-italic"
+  }
+ ]
+}

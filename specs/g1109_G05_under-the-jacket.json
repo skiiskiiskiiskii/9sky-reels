@@ -1,0 +1,52 @@
+{
+ "seed": 24004,
+ "track": "mrpopular",
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/Downloads/\u0438\u0441\u0445\u043e\u0434\u043d\u0438\u043a\u0438/_\u0440\u0430\u0437\u0431\u043e\u0440/hooks_src/s22_0.mp4",
+   "start": 0.0,
+   "until": "drop",
+   "align_red": false,
+   "speed": 0.95,
+   "zoom": 1.0,
+   "crop_x": 0.5,
+   "crop_y": 0.5,
+   "flip": false,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   }
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/g050.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/g051.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/g05c.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "guess what's\nunder the jacket.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.8,
+   "size": 96,
+   "scrim": 0.5,
+   "font": "cg-italic"
+  }
+ ]
+}

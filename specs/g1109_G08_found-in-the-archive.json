@@ -1,0 +1,48 @@
+{
+ "seed": 24007,
+ "track": "mrpopular",
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/red-graphic/fragment_red.mp4",
+   "start": 0.0,
+   "until": "drop",
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.0,
+   "crop_x": 0.5,
+   "crop_y": 0.5,
+   "flip": false,
+   "grade": {}
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/g080.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/g081.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/g08c.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "found in the archive.\nN\u00b0 IX.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.74,
+   "size": 96,
+   "scrim": 0.0,
+   "font": "cg-italic"
+  }
+ ]
+}

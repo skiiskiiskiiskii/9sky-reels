@@ -1,0 +1,48 @@
+{
+ "seed": 24006,
+ "track": "aura",
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/red-graphic/statue_red.mp4",
+   "start": 0.0,
+   "until": "drop",
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.0,
+   "crop_x": 0.5,
+   "crop_y": 0.5,
+   "flip": false,
+   "grade": {}
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/g070.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/g071.jpg",
+   "fit": "full",
+   "beats": 2
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/g07c.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "the museum kept\nonly one color.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.8,
+   "size": 96,
+   "scrim": 0.0,
+   "font": "cg-italic"
+  }
+ ]
+}
