@@ -1,0 +1,70 @@
+{
+ "seed": 28000,
+ "track": "mist",
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/Attractive couple...#louboutin #christianlouboutin #louboutinworld #louboutinshoes #shoes #luxur.mp4",
+   "speed": 1.12,
+   "zoom": 1.2,
+   "crop_x": 0.45,
+   "crop_y": 0.74,
+   "flip": false,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   },
+   "start": 1.8923999999999999,
+   "align_red": false,
+   "dur": 2.73
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/Attractive couple...#louboutin #christianlouboutin #louboutinworld #louboutinshoes #shoes #luxur.mp4",
+   "speed": 0.03,
+   "zoom": 1.2,
+   "crop_x": 0.45,
+   "crop_y": 0.74,
+   "flip": false,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   },
+   "start": 4.95,
+   "align_red": false,
+   "until": "drop"
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/mist01x0.jpg",
+   "fit": "full",
+   "beats": 2.25
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/mist01x1.jpg",
+   "fit": "full",
+   "beats": 1.75
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/mist01xc.jpg",
+   "fit": "full",
+   "beats": 2.25
+  }
+ ],
+ "texts": [
+  {
+   "text": "wait for the red.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.22,
+   "size": 96,
+   "scrim": 0.5,
+   "font": "cg-italic"
+  }
+ ],
+ "audio_fade_out": 0.3
+}

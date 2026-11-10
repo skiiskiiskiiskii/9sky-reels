@@ -23,7 +23,12 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 FONT = os.path.join(HERE, "fonts", "noto-serif-display-latin-300-italic.woff")
 W, H, FPS = 1080, 1920, 30
 TRACKS = {"aura": {"drop": 3.13, "bpm": 123.05},
-          "mrpopular": {"drop": 3.13, "bpm": 99.0}}   # predayed - mr popular (sped up); drop aligned to 3.1 s in IG
+          "mrpopular": {"drop": 3.13, "bpm": 99.0},   # predayed - mr popular (sped up); drop aligned to 3.1 s in IG
+          # EsDeeKid - Mist (extended intro): baked into the reel. Drop (first 808 hit) at 29.595 s of the
+          # file -> lands on the 3.13 s cut. 97.5 BPM; in each bar the big hits are on 0 and 9/16
+          # (video 3.13, 4.515, 5.592, 6.976, 8.05), the hats on dotted eighths.
+          "mist": {"drop": 3.13, "bpm": 97.5, "audio": "../music/EsDeeKid - Mist (extended intro).mp3",
+                   "audio_drop": 29.595}}
 
 
 # ---------- helpers ----------
@@ -293,13 +298,19 @@ def compose(spec, out, preview_audio=None):
     _FONT_PATH[0] = FONT                          # split labels keep the default face
     enc = ["ffmpeg", "-y", "-v", "error", "-f", "rawvideo", "-pix_fmt", "rgb24",
            "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-"]
-    if preview_audio:
+    baked = tr.get("audio") and spec.get("bake_audio", True) and not preview_audio
+    if baked:                                     # the track itself, its drop on the cut, short fades at both ends
+        fo = float(spec.get("audio_fade_out", 0.3))
+        enc += ["-ss", f"{tr['audio_drop'] - drop:.3f}", "-i", os.path.join(HERE, tr["audio"]),
+                "-map", "0:v", "-map", "1:a",
+                "-af", f"afade=t=in:d=0.06,afade=t=out:st={end_t - fo:.3f}:d={fo:.3f},apad", "-t", f"{end_t:.3f}"]
+    elif preview_audio:
         enc += ["-i", preview_audio, "-map", "0:v", "-map", "1:a", "-af", "apad", "-t", f"{end_t:.3f}"]
     else:
         enc += ["-f", "lavfi", "-t", f"{end_t:.3f}", "-i", "anullsrc=r=44100:cl=stereo",
                 "-map", "0:v", "-map", "1:a"]
     enc += ["-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p",
-            "-c:a", "aac", "-b:a", "128k", "-shortest", "-movflags", "+faststart", out]
+            "-c:a", "aac", "-b:a", "192k" if baked else "128k", "-shortest", "-movflags", "+faststart", out]
     p = subprocess.Popen(enc, stdin=subprocess.PIPE)
 
     loop_n = int(spec.get("loop_frames", 0))

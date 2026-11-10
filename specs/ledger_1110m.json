@@ -1,0 +1,34 @@
+[
+ [
+  "1110m",
+  "M01_wait-for-the-red",
+  "mist",
+  "vitrine",
+  "wait for the red.",
+  "C01 freeze hook, the drop hits on the frozen sole"
+ ],
+ [
+  "1110m",
+  "M02_count-the-reds",
+  "mist",
+  "vitrine",
+  "count the reds.",
+  "D05 nails -> sole"
+ ],
+ [
+  "1110m",
+  "M03_out-of-the-museum",
+  "mist",
+  "oxblood",
+  "ex museo - out of the museum.",
+  "D02 statue -> soles, explains the collection name"
+ ],
+ [
+  "1110m",
+  "M04_no-other-color",
+  "mist",
+  "slate",
+  "no other color tonight.",
+  "D01 rose -> nails -> sole, knit"
+ ]
+]
