@@ -1,19 +1,33 @@
-batch,reel,posted,views,likes,saves,shares,avg_watch_s,past_3s_pct,caption_first_line,trial_views_app_1108,trial_views_app_1109
-1106,L01_red-at-both-ends,2026-11-06 21:02,2341,39,11,7,5.13,64.5,red at both ends. sole and collar.,,
-1106,L02_collar-says-it-all,2026-11-06 21:02,4510,142,47,19,5.95,66.9,the collar says it all,,
-1106,L04_museum,2026-11-06 21:04,1828,44,9,2,5.33,67.7,what to wear to the museum - red soles optional red collar not.,,
-1106,L04_museum (2nd post),2026-11-06 21:01,1794,49,15,0,4.68,57.0,what to wear to the museum - red soles optional red collar not.,,
-1106,L05_date-heels,2026-11-06 21:06,2101,30,7,6,5.44,63.9,she wore red soles. he wore the collar.,,
-1106,L06_black-or-white,2026-11-06 21:06,1861,67,11,2,4.81,47.1,black or white? - white edition.,,
-1106,X01_red-in-the-right-places,2026-11-06 21:08,1582,44,9,5,5.94,45.2,red in the right places.,1581,
-1106,X02_black-and-red,2026-11-06 21:08,2691,95,21,2,5.9,42.1,black and red >>,2681,
-1106,X03_if-love-was-a-color,2026-11-06 21:10,1058,42,9,7,3.76,37.6,if love was a color it would be red. obviously.,1044,
-1106,X04_red-always-wins,2026-11-06 21:10,2003,58,9,1,4.92,43.5,red always wins.,2001,
-1107a,E01_shoes-first,2026-11-07 02:08,2100,59,18,5,5.15,63.6,they look at the shoes first. then up.,2099,
-1107a,E02_what-goes-with-red-soles,2026-11-07 02:12,1822,68,20,5,4.62,58.0,red soles need something to answer to.,1821,
-1107a,E03_second-most-famous-red,2026-11-07 02:13,4243,116,25,10,5.91,66.3,the first one is on the shoes.,4220,4794
-1107a,E04_in-that-order,2026-11-07 02:15,1629,42,2,2,4.96,37.3,rose for the date. soles for the walk. collar for the rest of the night.,1629,1635
-1107a,E05_matched-her-shoes,2026-11-07 02:16,1743,48,13,6,4.66,44.7,she matched her shoes to his collar. he didn't notice. everyone else did.,1738,1810
-1107b,F01_look-again,2026-11-07 08:11,2268,66,14,3,5.84,61.3,wait. look again - it's on the shoes and on the collar.,2246,2315
-1107b,F02_rule-ix,2026-11-07 08:14,2442,60,10,8,5.31,61.4,rule IX: one red detail per outfit. hers is on the shoes.,2385,2599
-1107b,F05_starts-with-the-shoes,2026-11-07 08:15,31042,880,304,133,6.3,68.7,it starts with the shoes. it ends with the collar.,26800,60650
+batch,reel,posted,views,likes,saves,shares,avg_watch_s,past_3s_pct,caption_first_line,trial_views_app_1108,trial_views_app_1109,metricool_views_1111
+1106,L01_red-at-both-ends,2026-11-06 21:02,2341,39,11,7,5.13,64.5,red at both ends. sole and collar.,,,
+1106,L02_collar-says-it-all,2026-11-06 21:02,4510,142,47,19,5.95,66.9,the collar says it all,,,
+1106,L04_museum,2026-11-06 21:04,1828,44,9,2,5.33,67.7,what to wear to the museum - red soles optional red collar not.,,,
+1106,L04_museum (2nd post),2026-11-06 21:01,1794,49,15,0,4.68,57.0,what to wear to the museum - red soles optional red collar not.,,,
+1106,L05_date-heels,2026-11-06 21:06,2101,30,7,6,5.44,63.9,she wore red soles. he wore the collar.,,,
+1106,L06_black-or-white,2026-11-06 21:06,1861,67,11,2,4.81,47.1,black or white? - white edition.,,,
+1106,X01_red-in-the-right-places,2026-11-06 21:08,1582,44,9,5,5.94,45.2,red in the right places.,1581,,
+1106,X02_black-and-red,2026-11-06 21:08,2691,95,21,2,5.9,42.1,black and red >>,2681,,
+1106,X03_if-love-was-a-color,2026-11-06 21:10,1058,42,9,7,3.76,37.6,if love was a color it would be red. obviously.,1044,,
+1106,X04_red-always-wins,2026-11-06 21:10,2003,58,9,1,4.92,43.5,red always wins.,2001,,
+1107a,E01_shoes-first,2026-11-07 02:08,2165,63,20,5,5.11,63.1,they look at the shoes first. then up.,2099,,2165
+1107a,E02_what-goes-with-red-soles,2026-11-07 02:12,1832,69,20,5,4.613,58.0,red soles need something to answer to.,1821,,1832
+1107a,E03_second-most-famous-red,2026-11-07 02:13,4832,131,31,10,5.95,66.4,the first one is on the shoes.,4220,4794,4832
+1107a,E04_in-that-order,2026-11-07 02:15,1637,42,2,2,4.949,37.2,rose for the date. soles for the walk. collar for the rest of the night.,1629,1635,1637
+1107a,E05_matched-her-shoes,2026-11-07 02:16,1814,48,14,6,4.666,44.8,she matched her shoes to his collar. he didn't notice. everyone else did.,1738,1810,1814
+1107b,F01_look-again,2026-11-07 08:11,2360,67,14,3,5.829,61.0,wait. look again - it's on the shoes and on the collar.,2246,2315,2360
+1107b,F02_rule-ix,2026-11-07 08:14,2770,67,16,10,5.38,61.5,rule IX: one red detail per outfit. hers is on the shoes.,2385,2599,2770
+1107b,F05_starts-with-the-shoes,2026-11-07 08:15,63185,1687,671,291,6.246,70.0,it starts with the shoes. it ends with the collar.,26800,60650,63185
+1109c,C06_red-underneath,2026-11-10 08:28,2100,90,27,12,5.737,62.5,black on black. red underneath.,,,2100
+1110m,M04_no-other-color,2026-11-10 08:27,1552,47,9,5,5.067,47.5,"no other color tonight. black, and one red.",,,1552
+1110m,M03_out-of-the-museum,2026-11-10 08:26,662,22,9,0,3.982,36.7,ex museo - out of the museum. the red came with it.,,,662
+1110m,M01_wait-for-the-red,2026-11-10 08:26,1906,49,9,10,5.308,65.1,"wait for the red. first on the shoes, then on the collar.",,,1906
+1110m,M02_count-the-reds,2026-11-10 08:25,1974,54,13,8,5.339,59.4,"count the reds. nails, soles, collar - three.",,,1974
+1109c,C02_a-rose-then-this,2026-11-09 18:06,1746,71,11,3,4.844,50.3,a rose. then red soles. then one red collar.,,,1746
+1109c,C01_watch-her-shoes,2026-11-09 18:05,2244,82,25,11,5.958,70.5,watch her shoes. the red stops for a second.,,,2244
+1109b,H08_red-goes-underneath,2026-11-09 13:15,12648,390,151,59,5.442,63.5,"red goes underneath. under the shoes, under the collar.",,,12648
+1109b,H07_reds-in-a-museum,2026-11-09 13:14,1939,46,12,4,5.034,46.3,some reds belong in a museum. this one goes home with you.,,,1939
+1109b,H05_starts-with-a-rose,2026-11-09 13:13,2038,63,14,7,5.235,52.0,it starts with a rose. it ends with the collar.,,,2038
+1109b,G04_behind-the-curtain,2026-11-09 13:12,1990,35,10,6,4.38,57.3,what's behind the red curtain? one red collar.,,,1990
+1109b,G03_follow-the-shoes,2026-11-09 13:10,2031,74,15,4,5.111,65.1,follow the shoes. they lead to the white one.,,,2031
+1109b,G02_always-the-shoes,2026-11-09 13:09,1820,41,7,6,4.947,64.5,it's always the shoes. this time it's the collar too.,,,1820
+1109b,G01_look-down-first,2026-11-09 13:08,4484,167,51,20,6.146,69.5,look down first. then look at the collar.,,,4484
