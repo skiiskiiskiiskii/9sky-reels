@@ -24,6 +24,14 @@
   "SWF": "mockups/sweater/02_sweater_front.png",
   "SWB": "mockups/sweater/01_sweater_back.png",
   "SPF": "mockups/black quarter + sweater/03_sweater_quarterzip_front.png",
-  "SPB": "mockups/black quarter + sweater/04_sweater_quarterzip_back_v5.png"
+  "SPB": "mockups/black quarter + sweater/04_sweater_quarterzip_back_v5.png",
+  "NAILS": "hooks/louboutin/NAILS.mp4",
+  "SOLES": "hooks/louboutin/SOLES.mp4",
+  "MARBLE": "hooks/louboutin/MARBLE.mp4  (1.10 s, trimmed before the text; original deleted 2026-11-15)",
+  "COUPLE": "hooks/louboutin/COUPLE.mp4",
+  "STREET": "MISSING on Mac since 2026-11-15 (was 'AQOb8XpwzWkIg6L...mp4')",
+  "ROSES": "~/Downloads/flowers hooks/g1.mp4, g2.mp4, g3.mp4 (outside 9sky-reels)",
+  "CURTAIN": "~/Downloads/исходники/_разбор/hooks_src/s12_0.mp4 (outside 9sky-reels)",
+  "RED_STATUE_SRC": "ffff/statue_red_1A_full.jpeg (red-graphic videos missing; rebuild with stillclip)"
  }
 }

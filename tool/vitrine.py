@@ -50,6 +50,9 @@ def vpage(mockup, out, no, sub, tone="vitrine", scale=0.9, title=""):
     c = backdrop(tone)
     g = E._cut(mockup)
     g = g.resize((int(g.width * scale), int(g.height * scale)), Image.LANCZOS)
+    k = min(1.0, 900 / g.width, 1150 / g.height)   # landscape flat lays (tees) are wider than the frame
+    if k < 1.0:
+        g = g.resize((int(g.width * k), int(g.height * k)), Image.LANCZOS)
     _paste_soft(c, g, ((W - g.width) // 2, int(H * 0.47 - g.height / 2)))
     c = E._footer(E._header(c, no), title, sub)
     c.save(out, quality=96)
