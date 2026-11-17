@@ -1,0 +1,49 @@
+{
+ "seed": 35007,
+ "track": "mrpopular",
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/Downloads/исходники/_разбор/hooks_src/s12_0.mp4",
+   "start": 3.95,
+   "align_red": false,
+   "speed": 0.45,
+   "zoom": 1.0,
+   "crop_x": 0.5,
+   "crop_y": 0.5,
+   "flip": false,
+   "grade": {},
+   "until": "drop",
+   "smooth": true
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/u08y0.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/u08y1.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/u08yc.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "step behind\nthe red curtain.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.22,
+   "size": 96,
+   "scrim": 0.5,
+   "font": "cg-italic"
+  }
+ ]
+}

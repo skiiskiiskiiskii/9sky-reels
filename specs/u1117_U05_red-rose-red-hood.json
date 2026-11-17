@@ -1,0 +1,48 @@
+{
+ "seed": 35004,
+ "track": "mrpopular",
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/flowers hooks/g1.mp4",
+   "start": 0.3,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.15,
+   "crop_x": 0.5,
+   "crop_y": 0.3,
+   "flip": false,
+   "grade": {},
+   "until": "drop"
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/u05y0.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/u05y1.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/u05yc.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "red rose.\nred hood.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.52,
+   "size": 96,
+   "scrim": 0.5,
+   "font": "cg-italic"
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "seed": 35005,
+ "track": "mrpopular",
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/flowers hooks/g2.mp4",
+   "start": 0.3,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.1,
+   "crop_x": 0.5,
+   "crop_y": 0.0,
+   "flip": false,
+   "grade": {},
+   "until": "drop"
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/u06y0.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/u06y1.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/u06yc.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "he brought\na rose.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.72,
+   "size": 96,
+   "scrim": 0.5,
+   "font": "cg-italic"
+  }
+ ]
+}

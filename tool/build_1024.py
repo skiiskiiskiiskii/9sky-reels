@@ -18,8 +18,14 @@ L = "/mnt/user-data/outputs/hooks-locations/"
 O = "/mnt/user-data/outputs/stills-1024/"
 os.makedirs(O, exist_ok=True)
 COLL, FL = "EX MUSEO", "FIRST LOOK"   # collection name since 2026-10-26 (was "museum collection")
-VEIL = dark_bg(A + "statues_dark/9skyaes_statues_dark_28.jpg", "statue", 0.30)
-BACK = dark_bg(A + "statues_dark/9skyaes_statues_dark_13.jpg", "statue", 0.30)
+try:
+    VEIL = dark_bg(A + "statues_dark/9skyaes_statues_dark_28.jpg", "statue", 0.30)
+except FileNotFoundError:        # statue backdrops are gone from the Mac folder; only the old black-page builds used them
+    VEIL = None
+try:
+    BACK = dark_bg(A + "statues_dark/9skyaes_statues_dark_13.jpg", "statue", 0.30)
+except FileNotFoundError:        # statue backdrops are gone from the Mac folder; only the old black-page builds used them
+    BACK = None
 DROP = 3.13
 PRG, ROME = "PRAGUE, MMXXVI", "ROME, 9 BC"
 cat = lambda n, what, place=PRG: f"CAT. {n:02d}  ·  {what}  ·  {place}"
