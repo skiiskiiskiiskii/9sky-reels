@@ -1,0 +1,32 @@
+{
+ "hook": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/COUPLE.mp4",
+   "speed": 1.12,
+   "zoom": 1.0,
+   "crop_x": 0.5,
+   "crop_y": 0.6,
+   "flip": true,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   },
+   "align_red": true,
+   "lead": 0.42
+  }
+ ],
+ "line": "her soles\nare red.",
+ "after": [
+  [
+   2,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/x01c.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ]
+ ]
+}

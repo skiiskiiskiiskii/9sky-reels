@@ -119,3 +119,13 @@
 3. Найти 2-3 новых клипа с красной подошвой - сейчас это главное узкое место.
 4. Лимитов по числу trial в день и по повтору клипа хука нет (отменено 17.11); сколько рилсов - по просьбе Кирилла.
 5. Строить новые рилсы вокруг "his and hers" (пара чёрный + белый куартер), надписи - коротко и просто.
+
+## Update 2026-11-17, late evening (Kirill)
+- Every reel loops seamlessly from now on: `tool/loopreel.py` (the last 15 frames dissolve into the 15 frames
+  that come right before frame 0; after the cut only whole beats, so the total is a whole number of beats and
+  the F05 audio wraps on the grid). First single test: W01 (1117d, `tool/build_1117d_loop.py`).
+- Lengths in use: short 8 beats (4.85 s: hook + one stacked pair page), standard 12 beats (7.27 s), long
+  18 beats (10.9 s: the red sole shows twice - a second Louboutin clip after the first two pages).
+- The zip hoodie may go with Louboutin hooks now (Kirill asked), quarter zips as before.
+- Single videos instead of batches, unless Kirill asks for a set.
+- How to judge the loop: views / reach (was 1.3-1.45 on every reel) and avg watch (was 5-6.5 s).
