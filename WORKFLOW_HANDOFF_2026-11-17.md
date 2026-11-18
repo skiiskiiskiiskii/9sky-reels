@@ -124,8 +124,8 @@
 - Every reel loops seamlessly from now on: `tool/loopreel.py` (the last 15 frames dissolve into the 15 frames
   that come right before frame 0; after the cut only whole beats, so the total is a whole number of beats and
   the F05 audio wraps on the grid). First single test: W01 (1117d, `tool/build_1117d_loop.py`).
-- Lengths in use: short 8 beats (4.85 s: hook + one stacked pair page), standard 12 beats (7.27 s), long
-  18 beats (10.9 s: the red sole shows twice - a second Louboutin clip after the first two pages).
+- Length: 12 beats (7.27 s). 11-18 Kirill parked the short 8-beat (4.85 s) and long 18-beat (10.9 s) versions
+  (1117e X01-X04): they don't sit well with the music or the content; ~7 s is ideal for now.
 - The zip hoodie may go with Louboutin hooks now (Kirill asked), quarter zips as before.
 - Single videos instead of batches, unless Kirill asks for a set.
 - How to judge the loop: views / reach (was 1.3-1.45 on every reel) and avg watch (was 5-6.5 s).
