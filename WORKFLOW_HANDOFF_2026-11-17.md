@@ -129,3 +129,12 @@
 - The zip hoodie may go with Louboutin hooks now (Kirill asked), quarter zips as before.
 - Single videos instead of batches, unless Kirill asks for a set.
 - How to judge the loop: views / reach (was 1.3-1.45 on every reel) and avg watch (was 5-6.5 s).
+
+## Update 2026-11-18 (Kirill, after 1118a)
+- Hooks: Louboutin only (COUPLE, SOLES, NAILS, MARBLE - MARBLE too, not just the first three). Every hook is a MIX of
+  ~3 shots from different clips at real speed (no slow-downs). The red sole still lands ~0.4 s before the cut.
+  MARBLE is red the whole time, so it goes last and short (~0.6 s). The museum / palace clips (EX_MUSEO_hooks,
+  hooks ids) are not used for now - Kirill: "only Louboutins".
+- Lines: stop the "x, red soles" pattern. 1118b mix: 3 lines about the place / the evening ("date night at the opera.",
+  "dinner under the chandeliers.", "after the museum closes.") and 2 questions ("collar or hood?",
+  "black or white tonight?"). Every batch needs genuinely new lines.
