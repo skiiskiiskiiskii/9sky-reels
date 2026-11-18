@@ -138,3 +138,11 @@
 - Lines: stop the "x, red soles" pattern. 1118b mix: 3 lines about the place / the evening ("date night at the opera.",
   "dinner under the chandeliers.", "after the museum closes.") and 2 questions ("collar or hood?",
   "black or white tonight?"). Every batch needs genuinely new lines.
+
+## Update 2026-11-18 evening: Edits for Mac is connected
+- `get_device_info` -> `localMcpServers`: `edits` = announced. After `RefreshMcpTools(remote-devices)` the tools show up as
+  `mcp__remote-devices__edits__*` (32 at the home screen: projects, newProject, openProject, importMedia, addMedia,
+  catalogs of filters / transitions / effects / fonts / text presets, previewVideo, exportMcomp ...). Schema 2026.10.19-1.
+- The log line `Failed to open SSE stream: Forbidden (403)` from mcp-remote is harmless: initialize and tools/list go through.
+- Edits must be open with Settings -> Automation on. If the server shows Failed, check View logs first.
+- Not seen yet: an export / post-to-Instagram tool at the home screen; editor tools may appear once a project is open.
