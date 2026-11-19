@@ -60,3 +60,18 @@ def vside(left, right, out, no, sub="", tone="vitrine", title="", cy=0.47, box_h
 
 def vstacked2(front, back, out, no, tone="vitrine", title="EX MUSEO", sub="FIRST LOOK"):
     return V.vstacked(front, back, out, no, title=title, sub=sub, tone=tone)
+
+
+def vgrid(items, out, no, sub="", tone="vitrine", title="EX MUSEO", cy=0.45, gap=0.25, cell_h=560, footer_y=1548):
+    """four garments 2 x 2 (the whole first look on one page); items = 4 mockup paths, row by row"""
+    import editorial as E
+    xs, ys = (0.27, 0.73), (cy - gap / 2 + 0.0, cy + gap / 2)
+    spots = [(x, y, 0.3, 0.17) for y in ys for x in xs]
+    c = glow(tone, spots)
+    for i, mk in enumerate(items):
+        g, _ = E._fit(E._cut(mk), W // 2 - 90, cell_h)
+        x, y = xs[i % 2], ys[i // 2]
+        V._paste_soft(c, g, (int(W * x - g.width / 2), int(H * y - g.height / 2)))
+    c = E._footer(E._header(c, no), title, sub, y=footer_y)
+    c.save(out, quality=96)
+    return out

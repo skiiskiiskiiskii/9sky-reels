@@ -143,6 +143,8 @@ def clip_frames(seg, n, rnd, drop):
     g = seg.get("grade", {})
     eq = (f"eq=brightness={g.get('b', 0):.3f}:contrast={g.get('c', 1):.3f}:"
           f"saturation={g.get('s', 1):.3f}:gamma={g.get('g', 1):.3f}")
+    if any(k in g for k in ("rs", "bs", "rm", "bm", "rh", "bh")):   # optional tint (shadows / mids / highlights)
+        eq += ",colorbalance=" + ":".join(f"{k}={g.get(k, 0):.3f}" for k in ("rs", "bs", "rm", "bm", "rh", "bh"))
     zw, zh = int(W * zoom) // 2 * 2, int(H * zoom) // 2 * 2
     smooth = "minterpolate=fps=120:mi_mode=mci:mc_mode=aobmc:me_mode=bidir," if seg.get("smooth") else ""
     vf = (f"{smooth}setpts=PTS/{speed:.4f},fps={FPS},scale={zw}:{zh}:force_original_aspect_ratio=increase,"

@@ -27,7 +27,7 @@ def _frames_of(seg, n, rnd):
     return (canvas for _ in range(n))
 
 
-def make(out, hook, line, after, y=0.22, seed=0, beat=BEAT, drop=DROP, total_beats=None):
+def make(out, hook, line, after, y=0.22, seed=0, beat=BEAT, drop=DROP, total_beats=None, audio=None):
     """beat / drop: the track's beat length and the cut time (default F05 / mr popular: 99 BPM, 3.13 s).
     total_beats: whole beats of the loop counted from frame 0 (default: hook + after + bridge on the F05 grid)."""
     rnd = random.Random(seed)
@@ -50,9 +50,15 @@ def make(out, hook, line, after, y=0.22, seed=0, beat=BEAT, drop=DROP, total_bea
     C._FONT_PATH[0] = C.FONT
     hook_total = HOOK_N + bridge
     enc = ["ffmpeg", "-y", "-v", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS),
-           "-i", "-", "-f", "lavfi", "-t", f"{total / FPS + 0.1:.3f}", "-i", "anullsrc=r=44100:cl=stereo",
-           "-map", "0:v", "-map", "1:a", "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p",
-           "-c:a", "aac", "-b:a", "128k", "-shortest", "-movflags", "+faststart", out]
+           "-i", "-"]
+    if audio:                                # (path, offset): bake the track in, its drop on the cut
+        dur = total / FPS
+        enc += ["-ss", f"{audio[1]:.3f}", "-t", f"{dur + 0.1:.3f}", "-i", audio[0],
+                "-af", f"afade=t=in:d=0.02,afade=t=out:st={dur - 0.04:.3f}:d=0.04", "-b:a", "192k"]
+    else:
+        enc += ["-f", "lavfi", "-t", f"{total / FPS + 0.1:.3f}", "-i", "anullsrc=r=44100:cl=stereo", "-b:a", "128k"]
+    enc += ["-map", "0:v", "-map", "1:a", "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p",
+            "-c:a", "aac", "-shortest", "-movflags", "+faststart", out]
     p = subprocess.Popen(enc, stdin=subprocess.PIPE)
     put = lambda f: p.stdin.write(np.clip(f, 0, 255).astype(np.uint8).tobytes())
     pre, fi, written = [], 0, 0
@@ -61,7 +67,10 @@ def make(out, hook, line, after, y=0.22, seed=0, beat=BEAT, drop=DROP, total_bea
         if k == 0 and "start" in seg:       # explicit start: move it back by the pre-roll
             seg["start"] = seg["start"] - bridge / FPS * seg.get("speed", 1.0)
             assert seg["start"] >= 0, "no footage before the hook start for the pre-roll"
-        for fr in C.clip_frames(seg, n, rnd, DROP):
+        frames = C.clip_frames(seg, n, rnd, DROP)
+        if seg.get("reverse") and k > 0:     # a shot played backwards (not the first one: it carries the pre-roll)
+            frames = [f.copy() for f in frames][::-1]
+        for fr in frames:
             f = fr.astype(np.float32)
             kk = min(1.0, (hook_total - fi) / 4)          # the line fades out over the last 4 frames before the cut
             f = f * (1 - a * kk) + rgb * (a * kk)

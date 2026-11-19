@@ -163,3 +163,15 @@
   crop_x 0, MARBLE); small grade shift per reel (b / c / s / g); one reel with `keep_red` (grey, only red stays).
 - Sound: some reels cut to LV Sandals (0.632 s beat, from 0:09.5 of the track), the rest on the F05 grid. The track
   is written next to each caption in captions.txt.
+
+## Update 2026-11-19 evening: 1119b - all four pieces in one reel
+- Kirill: mix every piece in one reel (black / white quarter zip, black / white zip hoodie), lines built on that,
+  hooks reworked harder so Instagram can't link them to the old ones; 2 reels with the EsDeeKid track baked in.
+- Pages: four singles (1 beat each) + `vitrine2.vgrid` (2 x 2 of all four, 2 beats), or pairs side by side (black pair,
+  white pair, black backs, white backs) + the 2 x 2.
+- Hooks: 3-4 shots, tighter reframes (zoom up to 1.35 on other parts of the frame), a middle shot played backwards
+  (`reverse: true`, `loopreel` only, never the first shot), a light tint per reel (`grade` keys rs / bs / rm / bm / rh / bh
+  -> ffmpeg colorbalance in compose.py).
+- Mist baked in: `loopreel.make(..., audio=(path, 29.595 - 3.13))`, 97.5 BPM grid, pages on the track's big hits
+  (3.13 / 4.515 / 5.592 / 6.976 s = 2.25 / 1.75 / 2.25 beats). The drop lands on the cut. Kirill adds no music to these.
+- LV Sandals reels need at least 20 frames of footage before the first shot (the bridge is longer on that grid).
