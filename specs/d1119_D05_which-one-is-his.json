@@ -1,0 +1,92 @@
+{
+ "hook": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/SOLES.mp4",
+   "start": 2.4,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.15,
+   "crop_x": 0.5,
+   "crop_y": 0.6,
+   "flip": false,
+   "grade": {
+    "b": -0.01,
+    "c": 1.08,
+    "s": 1.0,
+    "g": 1.0
+   },
+   "n": 34,
+   "keep_red": true
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/NAILS.mp4",
+   "start": 1.4,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.0,
+   "crop_x": 0.5,
+   "crop_y": 0.6,
+   "flip": false,
+   "grade": {
+    "b": -0.01,
+    "c": 1.08,
+    "s": 1.0,
+    "g": 1.0
+   },
+   "n": 30,
+   "keep_red": true
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/COUPLE.mp4",
+   "speed": 1.0,
+   "zoom": 1.0,
+   "crop_x": 0.45,
+   "crop_y": 0.6,
+   "flip": false,
+   "grade": {
+    "b": -0.01,
+    "c": 1.08,
+    "s": 1.0,
+    "g": 1.0
+   },
+   "align_red": true,
+   "lead": 0.42,
+   "keep_red": true
+  }
+ ],
+ "line": "which one\nis his?",
+ "after": [
+  [
+   1,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/d1119_05a.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   1,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/d1119_05b.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   4,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/d1119_05c.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ]
+ ],
+ "beat": 0.632,
+ "track": "LV"
+}

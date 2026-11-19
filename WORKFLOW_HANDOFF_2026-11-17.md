@@ -153,3 +153,13 @@
 - Left over in Edits: test project "New project 1" (COUPLE + LV Sandals), safe to delete. Files copied to ~/Movies/9sky.
 - 1118c LV01 "his or hers?" was cut for LV Sandals (EsDeeKid, Fakemink, Rico Ace), 95 BPM, music from 9.48 s of the
   track (its downbeat at 12.62 s lands on the cut), 7.6 s = 12 beats. `loopreel.make` now takes beat / drop / total_beats.
+
+## Update 2026-11-19: 1119a - making reels look different to Instagram
+- Kirill: Instagram should not see the reels as the same; keep the aura, show it from a slightly different side.
+- `tool/vitrine2.py`: page variations - tones ink / bronze / smoke next to vitrine / oxblood / slate, glow position and
+  size (`spot`), garment scale and height, `vside` (two garments side by side: his | hers, front | back) for pages and
+  finales. Still clean: no grain, no zoom, no lines.
+- Hooks: every reel a new 3-shot mix; endings vary (COUPLE sole, SOLES logo, NAILS heel lift at 5.6-6.0 s with
+  crop_x 0, MARBLE); small grade shift per reel (b / c / s / g); one reel with `keep_red` (grey, only red stays).
+- Sound: some reels cut to LV Sandals (0.632 s beat, from 0:09.5 of the track), the rest on the F05 grid. The track
+  is written next to each caption in captions.txt.
