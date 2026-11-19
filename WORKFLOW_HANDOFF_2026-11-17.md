@@ -175,3 +175,11 @@
 - Mist baked in: `loopreel.make(..., audio=(path, 29.595 - 3.13))`, 97.5 BPM grid, pages on the track's big hits
   (3.13 / 4.515 / 5.592 / 6.976 s = 2.25 / 1.75 / 2.25 beats). The drop lands on the cut. Kirill adds no music to these.
 - LV Sandals reels need at least 20 frames of footage before the first shot (the bridge is longer on that grid).
+
+## Update 2026-11-19 night: 1119c - remasters of the hits
+- Kirill's pick (screenshots): F05, H08, K02, K01 - repost them, keep the line, the music and the combination.
+  Tracks in IG: F05 and K02 prodbyCyn - North Pole, H08 predayed - mr popular, K01 Tragic Freestyle.
+- `tool/build_1119c.py`: the same hook moment (clip, seconds, speed, slow-down) and the same line; re-rendered,
+  mirrored where the clip allows (SOLES never - the signature on the sole would read backwards), reframed 5-10 %,
+  light grade shift, pages re-drawn (vitrine2), loop 12 beats. The knit of H08 / K02 -> black zip hoodie.
+- Captions: same idea, reworded first line, one hashtag swapped.

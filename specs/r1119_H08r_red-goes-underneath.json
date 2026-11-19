@@ -1,0 +1,86 @@
+{
+ "hook": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/NAILS.mp4",
+   "start": 2.05,
+   "align_red": false,
+   "speed": 1.1,
+   "zoom": 1.15,
+   "crop_x": 0.5,
+   "crop_y": 0.5,
+   "flip": true,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   },
+   "n": 52
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/COUPLE.mp4",
+   "start": 3.918,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.26,
+   "crop_x": 0.5,
+   "crop_y": 0.7,
+   "flip": true,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   },
+   "n": 18
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/COUPLE.mp4",
+   "start": 4.53,
+   "align_red": false,
+   "speed": 0.5,
+   "zoom": 1.26,
+   "crop_x": 0.5,
+   "crop_y": 0.7,
+   "flip": true,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   },
+   "n": 24,
+   "smooth": true
+  }
+ ],
+ "line": "red goes\nunderneath.",
+ "after": [
+  [
+   1,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/r1119_h0.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   1,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/r1119_h1.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   4,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/r1119_hc.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ]
+ ]
+}

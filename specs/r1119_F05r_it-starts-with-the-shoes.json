@@ -1,0 +1,51 @@
+{
+ "hook": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/COUPLE.mp4",
+   "speed": 1.12,
+   "zoom": 1.26,
+   "crop_x": 0.43,
+   "crop_y": 0.72,
+   "flip": true,
+   "grade": {
+    "c": 1.05,
+    "s": 0.9,
+    "b": -0.016,
+    "rm": 0.02
+   },
+   "align_red": true,
+   "lead": 0.42
+  }
+ ],
+ "line": "it starts\nwith the shoes.",
+ "after": [
+  [
+   1,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/r1119_f0.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   1,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/r1119_f1.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   4,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/r1119_fc.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ]
+ ]
+}

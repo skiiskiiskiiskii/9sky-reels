@@ -1,0 +1,52 @@
+{
+ "hook": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/SOLES.mp4",
+   "start": 1.59,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.18,
+   "crop_x": 0.46,
+   "crop_y": 0.58,
+   "flip": false,
+   "grade": {
+    "c": 1.05,
+    "s": 0.9,
+    "b": -0.012,
+    "bs": 0.02
+   },
+   "n": 94
+  }
+ ],
+ "line": "match her red.",
+ "after": [
+  [
+   1,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/r1119_k10.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   1,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/r1119_k11.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   4,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/r1119_k1c.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ]
+ ]
+}
