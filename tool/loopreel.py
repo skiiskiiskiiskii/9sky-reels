@@ -27,17 +27,21 @@ def _frames_of(seg, n, rnd):
     return (canvas for _ in range(n))
 
 
-def make(out, hook, line, after, y=0.22, seed=0):
+def make(out, hook, line, after, y=0.22, seed=0, beat=BEAT, drop=DROP, total_beats=None):
+    """beat / drop: the track's beat length and the cut time (default F05 / mr popular: 99 BPM, 3.13 s).
+    total_beats: whole beats of the loop counted from frame 0 (default: hook + after + bridge on the F05 grid)."""
     rnd = random.Random(seed)
     # frame plan
     cut = [HOOK_N]
     b = 0
     for beats, _ in after:
         b += beats
-        cut.append(round((DROP + b * BEAT) * FPS))
-    total_beats = b + 6                     # 3.13 s + bridge = 6 beats on this grid
-    total = round(total_beats * BEAT * FPS)
+        cut.append(round((drop + b * beat) * FPS))
+    if total_beats is None:
+        total_beats = b + 6                 # 3.13 s + bridge = 6 beats on the F05 grid
+    total = round(total_beats * beat * FPS)
     bridge = total - cut[-1]
+    assert 12 <= bridge <= 30, bridge
     # hook frames: the first segment starts `bridge` frames earlier (the pre-roll)
     ns = [s["n"] for s in hook[:-1]]
     ns.append(HOOK_N - sum(ns))

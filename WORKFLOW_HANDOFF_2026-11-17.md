@@ -146,3 +146,10 @@
 - The log line `Failed to open SSE stream: Forbidden (403)` from mcp-remote is harmless: initialize and tools/list go through.
 - Edits must be open with Settings -> Automation on. If the server shows Failed, check View logs first.
 - Not seen yet: an export / post-to-Instagram tool at the home screen; editor tools may appear once a project is open.
+
+## Update 2026-11-19: Edits is not used
+- Kirill: no more work in Edits - every Edits action needs his approval, he can't sit and approve each step.
+  Reels are made as before (compose / loopreel) and Kirill adds the music in Instagram himself.
+- Left over in Edits: test project "New project 1" (COUPLE + LV Sandals), safe to delete. Files copied to ~/Movies/9sky.
+- 1118c LV01 "his or hers?" was cut for LV Sandals (EsDeeKid, Fakemink, Rico Ace), 95 BPM, music from 9.48 s of the
+  track (its downbeat at 12.62 s lands on the cut), 7.6 s = 12 beats. `loopreel.make` now takes beat / drop / total_beats.
