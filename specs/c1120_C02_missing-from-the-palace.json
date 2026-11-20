@@ -1,0 +1,137 @@
+{
+ "hook": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/EX_MUSEO_hooks/06_antoinebn_C5i3phBInjQ.mp4",
+   "start": 0.6,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.05,
+   "crop_x": 0.5,
+   "crop_y": 0.5,
+   "flip": false,
+   "grade": {
+    "c": 1.05,
+    "s": 0.95,
+    "b": -0.01
+   },
+   "n": 21
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/EX_MUSEO_hooks/10_roberto_celestri_DUDpdsQDZAd.mp4",
+   "start": 2.0,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.05,
+   "crop_x": 0.5,
+   "crop_y": 0.5,
+   "flip": false,
+   "grade": {
+    "c": 1.05,
+    "s": 0.95,
+    "b": -0.01
+   },
+   "n": 18
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/EX_MUSEO_hooks/04_roberto_celestri_DYR7ICqNmLe.mp4",
+   "start": 8.3,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.1,
+   "crop_x": 0.5,
+   "crop_y": 0.5,
+   "flip": false,
+   "grade": {
+    "c": 1.05,
+    "s": 0.95,
+    "b": -0.01
+   },
+   "n": 19
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/EX_MUSEO_hooks/12_roberto_celestri_DbQ7v2ENPlB.mp4",
+   "start": 4.0,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.05,
+   "crop_x": 0.5,
+   "crop_y": 0.5,
+   "flip": false,
+   "grade": {
+    "c": 1.05,
+    "s": 0.95,
+    "b": -0.01
+   },
+   "n": 18
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/EX_MUSEO_hooks/01_botanic_butique_DPL4oHGjG5n.mp4",
+   "start": 13.4,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.15,
+   "crop_x": 0.5,
+   "crop_y": 0.5,
+   "flip": false,
+   "grade": {
+    "c": 1.05,
+    "s": 0.95,
+    "b": -0.01
+   },
+   "n": 18
+  }
+ ],
+ "line": "missing from\nthe palace.",
+ "after": [
+  [
+   1,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/c1120_02a.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   1,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/c1120_02b.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   1,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/c1120_02c.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   1,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/c1120_02d.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   2,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/c1120_02e.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ]
+ ]
+}

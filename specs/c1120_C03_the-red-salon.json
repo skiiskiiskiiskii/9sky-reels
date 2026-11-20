@@ -1,0 +1,119 @@
+{
+ "hook": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/hooks ids/snaptik_7615821256385924366_hd.mp4",
+   "start": 7.0,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.05,
+   "crop_x": 0.5,
+   "crop_y": 0.5,
+   "flip": false,
+   "grade": {
+    "c": 1.05,
+    "s": 0.95,
+    "b": -0.01
+   },
+   "n": 21
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/hooks ids/snaptik_7615821256385924366_hd.mp4",
+   "start": 24.0,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.08,
+   "crop_x": 0.5,
+   "crop_y": 0.5,
+   "flip": false,
+   "grade": {
+    "c": 1.05,
+    "s": 0.95,
+    "b": -0.01
+   },
+   "n": 18
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/hooks ids/snaptik_7629052842933849364_hd.mp4",
+   "start": 14.3,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.05,
+   "crop_x": 0.5,
+   "crop_y": 0.5,
+   "flip": false,
+   "grade": {
+    "c": 1.05,
+    "s": 0.95,
+    "b": -0.01
+   },
+   "n": 19
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/hooks ids/snaptik_7615821256385924366_hd.mp4",
+   "start": 48.0,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.08,
+   "crop_x": 0.5,
+   "crop_y": 0.5,
+   "flip": false,
+   "grade": {
+    "c": 1.05,
+    "s": 0.95,
+    "b": -0.01
+   },
+   "n": 18
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/MARBLE.mp4",
+   "start": 0.49,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.1,
+   "crop_x": 0.5,
+   "crop_y": 0.5,
+   "flip": false,
+   "grade": {
+    "c": 1.05,
+    "s": 0.95,
+    "b": -0.01
+   },
+   "n": 18
+  }
+ ],
+ "line": "the red\nsalon.",
+ "after": [
+  [
+   1,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/c1120_03a.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   1,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/c1120_03b.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   4,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/c1120_03c.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ]
+ ]
+}

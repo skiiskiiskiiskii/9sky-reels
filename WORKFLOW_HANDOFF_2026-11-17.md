@@ -207,3 +207,15 @@
 - Best of the last 5 days: X03 (long, 10.9 s) 4.6K, H08r 3.0K, X04 (long) 2.8K.
 - Proposed: a 2-day pause, then 1-2 reels a day at ~13:00; new footage (new clips / Kling / real garment);
   a test of another audience (museum clips) - Kirill decides.
+
+## 2026-11-20 night: 1120b - three new ideas + the concept rule
+- CONCEPT (Kirill): the clothes come FROM the museum (ex museo = out of the museum), they are NOT clothes FOR the
+  museum / palace / opera / dinner. Never present them as classy or as an outfit for an occasion ("date night at the
+  opera", "what she wears to dinner", "a night at the palace" were wrong). Keep the bait of the lines: missing,
+  taken, last seen, follow the red. No museum hashtags, no #quietluxury / #oldmoneystyle style "classy" tags.
+- New footage (first time in the Louboutin era): EX_MUSEO_hooks (opera, palaces, galleries), hooks ids (Louvre /
+  Versailles red salons), hooks ideas (red room). Hooks cut on every beat (5 shots, cuts at 0.706 / 1.312 / 1.918 /
+  2.524 / 3.13 s), the last shot is the red (COUPLE sole, red dress on the stage, MARBLE heel).
+- `tool/vitrine3.py`: pages with the garment standing in a real room (a blurred, darkened frame of the footage).
+- C01 follow the red. / C02 missing from the palace. / C03 taken from the red salon. All on the F05 grid.
+- The Mac was not linked tonight: files only in chat + repo.
