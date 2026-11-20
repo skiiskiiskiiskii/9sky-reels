@@ -183,3 +183,8 @@
   mirrored where the clip allows (SOLES never - the signature on the sole would read backwards), reframed 5-10 %,
   light grade shift, pages re-drawn (vitrine2), loop 12 beats. The knit of H08 / K02 -> black zip hoodie.
 - Captions: same idea, reworded first line, one hashtag swapped.
+
+## Update 2026-11-20: 1120a + what the 11-18..11-19 numbers say
+- D05 (grey hook, only the red keeps its colour) got 181 views, 25 % past 3 s -> do not use keep_red.
+- Everything else 0.7-3K; best of the two days: remaster H08r 3.0K, F05r 2.2K, K01r 2.0K (K02r 0.9K).
+- 1120a: 6 reels on the 1119a rules (3-shot Louboutin mix, new lines, vitrine2 pages, loop), all on the F05 grid.

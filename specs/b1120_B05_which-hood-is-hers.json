@@ -1,0 +1,94 @@
+{
+ "hook": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/SOLES.mp4",
+   "start": 0.7,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.1,
+   "crop_x": 0.5,
+   "crop_y": 0.6,
+   "flip": true,
+   "grade": {
+    "b": -0.014,
+    "c": 1.06,
+    "s": 0.92,
+    "g": 1.0,
+    "rm": 0.02,
+    "rh": 0.02
+   },
+   "n": 30
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/COUPLE.mp4",
+   "start": 1.9,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.1,
+   "crop_x": 0.5,
+   "crop_y": 0.62,
+   "flip": false,
+   "grade": {
+    "b": -0.014,
+    "c": 1.06,
+    "s": 0.92,
+    "g": 1.0,
+    "rm": 0.02,
+    "rh": 0.02
+   },
+   "n": 44
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/MARBLE.mp4",
+   "start": 0.423,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.1,
+   "crop_x": 0.5,
+   "crop_y": 0.5,
+   "flip": true,
+   "grade": {
+    "b": -0.014,
+    "c": 1.06,
+    "s": 0.92,
+    "g": 1.0,
+    "rm": 0.02,
+    "rh": 0.02
+   },
+   "n": 20
+  }
+ ],
+ "line": "which hood\nis hers?",
+ "after": [
+  [
+   1,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/b1120_05a.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   1,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/b1120_05b.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   4,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/b1120_05c.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ]
+ ]
+}
