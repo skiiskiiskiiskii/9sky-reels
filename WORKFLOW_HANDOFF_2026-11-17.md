@@ -188,3 +188,22 @@
 - D05 (grey hook, only the red keeps its colour) got 181 views, 25 % past 3 s -> do not use keep_red.
 - Everything else 0.7-3K; best of the two days: remaster H08r 3.0K, F05r 2.2K, K01r 2.0K (K02r 0.9K).
 - 1120a: 6 reels on the 1119a rules (3-shot Louboutin mix, new lines, vitrine2 pages, loop), all on the F05 grid.
+
+## Diagnosis 2026-11-20 (Kirill: the last reels don't work, what are we doing wrong?)
+| day | reels | median views | max | >=5K | median past 3 s |
+|---|---|---|---|---|---|
+| 11-07 | 8 | 2270 | 67827 | 1 | 61.1 |
+| 11-09 | 9 | 2036 | 15677 | 2 | 64.2 |
+| 11-10 | 5 | 1924 | 2140 | 0 | 59.5 |
+| 11-11 | 5 | 2168 | 3529 | 0 | 64.8 |
+| 11-15 | 11 | 2391 | 17306 | 3 | 63.7 |
+| 11-16 | 8 | 2219 | 3165 | 0 | 65.0 |
+| 11-17 | 14 | 1516 | 4560 | 0 | 63.6 |
+| 11-18 | 5 | 1650 | 2014 | 0 | 59.3 |
+| 11-19 | 19 | 1457 | 2984 | 0 | 57.6 |
+- Every reel above 5K came on a day after a pause (11-07, 11-09, 11-15). Since 11-15: 51 reels, none above 4.6K.
+- The base per reel and the 3-second rate are falling. The F05 remaster (same moment, line, track) got 2.2K vs 67.8K.
+  So it is not the editing: the audience these reels are shown to has seen the same 4 clips dozens of times.
+- Best of the last 5 days: X03 (long, 10.9 s) 4.6K, H08r 3.0K, X04 (long) 2.8K.
+- Proposed: a 2-day pause, then 1-2 reels a day at ~13:00; new footage (new clips / Kling / real garment);
+  a test of another audience (museum clips) - Kirill decides.
