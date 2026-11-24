@@ -1,0 +1,73 @@
+{
+ "seed": 39017,
+ "track": "mrpopular",
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/NAILS.mp4",
+   "start": 0.0,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.05,
+   "crop_x": 0.5,
+   "crop_y": 0.5,
+   "flip": false,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   },
+   "dur": 1.2
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/NAILS.mp4",
+   "speed": 1.0,
+   "zoom": 1.05,
+   "crop_x": 0.5,
+   "crop_y": 0.5,
+   "flip": false,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   },
+   "start": 4.45,
+   "align_red": false,
+   "until": "drop"
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/l18y0.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/l18y1.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/l18yc.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "red bottoms tonight.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.48,
+   "size": 56,
+   "scrim": 0,
+   "font": "cg-400"
+  }
+ ],
+ "hook_fx": {
+  "bars": 0.1,
+  "shade_bottom": 0.45
+ }
+}

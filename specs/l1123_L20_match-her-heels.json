@@ -1,0 +1,77 @@
+{
+ "seed": 39019,
+ "track": "mrpopular",
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/NAILS.mp4",
+   "speed": 1.0,
+   "zoom": 1.2,
+   "crop_x": 0.5,
+   "crop_y": 0.4,
+   "flip": false,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   },
+   "start": 3.0,
+   "align_red": false,
+   "until": "drop"
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/l20y0.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/l20y1.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/SOLES.mp4",
+   "start": 5.6,
+   "align_red": false,
+   "speed": 0.75,
+   "zoom": 1.15,
+   "crop_x": 0.5,
+   "crop_y": 0.55,
+   "flip": false,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   },
+   "smooth": true,
+   "beats": 3
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/l20y2.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/l20yc.jpg",
+   "fit": "full",
+   "beats": 6
+  }
+ ],
+ "texts": [
+  {
+   "text": "match her heels.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.22,
+   "size": 96,
+   "scrim": 0.5,
+   "font": "cg-italic"
+  }
+ ],
+ "loop_frames": 10
+}

@@ -1,0 +1,70 @@
+{
+ "seed": 39011,
+ "track": "mrpopular",
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/COUPLE.mp4",
+   "start": 0.4,
+   "align_red": false,
+   "speed": 0.6,
+   "zoom": 1.1,
+   "crop_x": 0.5,
+   "crop_y": 0.5,
+   "flip": false,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   },
+   "dur": 1.2,
+   "smooth": true
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/COUPLE.mp4",
+   "speed": 0.9,
+   "zoom": 1.2,
+   "crop_x": 0.5,
+   "crop_y": 0.74,
+   "flip": false,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   },
+   "start": 4.6,
+   "align_red": false,
+   "until": "drop"
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/l12y0.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/l12y1.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/l12yc.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "the color of her heels.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.48,
+   "size": 56,
+   "scrim": 0,
+   "font": "cg-400"
+  }
+ ]
+}

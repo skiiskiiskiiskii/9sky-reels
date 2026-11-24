@@ -1,0 +1,126 @@
+{
+ "seed": 3,
+ "text": "if aura had a color.",
+ "text_y": 0.48,
+ "text_size": 54,
+ "cuts": [
+  0.606,
+  1.212,
+  1.818,
+  2.424,
+  3.03,
+  3.636,
+  4.242,
+  4.848,
+  5.455,
+  6.061,
+  6.667,
+  7.273,
+  7.879,
+  8.485,
+  9.091,
+  10.3
+ ],
+ "look": {
+  "c": 1.05,
+  "b": -0.01,
+  "s": 0.95,
+  "grain": 2,
+  "vignette": 0.2
+ },
+ "shots": [
+  {
+   "clip": "/mnt/user-data/uploads/9sky-reels/hooks/inbox/vol2/A13_red-polish-closeup.mp4",
+   "start": 5.0,
+   "zoom": 1.05
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/palace_red/9skyaes_palace_red_03.jpg",
+   "z0": 1.0,
+   "z1": 1.07
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/theatre_red/9skyaes_theatre_red_02.jpg"
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/mockups/only white zip hoodie/9sky_zip_white_front_v5.png",
+   "focus": [
+    0.5,
+    0.2
+   ],
+   "z0": 2.1,
+   "z1": 2.25,
+   "gamma": 0.72,
+   "vig": false
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/people_museum/9skyaes_people_museum_03.jpg",
+   "z0": 1.06,
+   "z1": 1.0
+  },
+  {
+   "clip": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/MARBLE.mp4",
+   "start": 0.0,
+   "flip": true,
+   "zoom": 1.1
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/candles_red/9skyaes_candles_red_13.jpg"
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/gallery_red/9skyaes_gallery_red_27.jpg",
+   "z0": 1.0,
+   "z1": 1.07
+  },
+  {
+   "clip": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/COUPLE.mp4",
+   "start": 0.55,
+   "zoom": 1.2,
+   "crop_y": 0.5
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/palace_red/9skyaes_palace_red_21.jpg"
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/people_museum/9skyaes_people_museum_12.jpg",
+   "z0": 1.0,
+   "z1": 1.06
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/mockups/black quarter zip/9sky_qz_01_front.png",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "z0": 1.0,
+   "z1": 1.06,
+   "gamma": 0.72,
+   "vig": false
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/theatre_red/9skyaes_theatre_red_30.jpg"
+  },
+  {
+   "clip": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/COUPLE.mp4",
+   "start": 4.55,
+   "zoom": 1.15,
+   "crop_y": 0.75
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/busts_red/9skyaes_busts_red_26.jpg",
+   "z0": 1.07,
+   "z1": 1.0
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/mockups/black n white zip hoodie/9sky_ixBW_02_fronts_v5.png",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "z0": 1.0,
+   "z1": 1.04,
+   "gamma": 0.72,
+   "vig": false
+  }
+ ]
+}

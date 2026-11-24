@@ -1,0 +1,111 @@
+{
+ "seed": 2,
+ "text": "if i was a color",
+ "text_y": 0.5,
+ "text_size": 46,
+ "band": [
+  0.22,
+  0.78
+ ],
+ "repeat": 2,
+ "cuts": [
+  0.303,
+  0.606,
+  0.909,
+  1.212,
+  1.515,
+  1.818,
+  2.121,
+  2.424,
+  2.727,
+  3.03,
+  3.333,
+  3.636,
+  3.939,
+  4.242,
+  4.545
+ ],
+ "look": {
+  "keep_red": true,
+  "c": 1.15,
+  "b": -0.02,
+  "grain": 7,
+  "vignette": 0.35
+ },
+ "shots": [
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/ffff/9skyaes_statues_dark_30.jpg"
+  },
+  {
+   "clip": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/COUPLE.mp4",
+   "start": 1.8,
+   "band_y": 0.8
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/ffff/9skyaes_statues_dark_23.jpg"
+  },
+  {
+   "clip": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/NAILS.mp4",
+   "start": 2.2,
+   "band_y": 0.6
+  },
+  {
+   "clip": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/SOLES.mp4",
+   "start": 0.0,
+   "band_y": 0.75
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/museum_night/9skyaes_museum_night_18.jpg"
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/ffff/9skyaes_statues_dark_38.jpg"
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/mockups/black quarter zip/9sky_qz_01_front.png",
+   "focus": [
+    0.5,
+    0.29
+   ],
+   "z0": 2.3,
+   "z1": 2.45,
+   "gamma": 0.72,
+   "vig": false
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/candles_red/9skyaes_candles_red_28.jpg"
+  },
+  {
+   "clip": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/SOLES.mp4",
+   "start": 6.7,
+   "zoom": 1.15,
+   "band_y": 0.45
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/ffff/9skyaes_statues_dark_32.jpg"
+  },
+  {
+   "clip": "/mnt/user-data/uploads/flowers hooks/g3.mp4",
+   "start": 0.3,
+   "band_y": 0.35
+  },
+  {
+   "clip": "/mnt/user-data/uploads/9sky-reels/hooks/inbox/vol2/A7_holding-hands-black-sleeves.mp4",
+   "start": 2.0,
+   "band_y": 0.6
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/theatre_red/9skyaes_theatre_red_14.jpg"
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/mockups/only blackzip hoodie/frame1_front.png",
+   "focus": [
+    0.5,
+    0.27
+   ],
+   "z0": 2.1,
+   "z1": 2.25,
+   "gamma": 0.72,
+   "vig": false
+  }
+ ]
+}

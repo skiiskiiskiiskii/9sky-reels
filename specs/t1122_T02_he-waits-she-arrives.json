@@ -1,0 +1,77 @@
+{
+ "seed": 37001,
+ "track": "mrpopular",
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/COUPLE.mp4",
+   "speed": 1.0,
+   "zoom": 1.0,
+   "crop_x": 0.5,
+   "crop_y": 0.5,
+   "flip": true,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   },
+   "start": 1.62,
+   "align_red": false,
+   "until": "drop"
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/t02y0.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/t02y1.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/SOLES.mp4",
+   "start": 5.6,
+   "align_red": false,
+   "speed": 0.75,
+   "zoom": 1.1,
+   "crop_x": 0.5,
+   "crop_y": 0.6,
+   "flip": false,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   },
+   "smooth": true,
+   "beats": 4
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/t02y2.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/t02yc.jpg",
+   "fit": "full",
+   "beats": 6
+  }
+ ],
+ "texts": [
+  {
+   "text": "he waits,\nshe arrives.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.22,
+   "size": 96,
+   "scrim": 0.5,
+   "font": "cg-italic"
+  }
+ ],
+ "loop_frames": 10
+}

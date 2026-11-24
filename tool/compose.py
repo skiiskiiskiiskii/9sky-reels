@@ -64,6 +64,7 @@ FONTS = {"noto": FONT,
          "cg-light-italic": os.path.join(HERE, "fonts", "cormorant-garamond-latin-300-italic.woff"),
          "cg-600": os.path.join(HERE, "fonts", "cormorant-garamond-latin-600-normal.woff"),
          "cg-500": os.path.join(HERE, "fonts", "cormorant-garamond-latin-500-normal.woff"),
+         "cg-400": os.path.join(HERE, "fonts", "cormorant-garamond-latin-400-normal.woff"),
          "inter": os.path.join(HERE, "fonts", "Inter-Regular.otf")}
 _FONT_PATH = [FONT]
 
@@ -281,9 +282,9 @@ def compose(spec, out, preview_audio=None):
             t_end = drop
         elif "dur" in seg:
             t_end = t + seg["dur"]
-        else:
-            beats_after += seg["beats"]
-            t_end = drop + beats_after * beat
+        else:                                      # beat-measured; same as before for images after the drop,
+            beats_after += seg["beats"]            # and also works for a clip or image after a mid-reel clip
+            t_end = t + seg["beats"] * beat
         bounds.append((round(t * FPS), round(t_end * FPS)))
         t = t_end
     total_frames = bounds[-1][1]
@@ -320,6 +321,21 @@ def compose(spec, out, preview_audio=None):
     grng = np.random.default_rng(spec.get("seed", 0))
     first = None
     fi = 0
+    # hook-only finish (before the drop): "shade" = soft dark gradient from the top and/or bottom edge,
+    # "bars" = black letterbox bars; both end on the drop, the pages stay clean
+    hx = spec.get("hook_fx", {})
+    drop_f = round(drop * FPS)
+    hmask = None
+    if hx:
+        yy = np.linspace(0, 1, H, dtype=np.float32)[:, None, None]
+        hmask = np.ones((H, 1, 1), np.float32)
+        if hx.get("shade_top"):
+            hmask *= 1 - hx["shade_top"] * np.clip(1 - yy / 0.42, 0, 1) ** 1.6
+        if hx.get("shade_bottom"):
+            hmask *= 1 - hx["shade_bottom"] * np.clip((yy - 0.58) / 0.42, 0, 1) ** 1.6
+        if hx.get("bars"):
+            hmask[yy[:, 0, 0] < hx["bars"]] = 0
+            hmask[yy[:, 0, 0] > 1 - hx["bars"]] = 0
     for seg, (b0, b1) in zip(spec["segments"], bounds):
         n = b1 - b0
         if seg["type"] == "clip":
@@ -335,6 +351,8 @@ def compose(spec, out, preview_audio=None):
                 gen = (canvas for _ in range(n))
         for fr in gen:
             f = fr.astype(np.float32)
+            if hmask is not None and fi < drop_f:
+                f = f * hmask
             for f0, f1, rgb, a, fade in texts:
                 if f0 <= fi < f1:
                     k = 1.0

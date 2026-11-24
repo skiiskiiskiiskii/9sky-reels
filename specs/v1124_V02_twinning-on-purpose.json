@@ -1,0 +1,76 @@
+{
+ "seed": 42001,
+ "track": "mrpopular",
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/SOLES.mp4",
+   "speed": 1.0,
+   "zoom": 1.0,
+   "crop_x": 0.5,
+   "crop_y": 0.6,
+   "flip": true,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   },
+   "start": 1.6,
+   "align_red": false,
+   "until": "drop"
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/v02y0.jpg",
+   "fit": "full",
+   "beats": 0.5
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/v02y1.jpg",
+   "fit": "full",
+   "beats": 0.5
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/v02y2.jpg",
+   "fit": "full",
+   "beats": 0.5
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/v02y3.jpg",
+   "fit": "full",
+   "beats": 0.5
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/v02y4.jpg",
+   "fit": "full",
+   "beats": 0.5
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/v02y5.jpg",
+   "fit": "full",
+   "beats": 0.5
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/v02yc.jpg",
+   "fit": "full",
+   "beats": 3
+  }
+ ],
+ "texts": [
+  {
+   "text": "twinning\non purpose.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.22,
+   "size": 96,
+   "scrim": 0.5,
+   "font": "cg-italic"
+  }
+ ]
+}

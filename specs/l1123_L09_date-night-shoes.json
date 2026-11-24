@@ -1,0 +1,70 @@
+{
+ "seed": 39008,
+ "track": "mrpopular",
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/MARBLE.mp4",
+   "start": 0.0,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.3,
+   "crop_x": 0.5,
+   "crop_y": 0.6,
+   "flip": true,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   },
+   "dur": 1.1
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/SOLES.mp4",
+   "speed": 0.8,
+   "zoom": 1.15,
+   "crop_x": 0.5,
+   "crop_y": 0.55,
+   "flip": false,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   },
+   "start": 5.9,
+   "align_red": false,
+   "until": "drop",
+   "smooth": true
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/l09y0.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/l09y1.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/l09yc.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "date night shoes.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.82,
+   "size": 56,
+   "scrim": 0,
+   "font": "cg-400"
+  }
+ ]
+}

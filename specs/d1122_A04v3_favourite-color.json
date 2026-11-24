@@ -1,0 +1,76 @@
+{
+ "seed": 38003,
+ "track": "mrpopular",
+ "segments": [
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/d04p0.jpg",
+   "fit": "full",
+   "dur": 0.7058
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/d04p1.jpg",
+   "fit": "full",
+   "dur": 0.6061
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/d04p2.jpg",
+   "fit": "full",
+   "dur": 0.6061
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/d04p3.jpg",
+   "fit": "full",
+   "dur": 0.303
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/d04p4.jpg",
+   "fit": "full",
+   "dur": 0.303
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/d04p5.jpg",
+   "fit": "full",
+   "dur": 0.303
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/d04p6.jpg",
+   "fit": "full",
+   "dur": 0.303
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/d04y0.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/d04y1.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/d04yc.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "favourite color.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.48,
+   "size": 54,
+   "font": "cg-400"
+  }
+ ]
+}

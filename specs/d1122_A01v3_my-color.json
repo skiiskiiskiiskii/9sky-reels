@@ -1,0 +1,64 @@
+{
+ "seed": 38000,
+ "track": "mrpopular",
+ "segments": [
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/d01p0.jpg",
+   "fit": "full",
+   "dur": 0.7058
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/d01p1.jpg",
+   "fit": "full",
+   "dur": 0.6061
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/d01p2.jpg",
+   "fit": "full",
+   "dur": 0.6061
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/d01p3.jpg",
+   "fit": "full",
+   "dur": 0.6061
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/d01p4.jpg",
+   "fit": "full",
+   "dur": 0.6061
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/d01y0.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/d01y1.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/d01yc.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "my color.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.48,
+   "size": 56,
+   "font": "cg-400"
+  }
+ ]
+}

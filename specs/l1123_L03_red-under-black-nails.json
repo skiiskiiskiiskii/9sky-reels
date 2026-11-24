@@ -1,0 +1,55 @@
+{
+ "seed": 39002,
+ "track": "mrpopular",
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/NAILS.mp4",
+   "speed": 1.0,
+   "zoom": 1.1,
+   "crop_x": 0.5,
+   "crop_y": 0.45,
+   "flip": false,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   },
+   "start": 2.95,
+   "align_red": false,
+   "until": "drop"
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/l03y0.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/l03y1.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/l03yc.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "red under black nails.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.48,
+   "size": 56,
+   "scrim": 0,
+   "font": "cg-400"
+  }
+ ],
+ "hook_fx": {
+  "shade_bottom": 0.5
+ }
+}

@@ -1,0 +1,182 @@
+{
+ "seed": 4,
+ "text": "favourite color.",
+ "text_y": 0.48,
+ "text_size": 54,
+ "cuts": [
+  0.606,
+  1.212,
+  1.818,
+  2.424,
+  3.03,
+  3.636,
+  4.242,
+  4.848,
+  5.0,
+  5.151,
+  5.303,
+  5.454,
+  5.606,
+  5.757,
+  5.909,
+  6.06,
+  6.666,
+  7.272,
+  7.878,
+  8.484,
+  9.09,
+  9.696,
+  10.302,
+  10.908,
+  11.515,
+  12.121,
+  12.727,
+  13.333,
+  14.733
+ ],
+ "look": {
+  "c": 1.06,
+  "b": -0.01,
+  "grain": 3,
+  "vignette": 0.2
+ },
+ "shots": [
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/palace_red/9skyaes_palace_red_08.jpg",
+   "z0": 1.0,
+   "z1": 1.07
+  },
+  {
+   "clip": "/mnt/user-data/uploads/9sky-reels/hooks/inbox/vol2/A3_red-nails-hands.mp4",
+   "start": 5.0
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/ffff/9skyaes_statues_dark_22.jpg"
+  },
+  {
+   "clip": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/SOLES.mp4",
+   "start": 1.55,
+   "zoom": 1.1
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/candles_red/9skyaes_candles_red_11.jpg",
+   "z0": 1.06,
+   "z1": 1.0
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/mockups/only blackzip hoodie/frame1_front.png",
+   "focus": [
+    0.5,
+    0.27
+   ],
+   "z0": 2.1,
+   "z1": 2.25,
+   "gamma": 0.72,
+   "vig": false
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/museum_night/9skyaes_museum_night_08.jpg"
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/theatre_red/9skyaes_theatre_red_07.jpg",
+   "z0": 1.0,
+   "z1": 1.06
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/candles_red/9skyaes_candles_red_24.jpg"
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/theatre_red/9skyaes_theatre_red_20.jpg"
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/busts_red/9skyaes_busts_red_11.jpg"
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/palace_red/9skyaes_palace_red_17.jpg"
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/ffff/9skyaes_statues_dark_09.jpg"
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/gallery_red/9skyaes_gallery_red_01.jpg"
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/theatre_red/9skyaes_theatre_red_16.jpg"
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/candles_red/9skyaes_candles_red_04.jpg"
+  },
+  {
+   "clip": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/COUPLE.mp4",
+   "start": 4.5,
+   "zoom": 1.1,
+   "crop_y": 0.75,
+   "flip": true
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/ffff/9skyaes_statues_dark_19.jpg",
+   "z0": 1.0,
+   "z1": 1.06
+  },
+  {
+   "clip": "/mnt/user-data/uploads/flowers hooks/g2.mp4",
+   "start": 0.5,
+   "zoom": 1.1,
+   "crop_y": 0.3
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/mockups/black quarter zip/9sky_qz_01_front.png",
+   "focus": [
+    0.5,
+    0.29
+   ],
+   "z0": 2.3,
+   "z1": 2.45,
+   "gamma": 0.72,
+   "vig": false
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/palace_red/9skyaes_palace_red_31.jpg"
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/people_museum/9skyaes_people_museum_23.jpg",
+   "z0": 1.06,
+   "z1": 1.0
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/theatre_red/9skyaes_theatre_red_25.jpg"
+  },
+  {
+   "clip": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/NAILS.mp4",
+   "start": 5.5,
+   "zoom": 1.05
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/busts_red/9skyaes_busts_red_04.jpg",
+   "z0": 1.0,
+   "z1": 1.07
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/palace_red/9skyaes_palace_red_13.jpg"
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/ffff/9skyaes_statues_dark_28.jpg"
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/candles_red/9skyaes_candles_red_26.jpg",
+   "z0": 1.0,
+   "z1": 1.06
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/mockups/only blackzip hoodie/frame1_front.png",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "z0": 1.0,
+   "z1": 1.05,
+   "gamma": 0.72,
+   "vig": false
+  }
+ ]
+}

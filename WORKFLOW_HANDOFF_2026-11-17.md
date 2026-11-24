@@ -219,3 +219,26 @@
 - `tool/vitrine3.py`: pages with the garment standing in a real room (a blurred, darkened frame of the footage).
 - C01 follow the red. / C02 missing from the palace. / C03 taken from the red salon. All on the F05 grid.
 - The Mac was not linked tonight: files only in chat + repo.
+
+## 2026-11-24: numbers 11-21..11-24, the other chat's batches, 1124d (8 reels on "bad together")
+- Batches 1122a-1124c (A, T, L, M, P, V) were made in another chat; it saved a repo zip to the Mac
+  (`Downloads/9sky-reels/repo/9sky-reels-repo.zip`) but did not push. Their builds (`tool/build_1122*.py`,
+  `build_1123.py`, `build_1124*.py`, `moodboard.py`), specs and ledger rows are now merged here; `compose.py` has their
+  additions (cg-400 font, beat-measured clips after a mid-reel clip, `hook_fx` shade / bars) plus our tint.
+- The angle that broke out: the couple / his-and-hers line. 11-22 17:27 "she chose red heels, he chose a red collar.
+  date night outfit for two." 68.9K views, 70.2 % past 3 s, 659 saves, 392 shares. Since then ~30 couple reels
+  (L, M, P, V) sit at 1.3-1.7K each with good retention (57-72 % past 3 s, 4-6 s average watch) but no second
+  breakout; 9-11 reels went out within a few hours on 11-23 and on 11-24.
+- Museum-footage hooks (1120b) held poorly: C01 691 views / 24 %, C02 1.5K / 45 %, C03 1.5K / 44 %.
+- V01 "bad together." (1124c; spec was "we match. deal with it.", the line was changed before posting): COUPLE in one
+  take -> 6 pages black / white on every half beat (HIS · BLACK / HERS · WHITE) -> pair finale, 6.77 s, Kirill adds
+  the track (Travis Scott - twin bitches per the other chat's notes; cuts on the 99 BPM grid).
+- 1124d BT01-BT08 (`tool/build_1124d.py`): Kirill asked for 8 new reels on V01's base - different lines, Louboutin
+  hooks from different videos, keep the mockup part, change its order. Kept: hook to 3.13 s, one short line, half-beat
+  black / white run, pair finale. Changed per reel: hook clip / moment (2-4 shot mixes + one NAILS single take),
+  white-first / zip-first / backs mixed in / 8 pages / his | hers side-by-side pages, tones, labels (HIS / HERS,
+  EXHIBIT A / B, MISSING), finales. Loop 12 beats (7.27 s). Lines mix couple bait with the EX MUSEO wink:
+  matching red flags. / partners in red. / caught red-handed. / trouble comes in pairs. / accomplices. /
+  no one saw us leave. / matching, unfortunately. / last seen together.
+- Louboutin clips are still only COUPLE / SOLES / NAILS / MARBLE. `hooks/inbox/vol2` clips have burned-in text and no
+  red soles; MATCHING-LOUBS has a caption in the middle of the frame - neither is usable as is.

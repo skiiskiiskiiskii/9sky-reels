@@ -1,0 +1,70 @@
+{
+ "seed": 39018,
+ "track": "mrpopular",
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/MARBLE.mp4",
+   "start": 0.0,
+   "align_red": false,
+   "speed": 0.5,
+   "zoom": 1.1,
+   "crop_x": 0.5,
+   "crop_y": 0.5,
+   "flip": true,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   },
+   "dur": 2.2,
+   "smooth": true
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/COUPLE.mp4",
+   "speed": 1.0,
+   "zoom": 1.15,
+   "crop_x": 0.5,
+   "crop_y": 0.74,
+   "flip": false,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   },
+   "start": 5.3,
+   "align_red": false,
+   "until": "drop"
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/l19y0.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/l19y1.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/l19yc.jpg",
+   "fit": "full",
+   "beats": 4
+  }
+ ],
+ "texts": [
+  {
+   "text": "red heels, black shoes.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.16,
+   "size": 64,
+   "scrim": 0,
+   "font": "cg-400"
+  }
+ ]
+}

@@ -1,0 +1,152 @@
+{
+ "seed": 1,
+ "text": "my color.",
+ "text_y": 0.48,
+ "text_size": 56,
+ "cuts": [
+  0.733,
+  1.2,
+  1.933,
+  2.6,
+  3.2,
+  3.733,
+  4.2,
+  4.667,
+  5.067,
+  5.4,
+  5.8,
+  6.267,
+  6.6,
+  7.333,
+  7.933,
+  8.733,
+  9.333,
+  10.267,
+  10.8,
+  12.4
+ ],
+ "look": {
+  "c": 1.05,
+  "b": -0.01,
+  "grain": 2,
+  "vignette": 0.25
+ },
+ "shots": [
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/hooks/art-met/9sky_art_m2_02.jpg",
+   "focus": [
+    0.5,
+    0.42
+   ],
+   "z0": 1.0,
+   "z1": 1.08
+  },
+  {
+   "clip": "/mnt/user-data/uploads/flowers hooks/g1.mp4",
+   "start": 0.5,
+   "zoom": 1.1,
+   "crop_y": 0.3
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/candles_red/9skyaes_candles_red_14.jpg",
+   "z0": 1.06,
+   "z1": 1.0
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/theatre_red/9skyaes_theatre_red_03.jpg"
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/busts_red/9skyaes_busts_red_02.jpg",
+   "z0": 1.0,
+   "z1": 1.07
+  },
+  {
+   "clip": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/SOLES.mp4",
+   "start": 6.6,
+   "zoom": 1.2,
+   "crop_y": 0.45
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/mockups/only blackzip hoodie/frame1_front.png",
+   "focus": [
+    0.5,
+    0.27
+   ],
+   "z0": 2.1,
+   "z1": 2.25,
+   "gamma": 0.72,
+   "vig": false
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/candles_red/9skyaes_candles_red_10.jpg"
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/palace_red/9skyaes_palace_red_19.jpg",
+   "z0": 1.08,
+   "z1": 1.0
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/theatre_red/9skyaes_theatre_red_24.jpg"
+  },
+  {
+   "clip": "/mnt/user-data/uploads/9sky-reels/hooks/inbox/vol2/A3_red-nails-hands.mp4",
+   "start": 1.5
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/candles_red/9skyaes_candles_red_16.jpg"
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/hooks/art-met/9sky_art_m2_03.jpg",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "z0": 1.05,
+   "z1": 1.12
+  },
+  {
+   "clip": "/mnt/user-data/uploads/Downloads/исходники/_разбор/hooks_src/s12_0.mp4",
+   "start": 2.3
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/theatre_red/9skyaes_theatre_red_11.jpg",
+   "z0": 1.0,
+   "z1": 1.06
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/mockups/black quarter zip/9sky_qz_01_front.png",
+   "focus": [
+    0.5,
+    0.29
+   ],
+   "z0": 2.3,
+   "z1": 2.45,
+   "gamma": 0.72,
+   "vig": false
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/busts_red/9skyaes_busts_red_22.jpg"
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/theatre_red/9skyaes_theatre_red_22.jpg",
+   "z0": 1.06,
+   "z1": 1.0
+  },
+  {
+   "clip": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/MARBLE.mp4",
+   "start": 0.2,
+   "zoom": 1.15
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/mockups/only blackzip hoodie/frame1_front.png",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "z0": 1.0,
+   "z1": 1.05,
+   "gamma": 0.72,
+   "vig": false
+  }
+ ]
+}

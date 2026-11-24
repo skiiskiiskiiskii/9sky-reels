@@ -1,0 +1,77 @@
+{
+ "seed": 39014,
+ "track": "mrpopular",
+ "segments": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/SOLES.mp4",
+   "speed": 1.0,
+   "zoom": 1.1,
+   "crop_x": 0.5,
+   "crop_y": 0.5,
+   "flip": true,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   },
+   "start": 2.9,
+   "align_red": false,
+   "until": "drop"
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/l15y0.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/l15y1.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/COUPLE.mp4",
+   "start": 4.5,
+   "align_red": false,
+   "speed": 0.6,
+   "zoom": 1.15,
+   "crop_x": 0.5,
+   "crop_y": 0.74,
+   "flip": false,
+   "grade": {
+    "c": 1.04,
+    "s": 0.92,
+    "b": -0.012
+   },
+   "smooth": true,
+   "beats": 3
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/l15y2.jpg",
+   "fit": "full",
+   "beats": 1
+  },
+  {
+   "type": "image",
+   "src": "/mnt/user-data/outputs/stills-1024/l15yc.jpg",
+   "fit": "full",
+   "beats": 6
+  }
+ ],
+ "texts": [
+  {
+   "text": "his fit, her heels.",
+   "from": 0,
+   "to": "drop",
+   "y": 0.48,
+   "size": 56,
+   "scrim": 0,
+   "font": "cg-400"
+  }
+ ],
+ "loop_frames": 10
+}

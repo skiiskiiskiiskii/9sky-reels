@@ -1,0 +1,133 @@
+{
+ "seed": 11,
+ "text": "my color.",
+ "text_y": 0.48,
+ "text_size": 56,
+ "text_to": 3.13,
+ "cuts": [
+  0.706,
+  1.312,
+  1.918,
+  2.524,
+  3.13,
+  3.433,
+  3.736,
+  4.039,
+  4.342,
+  4.948,
+  5.554,
+  6.766
+ ],
+ "look": {
+  "c": 1.05,
+  "b": -0.01,
+  "grain": 2,
+  "vignette": 0.25
+ },
+ "shots": [
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/hooks/art-met/9sky_art_m2_02.jpg",
+   "focus": [
+    0.5,
+    0.42
+   ],
+   "z0": 1.0,
+   "z1": 1.08
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/candles_red/9skyaes_candles_red_14.jpg",
+   "z0": 1.06,
+   "z1": 1.0
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/theatre_red/9skyaes_theatre_red_24.jpg"
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/busts_red/9skyaes_busts_red_22.jpg",
+   "z0": 1.0,
+   "z1": 1.07
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/aesthetics/theatre_red/9skyaes_theatre_red_22.jpg",
+   "z0": 1.06,
+   "z1": 1.0
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/mockups/only blackzip hoodie/frame1_front.png",
+   "focus": [
+    0.5,
+    0.27
+   ],
+   "z0": 2.1,
+   "z1": 2.25,
+   "gamma": 0.72,
+   "vig": false
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/mockups/black quarter zip/9sky_qz_01_front.png",
+   "focus": [
+    0.5,
+    0.29
+   ],
+   "z0": 2.3,
+   "z1": 2.45,
+   "gamma": 0.72,
+   "vig": false
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/mockups/only blackzip hoodie/frame1_front.png",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "z0": 1.0,
+   "z1": 1.04,
+   "gamma": 0.72,
+   "vig": false
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/mockups/black quarter zip/9sky_qz_01_front.png",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "z0": 1.04,
+   "z1": 1.0,
+   "gamma": 0.72,
+   "vig": false
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/mockups/only blackzip hoodie/9sky_zip_black_back_v5.png",
+   "focus": [
+    0.5,
+    0.47
+   ],
+   "z0": 1.45,
+   "z1": 1.55,
+   "gamma": 0.62,
+   "vig": false
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/mockups/black quarter zip/9sky_qz_black_back_v5.png",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "z0": 1.0,
+   "z1": 1.05,
+   "gamma": 0.65,
+   "vig": false
+  },
+  {
+   "img": "/mnt/user-data/uploads/9sky-reels/mockups/black n white zip hoodie/9sky_ixBW_02_fronts_v5.png",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "z0": 1.0,
+   "z1": 1.05,
+   "gamma": 0.72,
+   "vig": false
+  }
+ ]
+}

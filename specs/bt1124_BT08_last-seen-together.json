@@ -1,0 +1,88 @@
+{
+ "hook": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/NAILS.mp4",
+   "start": 2.85,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.08,
+   "crop_x": 0.0,
+   "crop_y": 0.5,
+   "flip": false,
+   "grade": {
+    "b": -0.016,
+    "c": 1.06,
+    "s": 0.9,
+    "g": 1.0
+   },
+   "n": 94
+  }
+ ],
+ "line": "last seen\ntogether.",
+ "after": [
+  [
+   0.5,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1124_080.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   0.5,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1124_081.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   0.5,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1124_082.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   0.5,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1124_083.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   0.5,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1124_084.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   0.5,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1124_085.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   3,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1124_08f.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ]
+ ]
+}

@@ -1,0 +1,106 @@
+{
+ "hook": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/NAILS.mp4",
+   "start": 0.55,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.05,
+   "crop_x": 0.5,
+   "crop_y": 0.55,
+   "flip": false,
+   "grade": {
+    "b": -0.01,
+    "c": 1.05,
+    "s": 0.93,
+    "g": 1.0
+   },
+   "n": 21
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/COUPLE.mp4",
+   "start": 1.7,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.0,
+   "crop_x": 0.5,
+   "crop_y": 0.6,
+   "flip": false,
+   "grade": {
+    "b": -0.01,
+    "c": 1.05,
+    "s": 0.93,
+    "g": 1.0
+   },
+   "n": 55
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/SOLES.mp4",
+   "start": 5.42,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.12,
+   "crop_x": 0.5,
+   "crop_y": 0.5,
+   "flip": false,
+   "grade": {
+    "b": -0.01,
+    "c": 1.05,
+    "s": 0.93,
+    "g": 1.0
+   },
+   "n": 18
+  }
+ ],
+ "line": "trouble comes\nin pairs.",
+ "after": [
+  [
+   0.5,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1124_040.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   0.5,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1124_041.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   0.5,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1124_042.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   0.5,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1124_043.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   4,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1124_04f.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ]
+ ]
+}
