@@ -256,3 +256,11 @@
   8 pages (BT11), bigger garments with the glow on the collar (BT12), SUSPECT A / B with 4 half pages + a 1-beat pair
   (BT13); each vitrine2 tone used once. Keep a black page next to a white one: 4 black pages in a row read as empty.
 - Watch: a SOLES shot that runs past ~4.2 s already shows the red sole - start middle SOLES shots at <= 2.95.
+
+## 2026-11-25 night: 1125b - 3 more, other themes for the line (BT15-BT17)
+- Kirill: 3 more, find slightly different themes for the on-screen lines. The BT lines so far were couple bait + crime
+  (red flags, red-handed, wanted, suspects, last seen). New themes: the POV format ("pov: she picked your outfit."),
+  red as a signal ("red means stop. we didn't."), a Latin / Roman pun ("veni. vidi. matched." - backs first with
+  the AFTER THE ARA PACIS · ROME, 9 BC label; the brand is inspired by Rome, never "from Rome").
+- `tool/build_1125b.py`: `pages()` takes (mockup, label, place) per page, so a page can carry the Ara Pacis label.
+  Rhythm: 4 half pages + a 1-beat pair page (BT15), QZ backs side by side as the finale (BT16), pair backs stacked (BT17).
