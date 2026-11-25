@@ -1,0 +1,184 @@
+{
+ "hook": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/NAILS.mp4",
+   "start": 0.6,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.1,
+   "crop_x": 0.5,
+   "crop_y": 0.5,
+   "flip": false,
+   "grade": {
+    "b": -0.016,
+    "c": 1.07,
+    "s": 0.88,
+    "g": 1.0,
+    "bs": 0.015
+   },
+   "n": 21
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/COUPLE.mp4",
+   "start": 0.9,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.35,
+   "crop_x": 0.4,
+   "crop_y": 0.5,
+   "flip": false,
+   "grade": {
+    "b": -0.016,
+    "c": 1.07,
+    "s": 0.88,
+    "g": 1.0,
+    "bs": 0.015
+   },
+   "n": 18
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/SOLES.mp4",
+   "start": 2.7,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.25,
+   "crop_x": 0.5,
+   "crop_y": 0.6,
+   "flip": false,
+   "grade": {
+    "b": -0.016,
+    "c": 1.07,
+    "s": 0.88,
+    "g": 1.0,
+    "bs": 0.015
+   },
+   "n": 19
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/COUPLE.mp4",
+   "start": 2.9,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.0,
+   "crop_x": 0.5,
+   "crop_y": 0.55,
+   "flip": false,
+   "grade": {
+    "b": -0.016,
+    "c": 1.07,
+    "s": 0.88,
+    "g": 1.0,
+    "bs": 0.015
+   },
+   "n": 18
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/MARBLE.mp4",
+   "start": 0.49,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.15,
+   "crop_x": 0.5,
+   "crop_y": 0.5,
+   "flip": false,
+   "grade": {
+    "b": -0.016,
+    "c": 1.07,
+    "s": 0.88,
+    "g": 1.0,
+    "bs": 0.015
+   },
+   "n": 18,
+   "reverse": true
+  }
+ ],
+ "line": "wanted.\nboth of them.",
+ "after": [
+  [
+   0.5,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1125_110.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   0.5,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1125_111.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   0.5,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1125_112.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   0.5,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1125_113.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   0.5,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1125_114.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   0.5,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1125_115.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   0.5,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1125_116.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   0.5,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1125_117.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   2,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1125_11f.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ]
+ ]
+}

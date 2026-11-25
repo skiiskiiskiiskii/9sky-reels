@@ -242,3 +242,17 @@
   no one saw us leave. / matching, unfortunately. / last seen together.
 - Louboutin clips are still only COUPLE / SOLES / NAILS / MARBLE. `hooks/inbox/vol2` clips have burned-in text and no
   red soles; MATCHING-LOUBS has a caption in the middle of the frame - neither is usable as is.
+
+## 2026-11-25: 1125a - 6 more on the "bad together" format (BT09-BT14)
+- Numbers by 11-25 evening: V01 "bad together." 2.2K (60.8 % past 3 s, 5.2 s avg) - the best of the 11-24 couple reels;
+  BT03 1.5K, BT01 1.4K, BT04 0.6K (the three went out within 5 minutes). The other BT reels were not posted yet.
+- Caption delivery fix: Kirill copied the "BT04 · ..." header line into the caption (it was inside the code block).
+  From now on the "X01 · line" header goes ABOVE the code block, as bold text, and the block holds the caption only.
+- `tool/build_1125a.py`: BT09 she started it. / BT10 do not separate. / BT11 wanted. both of them. /
+  BT12 the red stays between us. / BT13 two suspects. one color. / BT14 she ruined him.
+- New hook endings: SOLES 6.6-7.2 (two red soles big after the logo), COUPLE 5.0-5.6 (red soles close), MARBLE
+  played backwards (`reverse: True` on the last shot); a 5-shot hook (cut on every beat) in BT11.
+- Pages: hers first (BT09), the pair mockups PF / ZPF / PB / ZPB as single pages with SET OF TWO (BT10), WANTED with
+  8 pages (BT11), bigger garments with the glow on the collar (BT12), SUSPECT A / B with 4 half pages + a 1-beat pair
+  (BT13); each vitrine2 tone used once. Keep a black page next to a white one: 4 black pages in a row read as empty.
+- Watch: a SOLES shot that runs past ~4.2 s already shows the red sole - start middle SOLES shots at <= 2.95.
