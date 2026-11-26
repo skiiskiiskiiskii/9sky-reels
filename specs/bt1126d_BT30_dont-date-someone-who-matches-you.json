@@ -1,0 +1,105 @@
+{
+ "hook": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/COUPLE.mp4",
+   "start": 0.55,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.2,
+   "crop_x": 0.4,
+   "crop_y": 0.6,
+   "flip": true,
+   "grade": {
+    "b": -0.012,
+    "c": 1.05,
+    "s": 0.9,
+    "g": 0.98
+   },
+   "n": 21
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/COUPLE.mp4",
+   "speed": 1.0,
+   "zoom": 1.1,
+   "crop_x": 0.5,
+   "crop_y": 0.6,
+   "flip": true,
+   "grade": {
+    "b": -0.012,
+    "c": 1.05,
+    "s": 0.9,
+    "g": 0.98
+   },
+   "align_red": true,
+   "lead": 0.42
+  }
+ ],
+ "line": "don't date someone\nwho matches you.",
+ "after": [
+  [
+   0.5,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1126d_300.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   0.5,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1126d_301.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   0.5,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1126d_302.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   0.5,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1126d_303.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   0.5,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1126d_304.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   0.5,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1126d_305.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   3,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1126d_30f.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ]
+ ]
+}

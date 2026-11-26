@@ -296,3 +296,14 @@
 - `tool/build_1126c.py`: new page tone `lamp` ((92, 86, 78) -> black) - a brighter warm glow so all-black pages read.
   BT25: COUPLE in one take 1.12x on his side; black zip only - front / back / close-ups / side by side / stacked.
   BT26: bright hook (shoes in the flash <-> marble); zip / QZ in turn, labels FULL ZIP / QUARTER ZIP; 2 x 2 finale.
+
+## 2026-11-26 night: numbers + 1126d (BT27-BT30)
+- Metricool 11-26 23:00: V01 "bad together." 3.2K (62.8 %, 15 saves, 23 shares) still the best; BT14 "she ruined him."
+  2.1K, BT12 "the red stays between us." 1.7K, BT03 1.6K; most BT reels 1.2-1.5K with 60-74 % past 3 s
+  (BT18 "white moves first." 73.7 %, BT19 71.5 %, BT20 70.3 %). Worst: BT17 "veni. vidi. matched." 0.3K / 52 % and
+  BT25 "dark mode." (all-black pages) 54 %. So: keep the provocative couple register; no all-black page runs.
+- 1126d (`tool/build_1126d.py`): BT27 toxic, but matching. (COUPLE one take 1.1x, V01 pages) / BT28 he never wore red
+  before her. (red nails -> loafers -> red on both) / BT29 she's a bad idea. (bright, 5 shots, lamp) / BT30 don't date
+  someone who matches you. (hand -> walk mirrored, V01's QZ pair finale).
+- A his | hers side-by-side finale on a dark tone shows only the white piece (the black one disappears) - use the pair
+  mockups (PF / ZPF / PB / ZPB) or a 2 x 2 for finales instead.
