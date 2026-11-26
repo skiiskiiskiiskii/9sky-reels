@@ -286,3 +286,13 @@
   NAILS into the mist in the middle) - hoodie front / back only, the scale pulsing 0.9 / 1.04 / 0.8, oxblood.
 - BT24 "one shows the red. one hides it." (bright hook) - the hoodie (SHOWS THE RED) against the zip hoodies
   (HIDES THE RED).
+
+## 2026-11-26 morning: 1126c - black zip only + zip & QZ (BT25-BT26)
+- Kirill: one reel with only the black zip hoodie, one with the zip hoodie and the quarter zip; offer the lines first.
+  He picked "dark mode." and "same red. two zips." and one couple hook + one bright-light hook.
+- A parallel chat built 1126b (BT23 "the ninth legion never came back.", BT24 "one shows the red. one hides it." -
+  Roman Night hoodie) in the same container at the same time. This batch is 1126c / BT25-BT26 so nothing collides.
+  Before writing a build script or an output folder, check `git log` and `ls` for a batch code already taken.
+- `tool/build_1126c.py`: new page tone `lamp` ((92, 86, 78) -> black) - a brighter warm glow so all-black pages read.
+  BT25: COUPLE in one take 1.12x on his side; black zip only - front / back / close-ups / side by side / stacked.
+  BT26: bright hook (shoes in the flash <-> marble); zip / QZ in turn, labels FULL ZIP / QUARTER ZIP; 2 x 2 finale.
