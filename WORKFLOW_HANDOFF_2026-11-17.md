@@ -276,3 +276,13 @@
   frame and the next one, after the render).
 - Line themes: chess ("white moves first." + a chessboard 2 x 2 finale), a superstition ("red underneath. for luck."),
   dating ("she has a type."), Roman myth ("mars and venus." MARS / VENUS labels), paparazzi ("no photos, please.").
+
+## 2026-11-26 morning: 1126b - the black hoodie (BT23-BT24)
+- Kirill: one reel only with the black hoodie, one with the hoodie and the zip. Read as the Roman Night hoodie (black
+  pullover, red IX on the front, red print on the back) - mockups `~/Downloads/мокапы/Roman night hoodie/9sky_hd_01_front.png`
+  and `9sky_hd_02_back.png` (clean renders on black, not the mannequin photos he dropped). In `tool/build_1126b.py` they
+  are keys HF / HB.
+- BT23 "the ninth legion never came back." (the legend of the lost Legio IX; walking cut on every beat like a march,
+  NAILS into the mist in the middle) - hoodie front / back only, the scale pulsing 0.9 / 1.04 / 0.8, oxblood.
+- BT24 "one shows the red. one hides it." (bright hook) - the hoodie (SHOWS THE RED) against the zip hoodies
+  (HIDES THE RED).
