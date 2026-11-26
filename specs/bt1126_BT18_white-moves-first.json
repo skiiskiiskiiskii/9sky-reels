@@ -1,0 +1,87 @@
+{
+ "hook": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/COUPLE.mp4",
+   "speed": 1.0,
+   "zoom": 1.1,
+   "crop_x": 0.5,
+   "crop_y": 0.62,
+   "flip": true,
+   "grade": {
+    "b": -0.01,
+    "c": 1.05,
+    "s": 0.92,
+    "g": 1.0
+   },
+   "align_red": true,
+   "lead": 0.42
+  }
+ ],
+ "line": "white moves first.",
+ "after": [
+  [
+   0.5,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1126_180.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   0.5,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1126_181.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   0.5,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1126_182.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   0.5,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1126_183.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   0.5,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1126_184.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   0.5,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1126_185.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   3,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1126_18f.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ]
+ ]
+}

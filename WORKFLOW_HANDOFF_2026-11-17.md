@@ -264,3 +264,15 @@
   the AFTER THE ARA PACIS · ROME, 9 BC label; the brand is inspired by Rome, never "from Rome").
 - `tool/build_1125b.py`: `pages()` takes (mockup, label, place) per page, so a page can carry the Ara Pacis label.
   Rhythm: 4 half pages + a 1-beat pair page (BT15), QZ backs side by side as the finale (BT16), pair backs stacked (BT17).
+
+## 2026-11-26: 1126a - couple hook x3, bright-light hook x2, a theme per line (BT18-BT22)
+- Kirill: 3 reels with the main couple hook (COUPLE, as in V01), 2 with the "bright light" hook, a separate theme for
+  every line. His refs for the bright light: COUPLE ~1.7 s (his shoes standing in the flash, on the asphalt with the
+  crossing light lines) and the bright marble (MARBLE) - both were in BT15. Bright grade: b +0.02, c 1.06, s 0.85, g 1.05.
+- Couple hooks: BT18 COUPLE in one take (mirrored, 1.0x); BT19 COUPLE only, cut on the beats with a push-in
+  (zoom 1.0 -> 1.15 -> 1.32); BT20 her hand tight, then the whole walk wide.
+- Bright hooks: BT21 his shoes in the flash -> MARBLE forward -> backwards -> red heel; BT22 5 bright shots with a
+  camera flash on every hook cut (`flash()` in `tool/build_1126a.py`: ffmpeg eq brightness +0.42 / +0.21 on the cut
+  frame and the next one, after the render).
+- Line themes: chess ("white moves first." + a chessboard 2 x 2 finale), a superstition ("red underneath. for luck."),
+  dating ("she has a type."), Roman myth ("mars and venus." MARS / VENUS labels), paparazzi ("no photos, please.").

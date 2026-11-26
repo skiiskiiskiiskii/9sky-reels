@@ -1,0 +1,107 @@
+{
+ "hook": [
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/COUPLE.mp4",
+   "start": 0.55,
+   "align_red": false,
+   "speed": 1.0,
+   "zoom": 1.35,
+   "crop_x": 0.3,
+   "crop_y": 0.7,
+   "flip": false,
+   "grade": {
+    "b": -0.012,
+    "c": 1.05,
+    "s": 0.9,
+    "g": 1.0,
+    "rh": 0.015
+   },
+   "n": 21
+  },
+  {
+   "type": "clip",
+   "src": "/mnt/user-data/uploads/9sky-reels/hooks/louboutin/COUPLE.mp4",
+   "speed": 1.0,
+   "zoom": 1.0,
+   "crop_x": 0.5,
+   "crop_y": 0.6,
+   "flip": false,
+   "grade": {
+    "b": -0.012,
+    "c": 1.05,
+    "s": 0.9,
+    "g": 1.0,
+    "rh": 0.015
+   },
+   "align_red": true,
+   "lead": 0.42
+  }
+ ],
+ "line": "she has a type.",
+ "after": [
+  [
+   0.5,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1126_200.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   0.5,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1126_201.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   0.5,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1126_202.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   0.5,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1126_203.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   0.5,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1126_204.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   0.5,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1126_205.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ],
+  [
+   3,
+   {
+    "type": "image",
+    "src": "/mnt/user-data/outputs/stills-1024/bt1126_20f.jpg",
+    "fit": "full",
+    "beats": 1
+   }
+  ]
+ ]
+}
