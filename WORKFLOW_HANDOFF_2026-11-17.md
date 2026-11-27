@@ -307,3 +307,14 @@
   someone who matches you. (hand -> walk mirrored, V01's QZ pair finale).
 - A his | hers side-by-side finale on a dark tone shows only the white piece (the black one disappears) - use the pair
   mockups (PF / ZPF / PB / ZPB) or a 2 x 2 for finales instead.
+
+## 2026-11-27 night: 1127a - a new approach to the hook text + new hashtags (BT31-BT33)
+- Kirill: 3 more, change the approach to the on-screen text completely, other ideas, other hashtags.
+- `tool/textcards.py` + `loopreel.make(..., layer=...)`: the hook text is no longer one Cormorant line but an object:
+  `label()` a museum wall label (off-white card, EXHIBIT N° IX, "on loan from the museum - never returned."),
+  `quote()` "OVERHEARD IN PRAGUE" + a stranger's line in quotes, `chat()` her / him text bubbles.
+- BT31 label + COUPLE one take 1.05x (pages labelled NOT RETURNED); BT32 overheard "wait, is his collar red too?" +
+  red nails -> loafers -> logo sole; BT33 texts ("wear the black one tonight" / "the one with the red inside?" /
+  "obviously") + bright hook.
+- New hashtag sets: #archivefashion #darkfashion #streetwearstyle #menswear #hoodieseason; #praguefashion #streetstyle
+  #fitcheck #outfitinspo #couplegoals; #couplegoals #matchingfits #ootdmen #mensstyle #fitinspo.

@@ -27,9 +27,10 @@ def _frames_of(seg, n, rnd):
     return (canvas for _ in range(n))
 
 
-def make(out, hook, line, after, y=0.22, seed=0, beat=BEAT, drop=DROP, total_beats=None, audio=None):
+def make(out, hook, line, after, y=0.22, seed=0, beat=BEAT, drop=DROP, total_beats=None, audio=None, layer=None):
     """beat / drop: the track's beat length and the cut time (default F05 / mr popular: 99 BPM, 3.13 s).
-    total_beats: whole beats of the loop counted from frame 0 (default: hook + after + bridge on the F05 grid)."""
+    total_beats: whole beats of the loop counted from frame 0 (default: hook + after + bridge on the F05 grid).
+    layer: a ready (rgb, alpha) overlay for the hook instead of the one-line text (textcards.py: label, quote, chat)."""
     rnd = random.Random(seed)
     # frame plan
     cut = [HOOK_N]
@@ -46,7 +47,7 @@ def make(out, hook, line, after, y=0.22, seed=0, beat=BEAT, drop=DROP, total_bea
     ns = [s["n"] for s in hook[:-1]]
     ns.append(HOOK_N - sum(ns))
     ns[0] += bridge
-    rgb, a = C.text_layer(line, y, 96, scrim=0.5, face="cg-italic")
+    rgb, a = layer if layer is not None else C.text_layer(line, y, 96, scrim=0.5, face="cg-italic")
     C._FONT_PATH[0] = C.FONT
     hook_total = HOOK_N + bridge
     enc = ["ffmpeg", "-y", "-v", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS),
