@@ -318,3 +318,11 @@
   "obviously") + bright hook.
 - New hashtag sets: #archivefashion #darkfashion #streetwearstyle #menswear #hoodieseason; #praguefashion #streetstyle
   #fitcheck #outfitinspo #couplegoals; #couplegoals #matchingfits #ootdmen #mensstyle #fitinspo.
+
+## 2026-11-27 morning: 1127b - clean again, simple logical lines (BT34-BT38)
+- Kirill: 5 new reels, WITHOUT the cheap effects of the last reels (the 1127a museum card / overheard band / chat
+  bubbles; also no camera flashes, backwards clips or strong push-ins), and the lines more logical and simpler.
+- Standing from now on: one Cormorant line at the top that says what the reel shows (her red outside on the soles,
+  his red inside the collar / hood); plain cuts at real speed; V01 pages (black / white, HIS / HERS); pair or 2 x 2 finale.
+- `tool/build_1127b.py`: BT34 hers outside. his inside. / BT35 one red for two. (both COUPLE one take) / BT36 look at
+  her shoes. then his collar. (QZ only) / BT37 black and white. red inside. (bright) / BT38 her heels. his hood. (zip only).
